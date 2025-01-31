@@ -1,0 +1,151 @@
+{
+  "name": "Warranty Police",
+  "path": "/politica-de-garantia",
+  "sections": [
+    {
+      "__resolveType": "website/sections/Seo/SeoV2.tsx",
+      "titleTemplate": "Politica de Garantía Frigidaire"
+    },
+    {
+      "__resolveType": "Header"
+    },
+    {
+      "__resolveType": "website/flags/multivariate/section.ts",
+      "variants": [
+        {
+          "value": {
+            "__resolveType": "elux-components-app/sections/Content/Breadcrumb.tsx",
+            "icon": "dots-frigidaire",
+            "fontColor": "primary",
+            "fontSize": "text-sm",
+            "fontWeight": "font-normal",
+            "items": [
+              {
+                "overrideFontColor": "primary",
+                "label": "Politica de garantía",
+                "hoverUnderline": true
+              }
+            ],
+            "gap": "1",
+            "spacing": {
+              "desktop": {
+                "top": {
+                  "behavior": "split",
+                  "size": "small"
+                },
+                "bottom": {
+                  "behavior": "split",
+                  "size": "none"
+                }
+              },
+              "mobile": {
+                "top": {
+                  "behavior": "split",
+                  "size": "extra-large"
+                },
+                "bottom": {
+                  "behavior": "split",
+                  "size": "none"
+                }
+              }
+            },
+            "iconSize": 24
+          },
+          "rule": {
+            "__resolveType": "Mobile"
+          }
+        },
+        {
+          "value": {
+            "__resolveType": "elux-components-app/sections/Content/Breadcrumb.tsx",
+            "fontColor": "primary",
+            "fontSize": "text-sm",
+            "fontWeight": "font-normal",
+            "items": [
+              {
+                "overrideFontColor": "secondary",
+                "label": "Home",
+                "href": "/"
+              },
+              {
+                "overrideFontColor": "primary",
+                "label": "Politica de garantía",
+                "hoverUnderline": true
+              }
+            ],
+            "gap": "1",
+            "spacing": {
+              "desktop": {
+                "top": {
+                  "behavior": "split",
+                  "size": "small"
+                },
+                "bottom": {
+                  "behavior": "split",
+                  "size": "none"
+                }
+              },
+              "mobile": {
+                "top": {
+                  "behavior": "split",
+                  "size": "extra-large"
+                },
+                "bottom": {
+                  "behavior": "split",
+                  "size": "none"
+                }
+              }
+            },
+            "iconSize": 24
+          },
+          "rule": {
+            "__resolveType": "website/matchers/always.ts"
+          }
+        }
+      ]
+    },
+    {
+      "__resolveType": "elux-components-app/sections/Institutional/Policy.tsx",
+      "spacing": {
+        "desktop": {
+          "top": {
+            "behavior": "split",
+            "size": "small"
+          },
+          "bottom": {
+            "behavior": "split",
+            "size": "medium"
+          }
+        },
+        "mobile": {
+          "top": {
+            "behavior": "split",
+            "size": "medium"
+          },
+          "bottom": {
+            "behavior": "split",
+            "size": "double-extra-large"
+          }
+        }
+      },
+      "title": {
+        "text": "Politica de garantía",
+        "fontColor": "primary",
+        "fontSize": "text-2xl"
+      },
+      "gap": "8",
+      "content": "<h3>Aviso de garantía</h3><p> <br><strong>Frigidaire</strong> (en adelante, “<strong>Electrolux</strong>”), con domicilio en 703 Waterford Way, suite 300, Miami, Florida 33026, Estados Unidos de Norteamérica, Teléfono Frigidaire: XXXX, será el responsable del tratamiento de sus datos personales.<br><br></p><p>Ello, a tenor con las leyes aplicables y comprometidos siempre con la obligación de salvaguardar los datos personales, y en algunas ocasiones datos personales sensibles, que nuestros empleados, candidatos, clientes, proveedores, contratistas y visitantes nos confían al compartirlos de forma voluntaria, ya sea de manera física, electrónica o por cualquier otro medio.</p><p><br>Los tipos de datos personales que Electrolux puede manejar son:<br><br><strong>-Datos Personales</strong> son toda información que se refiere a una persona identificada o identificable, como son: nombre, dirección, teléfono, correo electrónico, números o tarjetas de identificación oficiales, información financiera y contributiva, nacionalidad, fotografía, huellas dactilares, entre otros.<br><strong>-Datos Personales Sensibles </strong>son toda aquella información que afecte la esfera más íntima del titular y que pueda resultar en algún tipo de discriminación, como son origen racial o étnico, estado de salud presente y futuro, información genética, creencias religiosas, filosóficas y morales, afiliación sindical, opiniones políticas y preferencia sexual.<br><br>Queremos hacer de su conocimiento que, desde el inicio de operaciones, es política corporativa de Electrolux la protección de datos de nuestros empleados, candidatos, clientes, proveedores, contratistas y visitantes, y esa política contempla la confidencialidad de esta información, según los requerimientos legales vigentes.<br><br>Continuaremos haciendo uso, y en algunos casos específicos transferencia, de los datos registrados en nuestras bases y que han sido proporcionados por nuestros empleados, candidatos, clientes, proveedores, contratistas y visitantes, para los siguientes fines:<br><br>-<strong>Candidatos </strong>– Procesos de reclutamiento y selección de personal, exámenes médicos.<br>-<strong>Empleados </strong>– Contratación, exámenes médicos, proceso de nóminas y pagos diversos, envíos de notificaciones e información a agencias del Gobierno, trámite de nómina y tarjetas bancarias de crédito corporativas, reportes y estadísticos a oficinas filiales, registro con empresas capacitadoras, encuestas de satisfacción, entre otros necesarios para la administración de la relación laboral con Electrolux.<br>-<strong>Clientes/Proveedores/Contratistas/Visitantes </strong>– Órdenes de compra, contratos de servicios, auditorías, procesos de licitación, facturación, encuestas de servicios, autorización para acceso a la empresa, entre otros necesarios para la administración de la relación comercial con Electrolux. Actividades de marketing y promocionales, enviando información que pueda resultar de su interés a base de su historial de visitas, productos analizados, geolocalización y otras variables. Actividades de análisis de mercado (preferencias de compras en términos de productos, precios, calidad, etc.). Información sobre repuestos, servicios, reparaciones o cualquier otra actividad vinculada a la seguridad, funcionamiento o mantención de algún producto adquirido por la empresa.<br><br>Además, para algunos procesos, como reclutamiento, selección y contratación de personal, Electrolux puede solicitar información considerada como Datos Personales Sensibles necesaria para exámenes médicos, adquisición de seguros de atención médica y vida, igualdad de oportunidades laborales, entre otros. Estos datos se aportarán de forma voluntaria, a menos que se exija mediante mandato judicial y no interferirán con sus oportunidades laborales.<br><br>Durante la obtención de información de datos personales sensibles, se almacenarán, y en algunos casos se develarán estos datos a terceras partes, como compañías de seguros y agencias gubernamentales. Electrolux tomará las medidas de seguridad razonables para proteger la confidencialidad y la integridad de esta información sensible que se ha obtenido, almacenado y utilizado.<br><br>Electrolux protege la seguridad de la información personal que se le proporciona. Esta información se puede almacenar mediante sistemas manuales o electrónicos con acceso limitado, con el objetivo de protegerla contra pérdidas, uso fraudulento, accesos no autorizados, revelación, modificación o destrucción.<br><br>En cualquier momento el CLIENTE y/o USUARIO podrá informar a Electrolux su determinación de revocar el consentimiento que previamente se hubiere otorgado para el tratamiento de los datos personales de acuerdo con las finalidades descritas en el presente Aviso de Privacidad, a fin de que Electrolux deje de hacer uso de los mismos, y siempre y cuando el consentimiento que se pretenda revocar no derive de una relación jurídica contractual u operación pactada con Electrolux. La revocación del consentimiento no tendrá efectos retroactivos. Los medios y el procedimiento para hacerlo efectivo se mencionan a continuación.<br><br>El titular también podrá ejercer los derechos de Acceso, Rectificación, Cancelación y Oposición (ARCO) sobre sus datos personales. Para ejercer estos derechos ARCO, Electrolux ha puesto a disposición de nuestros candidatos, empleados, clientes, proveedores, contratistas y visitantes la siguiente cuenta de correo <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"mailto:servicioalcliente@electrolux.com\">servicioalcliente@electrolux.com</a>. Es importante considerar que, para procesar cualquiera de estas peticiones, se deberán incluir:<br><br>-Nombre del titular y domicilio u otro medio para comunicarle la respuesta a su solicitud.<br>-Los documentos que acrediten la identidad o, en su caso, la representación legal del titular.<br>-La descripción clara y precisa de los datos personales respecto a los que busca ejercer alguno de los derechos antes mencionados, y cualquier otro elemento o documento que facilite la localización de los datos personales.<br><br>Electrolux sólo transfiere sus datos personales a terceros cuando dicha transferencia es necesaria durante la relación laboral y/o comercial. En caso de que Electrolux necesite transferir sus datos personales para otros fines, le solicitará su consentimiento previo.<br><br>Cualquier modificación al presente aviso será difundida a través de este medio. También podrá ser enviada a su último domicilio registrado o a su correo electrónico.<br><br>Al aceptar las condiciones y términos establecidos por medio del presente aviso de privacidad, usted otorga su consentimiento expreso para que Electrolux haga uso, manejo y transferencia de sus datos personales para los fines descritos.</p>",
+      "contentFontSize": "text-base"
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "Footer"
+      }
+    }
+  ],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}

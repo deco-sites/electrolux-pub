@@ -1,0 +1,44 @@
+{
+  "__resolveType": "elux-components-app/sections/Content/Breadcrumb.tsx",
+  "icon": "dots-frigidaire",
+  "iconSize": 24,
+  "fontColor": "primary",
+  "fontSize": "text-sm",
+  "items": [
+    {
+      "label": "Home",
+      "href": "/",
+      "overrideFontColor": "secondary"
+    },
+    {
+      "label": "Contactanos form",
+      "hoverUnderline": true,
+      "href": "/",
+      "overrideFontColor": "primary"
+    }
+  ],
+  "spacing": {
+    "desktop": {
+      "top": {
+        "behavior": "split",
+        "size": "small"
+      },
+      "bottom": {
+        "behavior": "split",
+        "size": "none"
+      }
+    },
+    "mobile": {
+      "top": {
+        "behavior": "split",
+        "size": "extra-large"
+      },
+      "bottom": {
+        "behavior": "split",
+        "size": "none"
+      }
+    }
+  },
+  "fontWeight": "font-normal",
+  "gap": "1"
+}

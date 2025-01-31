@@ -1,0 +1,85 @@
+{
+  "name": "Guides and manuals Documents",
+  "path": "/guias-y-manuales/:slug/p",
+  "sections": [
+    {
+      "__resolveType": "website/sections/Seo/SeoV2.tsx",
+      "titleTemplate": "Guias y manuales"
+    },
+    {
+      "__resolveType": "Header"
+    },
+    {
+      "__resolveType": "elux-components-app/sections/Institutional/GuidesDocuments.tsx",
+      "title": "Guías y manuales",
+      "description": "Acceda al manual de instrucciones de su producto.",
+      "spacingConfig": {
+        "desktop": {
+          "top": {
+            "behavior": "split",
+            "size": "extra-small"
+          },
+          "bottom": {
+            "behavior": "split",
+            "size": "medium"
+          }
+        },
+        "mobile": {
+          "top": {
+            "behavior": "split",
+            "size": "extra-small"
+          },
+          "bottom": {
+            "behavior": "split",
+            "size": "double-extra-large"
+          }
+        }
+      },
+      "breadcrumb": {
+        "items": [
+          {
+            "0": "G",
+            "1": "u",
+            "2": "i",
+            "3": "a",
+            "4": "s",
+            "5": " ",
+            "6": "y",
+            "7": " ",
+            "8": "M",
+            "9": "a",
+            "10": "n",
+            "11": "u",
+            "12": "a",
+            "13": "l",
+            "14": "e",
+            "15": "s",
+            "href": "/guias-y-manuales",
+            "label": "Guias y manuales"
+          }
+        ],
+        "hideCategoryName": false,
+        "hideProductName": true
+      },
+      "guideLoader": {
+        "__resolveType": "Products From Category"
+      },
+      "product": {
+        "__resolveType": "Get Product Docs",
+        "getBy": "modelCode",
+        "slug": {
+          "__resolveType": "website/functions/requestToParam.ts",
+          "param": "slug"
+        }
+      },
+      "unavailableText": "<p>Lamentablemente no pudimos encontrar ningún archivo para su producto. Inténtelo nuevamente o comuníquese con nuestros canales de atención al cliente. <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"mailto:link@email.com\"><u>link@email.com</u></a></p>"
+    },
+    {
+      "__resolveType": "Footer"
+    }
+  ],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}

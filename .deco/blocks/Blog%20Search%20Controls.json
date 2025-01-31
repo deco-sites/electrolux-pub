@@ -1,0 +1,51 @@
+{
+  "__resolveType": "elux-components-app/sections/blog/BlogSearch.tsx",
+  "spacing": {
+    "desktop": {
+      "top": {
+        "behavior": "split",
+        "size": "small"
+      },
+      "bottom": {
+        "behavior": "split",
+        "size": "small"
+      }
+    },
+    "mobile": {
+      "top": {
+        "behavior": "split",
+        "size": "small"
+      },
+      "bottom": {
+        "behavior": "split",
+        "size": "small"
+      }
+    }
+  },
+  "categorySection": {
+    "title": "Select a category",
+    "categories": [
+      {
+        "name": "View all",
+        "slug": "/",
+        "default": true
+      },
+      {
+        "name": "Category",
+        "slug": "/post-category",
+        "default": false
+      },
+      {
+        "name": "Secondary Category",
+        "slug": "/secondary-post-category",
+        "default": false
+      }
+    ]
+  },
+  "searchSection": {
+    "title": "Search for specific content",
+    "clearText": "Clear search",
+    "placeholder": "Type here",
+    "searchButtonText": "Search"
+  }
+}

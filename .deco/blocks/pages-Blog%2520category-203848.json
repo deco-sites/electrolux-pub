@@ -1,0 +1,160 @@
+{
+  "__resolveType": "website/pages/Page.tsx",
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "sections": [
+    {
+      "__resolveType": "blog/sections/Seo/SeoBlogPostListing.tsx",
+      "jsonLD": {
+        "__resolveType": "Blogpost Listing Loader"
+      }
+    },
+    {
+      "__resolveType": "Header"
+    },
+    {
+      "__resolveType": "elux-components-app/sections/blog/BlogListingBreadcrumb.tsx",
+      "listingPage": {
+        "__resolveType": "Blogpost Listing Loader"
+      },
+      "spacing": {
+        "desktop": {
+          "top": {
+            "behavior": "split",
+            "size": "extra-small"
+          },
+          "bottom": {
+            "behavior": "split",
+            "size": "small"
+          }
+        },
+        "mobile": {
+          "top": {
+            "behavior": "split",
+            "size": "small"
+          },
+          "bottom": {
+            "behavior": "split",
+            "size": "small"
+          }
+        }
+      }
+    },
+    {
+      "__resolveType": "Blog Banners"
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "Blog Search Controls"
+      }
+    },
+    {
+      "__resolveType": "website/flags/multivariate/section.ts",
+      "variants": [
+        {
+          "value": {
+            "__resolveType": "elux-components-app/sections/blog/BlogListing.tsx",
+            "page": {
+              "__resolveType": "blog/loaders/BlogpostListing.ts",
+              "count": 3,
+              "sortBy": "date_desc",
+              "slug": {
+                "__resolveType": "website/functions/requestToParam.ts",
+                "param": "slug"
+              }
+            },
+            "spacing": {
+              "desktop": {
+                "top": {
+                  "behavior": "split",
+                  "size": "none"
+                },
+                "bottom": {
+                  "behavior": "split",
+                  "size": "medium"
+                }
+              },
+              "mobile": {
+                "top": {
+                  "behavior": "split",
+                  "size": "none"
+                },
+                "bottom": {
+                  "behavior": "split",
+                  "size": "extra-large"
+                }
+              }
+            },
+            "layout": {
+              "pagination": "show-more",
+              "showResultsQuantity": true
+            },
+            "startingPage": 1
+          },
+          "rule": {
+            "__resolveType": "website/matchers/queryString.ts",
+            "conditions": [
+              {
+                "case": {
+                  "type": "Exists"
+                },
+                "param": "q"
+              }
+            ]
+          }
+        },
+        {
+          "value": {
+            "__resolveType": "elux-components-app/sections/blog/BlogListing.tsx",
+            "page": {
+              "__resolveType": "blog/loaders/BlogpostListing.ts",
+              "count": 3,
+              "sortBy": "date_desc",
+              "slug": {
+                "__resolveType": "website/functions/requestToParam.ts",
+                "param": "slug"
+              }
+            },
+            "spacing": {
+              "desktop": {
+                "top": {
+                  "behavior": "split",
+                  "size": "none"
+                },
+                "bottom": {
+                  "behavior": "split",
+                  "size": "medium"
+                }
+              },
+              "mobile": {
+                "top": {
+                  "behavior": "split",
+                  "size": "none"
+                },
+                "bottom": {
+                  "behavior": "split",
+                  "size": "extra-large"
+                }
+              }
+            },
+            "layout": {
+              "pagination": "show-more",
+              "showResultsQuantity": false
+            },
+            "startingPage": 1
+          },
+          "rule": {
+            "__resolveType": "website/matchers/always.ts"
+          }
+        }
+      ]
+    },
+    {
+      "__resolveType": "Footer"
+    }
+  ],
+  "path": "/blog/:slug",
+  "name": "Blog category"
+}

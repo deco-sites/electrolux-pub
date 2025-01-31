@@ -1,0 +1,12 @@
+{
+  "__resolveType": "elux-components-app/actions/product/additionalProperties/addAdditionalProperties.ts",
+  "additionalProperties": [
+    {
+      "name": "Teste Again",
+      "alternateName": "Teste Again",
+      "value": "yes",
+      "alternateValue": "yes"
+    }
+  ],
+  "sku": "AAAAAAAAA"
+}

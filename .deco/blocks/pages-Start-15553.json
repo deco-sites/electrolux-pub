@@ -1,0 +1,172 @@
+{
+  "name": "Home Page",
+  "path": "/",
+  "sections": [
+    {
+      "__resolveType": "Header"
+    },
+    {
+      "__resolveType": "elux-components-app/sections/Images/Carousel.tsx",
+      "images": [
+        {
+          "desktop": {
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/elux-latam/3d5316ba-5708-4ecd-bf6f-32cbf6ccad30/image-20.png",
+            "width": 1280,
+            "height": 420
+          },
+          "mobile": {
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/elux-latam/54789211-f941-4562-b3d2-f15a61b2a197/Banner-Full-Home.png",
+            "width": 375,
+            "height": 320
+          },
+          "bannerType": "image",
+          "alt": "Banner",
+          "action": {
+            "href": "/piezas-y-accesorios"
+          }
+        },
+        {
+          "desktop": {
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/elux-latam/3d5316ba-5708-4ecd-bf6f-32cbf6ccad30/image-20.png",
+            "width": 1280,
+            "height": 420
+          },
+          "mobile": {
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/elux-latam/54789211-f941-4562-b3d2-f15a61b2a197/Banner-Full-Home.png",
+            "width": 375,
+            "height": 320
+          },
+          "bannerType": "image",
+          "alt": "Banner",
+          "action": {
+            "href": "/electrodomesticos"
+          }
+        }
+      ],
+      "preload": true,
+      "fullWidth": true
+    },
+    {
+      "__resolveType": "elux-components-app/sections/Content/CategoryCards.tsx",
+      "title": "Our products",
+      "cards": [
+        {
+          "title": "Refrigeración",
+          "icon": "refrigerator-frigidaire",
+          "url": "/electrodomesticos/refrigeracion"
+        },
+        {
+          "icon": "washer-frigidaire",
+          "title": "Máquinas de lavar",
+          "url": "/electrodomesticos"
+        },
+        {
+          "icon": "cocina-frigidaire",
+          "title": "Fogão",
+          "url": "/electrodomesticos/cocina"
+        },
+        {
+          "icon": "water-purifier",
+          "title": "Purificadores",
+          "url": "/electrodomesticos"
+        },
+        {
+          "icon": "vacuum-frigidaire",
+          "title": "Aspiradores de pó",
+          "url": "/electrodomesticos"
+        },
+        {
+          "icon": "air-fryer-frigidaire",
+          "title": "Air Fryer",
+          "url": "/electrodomesticos"
+        },
+        {
+          "icon": "wind-frigidaire",
+          "title": "Ar condicionado",
+          "url": "/electrodomesticos"
+        },
+        {
+          "icon": "pan-frigidaire",
+          "title": "Utilidades domésticas",
+          "url": "/electrodomesticos"
+        }
+      ]
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "Shelf Dream Kitchen"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "Shelf Refrigerators"
+      }
+    },
+    {
+      "__resolveType": "elux-components-app/sections/Content/HelpCards.tsx",
+      "title": "Do you need some help?",
+      "cards": [
+        {
+          "icon": "email-frigidaire",
+          "title": "Where to buy",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel ultricies leo.",
+          "url": "/distribuidores-de-partes"
+        },
+        {
+          "icon": "tool-frigidaire",
+          "title": "List of technical support",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel ultricies leo.",
+          "url": "/centros-de-servicio"
+        },
+        {
+          "icon": "headset-frigidaire",
+          "title": "Contact form",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel ultricies leo.",
+          "url": "/contactanos"
+        }
+      ]
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "elux-components-app/sections/blog/BlogShelf.tsx",
+        "title": "Visit our blog",
+        "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel ultricies leo. Nam vel urna at mi ullamcorper sagittis. Aliquam erat volutpat. <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"/blog\"><strong>Link that directs to the blog.</strong></a></p>",
+        "blogposts": {
+          "__resolveType": "Teste Blogpost List"
+        },
+        "spacing": {
+          "desktop": {
+            "top": {
+              "behavior": "split",
+              "size": "medium"
+            },
+            "bottom": {
+              "behavior": "split",
+              "size": "extra-large"
+            }
+          },
+          "mobile": {
+            "top": {
+              "behavior": "split",
+              "size": "large"
+            },
+            "bottom": {
+              "behavior": "split",
+              "size": "double-extra-large"
+            }
+          }
+        }
+      }
+    },
+    {
+      "__resolveType": "Footer"
+    }
+  ],
+  "__resolveType": "website/pages/Page.tsx",
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  }
+}

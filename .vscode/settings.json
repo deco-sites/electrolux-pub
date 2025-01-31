@@ -1,0 +1,10 @@
+{
+  "deno.enable": true,
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+  "editor.defaultFormatter": "denoland.vscode-deno",
+  "[xml]": {
+    "editor.defaultFormatter": "redhat.vscode-xml"
+  }
+}

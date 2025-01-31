@@ -1,0 +1,383 @@
+{
+  "__resolveType": "elux-components-app/sections/Header/Header.tsx",
+  "searchbar": {
+    "placeholder": "What are you looking for?",
+    "loader": {
+      "__resolveType": "resolved",
+      "data": null
+    }
+  },
+  "alerts": [],
+  "logo": {
+    "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/elux-latam/9b397b29-3677-440b-92d9-6d96f1f131b6/Marca.png",
+    "alt": "Deco Storefront",
+    "width": 140,
+    "height": 32
+  },
+  "navItems": [
+    {
+      "children": [
+        {
+          "image": [],
+          "children": [],
+          "name": "Hello"
+        },
+        {
+          "image": [],
+          "children": [],
+          "name": "World"
+        }
+      ],
+      "@type": "SiteNavigationElement",
+      "url": "/deals",
+      "name": "Deals"
+    },
+    {
+      "@type": "SiteNavigationElement",
+      "url": "/valentines-day",
+      "name": "Valentine's Day",
+      "children": []
+    },
+    {
+      "@type": "SiteNavigationElement",
+      "url": "/women",
+      "name": "Women",
+      "children": []
+    },
+    {
+      "@type": "SiteNavigationElement",
+      "url": "/men",
+      "name": "Men",
+      "children": []
+    },
+    {
+      "@type": "SiteNavigationElement",
+      "url": "/clearance",
+      "name": "Clearance",
+      "children": []
+    },
+    {
+      "@type": "SiteNavigationElement",
+      "url": "/activities",
+      "name": "Activities",
+      "children": []
+    }
+  ],
+  "loading": "eager",
+  "menu": {
+    "__resolveType": "elux-components-app/loaders/menu.ts",
+    "menu": [
+      {
+        "icon": "cocina-frigidaire",
+        "collums": [
+          {
+            "categories": [
+              {
+                "icon": "freezer-frigidaire",
+                "navItems": [
+                  {
+                    "icon": "search",
+                    "title": "Una Puerta",
+                    "link": "/"
+                  },
+                  {
+                    "icon": "search",
+                    "title": "Dos Puertas",
+                    "link": "/"
+                  },
+                  {
+                    "icon": "search",
+                    "title": "French Door",
+                    "link": "/"
+                  },
+                  {
+                    "icon": "search",
+                    "title": "Side by Side",
+                    "link": "/"
+                  },
+                  {
+                    "icon": "search",
+                    "title": "Congeladores",
+                    "link": "/"
+                  },
+                  {
+                    "icon": "search",
+                    "title": "Cavas de Vino",
+                    "link": "/"
+                  }
+                ],
+                "title": "Refrigeration",
+                "link": "/electrodomesticos/refrigeracion",
+                "titleColor": "primary"
+              }
+            ]
+          },
+          {
+            "categories": [
+              {
+                "icon": "cocina-frigidaire",
+                "navItems": [
+                  {
+                    "icon": "search",
+                    "title": "Cocinas / Estufas",
+                    "link": "/electrodomesticos/cocina"
+                  },
+                  {
+                    "icon": "search",
+                    "title": "Parrillas / Mesa",
+                    "link": "/"
+                  },
+                  {
+                    "icon": "search",
+                    "title": "Microondas",
+                    "link": "/"
+                  },
+                  {
+                    "icon": "search",
+                    "title": "Campanas",
+                    "link": "/"
+                  },
+                  {
+                    "icon": "search",
+                    "title": "Hornos",
+                    "link": "/"
+                  }
+                ],
+                "title": "Kitchens",
+                "link": "/electrodomesticos/cocina",
+                "titleColor": "primary"
+              }
+            ]
+          },
+          {
+            "categories": [
+              {
+                "icon": "washer-frigidaire",
+                "navItems": [
+                  {
+                    "icon": "search",
+                    "title": "Empotrables",
+                    "link": "/"
+                  }
+                ],
+                "title": "Lavavajillas",
+                "link": "/",
+                "titleColor": "primary"
+              },
+              {
+                "icon": "iron-frigidaire",
+                "navItems": [
+                  {
+                    "icon": "search",
+                    "title": "xxx",
+                    "link": "/"
+                  }
+                ],
+                "title": "Pequeños  Electrodomésticos",
+                "link": "/",
+                "titleColor": "primary"
+              }
+            ]
+          }
+        ],
+        "title": "Cocina",
+        "link": "/electrodomesticos/refrigeracion",
+        "color": "primary"
+      },
+      {
+        "icon": "washer-frigidaire",
+        "collums": [
+          {
+            "categories": [
+              {
+                "icon": "washer-frigidaire",
+                "navItems": [
+                  {
+                    "icon": "search",
+                    "title": "Lavadora Carga Superior",
+                    "link": "/"
+                  },
+                  {
+                    "icon": "search",
+                    "title": "Lavadora Carga Frontal",
+                    "link": "/"
+                  },
+                  {
+                    "icon": "search",
+                    "title": "Lava Secadora",
+                    "link": "/"
+                  },
+                  {
+                    "icon": "search",
+                    "title": "Centro de lavado",
+                    "link": "/"
+                  }
+                ],
+                "title": "Lavado",
+                "link": "/",
+                "titleColor": "primary"
+              }
+            ]
+          },
+          {
+            "categories": [
+              {
+                "icon": "dryer-frigidaire",
+                "navItems": [
+                  {
+                    "icon": "search",
+                    "title": "Secadora Carga Superior",
+                    "link": "/"
+                  },
+                  {
+                    "icon": "search",
+                    "title": "Secadora Carga Frontal",
+                    "link": "/"
+                  }
+                ],
+                "title": "Secadoras",
+                "link": "/",
+                "titleColor": "primary"
+              }
+            ]
+          }
+        ],
+        "title": "Área de lavado",
+        "link": "/electrodomesticos",
+        "color": "primary"
+      },
+      {
+        "icon": "wind-frigidaire",
+        "collums": [
+          {
+            "categories": [
+              {
+                "icon": "conditioning-frigidaire",
+                "navItems": [
+                  {
+                    "icon": "search",
+                    "title": "Split",
+                    "link": "/"
+                  },
+                  {
+                    "icon": "search",
+                    "title": "Portátiles",
+                    "link": "/"
+                  }
+                ],
+                "title": "Aire Acondicionado",
+                "link": "/",
+                "titleColor": "primary"
+              }
+            ]
+          },
+          {
+            "categories": [
+              {
+                "icon": "vacuum-frigidaire",
+                "navItems": [
+                  {
+                    "icon": "search",
+                    "title": "xxx",
+                    "link": "/"
+                  }
+                ],
+                "title": "Aspiradoras",
+                "link": "/",
+                "titleColor": "primary"
+              }
+            ]
+          }
+        ],
+        "title": "Bienestar del hogar",
+        "link": "/electrodomesticos",
+        "color": "primary"
+      }
+    ],
+    "extraLinks": [
+      {
+        "links": [
+          {
+            "title": "Distribuidores de partes autorizados",
+            "link": "/distribuidores-de-partes",
+            "textColor": "primary",
+            "textSize": "text-sm",
+            "fontWeight": "font-normal",
+            "icon": "bag-frigidaire"
+          },
+          {
+            "title": "Asistencia Técnica",
+            "link": "/centros-de-servicio",
+            "textColor": "primary",
+            "textSize": "text-sm",
+            "fontWeight": "font-light",
+            "icon": "tool-frigidaire"
+          },
+          {
+            "title": "Contáctanos",
+            "link": "/contactanos",
+            "textColor": "primary",
+            "textSize": "text-sm",
+            "fontWeight": "font-normal",
+            "icon": "headset-frigidaire"
+          }
+        ],
+        "title": "Soporte y Servicio Técnico",
+        "iconColor": "white",
+        "textColor": "white",
+        "textSize": "text-sm",
+        "fontWeight": "font-medium"
+      },
+      {
+        "links": [
+          {
+            "title": "Blog Mexico",
+            "link": "/blog",
+            "textColor": "primary",
+            "textSize": "text-sm",
+            "fontWeight": "font-normal",
+            "icon": "book-frigidaire"
+          },
+          {
+            "title": "About us",
+            "link": "/sobre-nosotros",
+            "textColor": "primary",
+            "textSize": "text-sm",
+            "fontWeight": "font-light",
+            "icon": "heart-frigidaire"
+          }
+        ],
+        "title": "Electrolux",
+        "iconColor": "white",
+        "textColor": "white",
+        "textSize": "text-sm",
+        "fontWeight": "font-medium"
+      }
+    ],
+    "languages": {
+      "icon": "spain-frigidaire",
+      "links": [
+        {
+          "icon": "spain-frigidaire",
+          "title": "Español",
+          "link": "/"
+        },
+        {
+          "icon": "usa-frigidaire",
+          "title": "English",
+          "link": "/"
+        }
+      ],
+      "title": "ES",
+      "hide": true
+    },
+    "mobile": {
+      "logo": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/elux-latam/1241c6ba-2e09-4fe3-a853-dc16fafdc057/Logo.png",
+      "textGoBack": "Return"
+    },
+    "menuText": "Todas las categorias",
+    "allCategoriesText": "Productos",
+    "hideSecondaryMenu": true
+  },
+  "backgroundColor": "primary"
+}

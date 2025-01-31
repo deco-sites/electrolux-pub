@@ -1,0 +1,9 @@
+{
+  "__resolveType": "elux-components-app/actions/product/domains/addProductAvaliability.ts",
+  "avaliableIn": [
+    {
+      "domain": "deco.site"
+    }
+  ],
+  "sku": "ERG26"
+}

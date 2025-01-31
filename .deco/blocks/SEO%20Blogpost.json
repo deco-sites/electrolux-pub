@@ -1,0 +1,22 @@
+{
+  "__resolveType": "blog/sections/Seo/SeoBlogPost.tsx",
+  "jsonLD": {
+    "@type": "BlogPostPage",
+    "post": {
+      "authors": [],
+      "categories": [],
+      "imageCarousel": {
+        "banners": []
+      },
+      "extraProps": [],
+      "aggregateRating": {
+        "@type": "AggregateRating"
+      },
+      "review": [],
+      "contentRating": [],
+      "interactionStatistic": {
+        "@type": "InteractionCounter"
+      }
+    }
+  }
+}

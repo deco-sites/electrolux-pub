@@ -1,0 +1,31 @@
+{
+  "name": "collections/blog/posts/5b8a5f08d9c3",
+  "__resolveType": "blog/loaders/Blogpost.ts",
+  "post": {
+    "authors": [],
+    "categories": [
+      {
+        "name": "Category",
+        "slug": "post-category"
+      }
+    ],
+    "imageCarousel": {
+      "banners": []
+    },
+    "extraProps": [],
+    "aggregateRating": {
+      "@type": "AggregateRating"
+    },
+    "review": [],
+    "contentRating": [],
+    "interactionStatistic": {
+      "@type": "InteractionCounter"
+    },
+    "title": "BCDE Post Test",
+    "excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+    "date": "2024-11-26",
+    "slug": "first-post-test",
+    "content": "<p><span>Lorem ipsum dolor sit amet, consectetur adipiscing elitLorem ipsum dolor sit amet, consectetur adipiscing elitLorem ipsum dolor sit amet, consectetur adipiscing elitLorem ipsum dolor sit amet, consectetur adipiscing elitLorem ipsum dolor sit amet, consectetur adipiscing elitLorem ipsum dolor sit amet, consectetur adipiscing elit</span></p>",
+    "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/elux-latam/2f1c690c-4de2-4400-9ee0-4caff2ae739a/0cf7b5eaceda9faed6484aff4359c8b3.png"
+  }
+}

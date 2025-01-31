@@ -1,0 +1,31 @@
+{
+  "name": "collections/blog/posts/e9a3534af023",
+  "__resolveType": "blog/loaders/Blogpost.ts",
+  "post": {
+    "authors": [],
+    "categories": [
+      {
+        "name": "Category",
+        "slug": "post-category"
+      }
+    ],
+    "imageCarousel": {
+      "banners": []
+    },
+    "extraProps": [],
+    "aggregateRating": {
+      "@type": "AggregateRating"
+    },
+    "review": [],
+    "contentRating": [],
+    "interactionStatistic": {
+      "@type": "InteractionCounter"
+    },
+    "title": "CDEF Post Test",
+    "excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+    "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/elux-latam/6fe129a5-32e9-486c-bc8b-715d29d41819/edd212adc3a999f0e86cddb8fffca673.png",
+    "date": "2024-11-26",
+    "slug": "second-post-test",
+    "content": "<p><span>Lorem ipsum dolor sit amet, consectetur adipiscing elitLorem ipsum dolor sit amet, consectetur adipiscing elitLorem ipsum dolor sit amet, consectetur adipiscing elit</span></p>"
+  }
+}

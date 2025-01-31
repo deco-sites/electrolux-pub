@@ -1,0 +1,92 @@
+{
+  "__resolveType": "elux-components-app/sections/Product/ProductDetails/ProductBannerMatcher.tsx",
+  "product": {
+    "__resolveType": "PDP Loader"
+  },
+  "banners": [
+    {
+      "alternatingBanners": [
+        {
+          "image": {
+            "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/elux-latam/11322a79-6c1b-4e5c-a4c3-474bdb770e2e/image-6.png",
+            "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/elux-latam/11322a79-6c1b-4e5c-a4c3-474bdb770e2e/image-6.png"
+          },
+          "title": "Lorem ipsum dolor",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel ultricies leo. Nam vel urna at mi ullamcorper sagittis. Aliquam erat volutpat."
+        },
+        {
+          "image": {
+            "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/electrolux-nola/f752a668-543f-4e76-8ec2-f32145c78d2c/bade25ad07c24a440438cd42aa1bf2f7.webp",
+            "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/electrolux-nola/f752a668-543f-4e76-8ec2-f32145c78d2c/bade25ad07c24a440438cd42aa1bf2f7.webp"
+          },
+          "title": "testeeee",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel ultricies leo. Nam vel urna at mi ullamcorper sagittis. Aliquam erat volutpat."
+        }
+      ],
+      "matcher": "/nevecon-elux-french-door/p",
+      "mainBanner": {
+        "title": "Electrolux",
+        "description": "Nevecón Electrolux French Door No Frost 298Lts ERFWV3HUS",
+        "image": {
+          "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/elux-latam/7ee02eca-b31c-4b82-876d-5e6b9beab11f/image-2.png",
+          "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/elux-latam/db412e2b-64cf-47e3-9482-e6eb0a3ce3e0/image-15.png"
+        },
+        "disabledOpacity": false,
+        "secondaryTitle": "ERFWV3HUS"
+      }
+    },
+    {
+      "mainBanner": {
+        "image": {
+          "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/elux-latam/7ee02eca-b31c-4b82-876d-5e6b9beab11f/image-2.png",
+          "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/elux-latam/db412e2b-64cf-47e3-9482-e6eb0a3ce3e0/image-15.png"
+        },
+        "title": "Electrolux",
+        "description": "Nevecón Electrolux French Door No Frost 298Lts ERFWV3HUS",
+        "disabledOpacity": false,
+        "secondaryTitle": "ERFWV3HUS"
+      },
+      "alternatingBanners": [
+        {
+          "image": {
+            "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/elux-latam/11322a79-6c1b-4e5c-a4c3-474bdb770e2e/image-6.png",
+            "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/elux-latam/11322a79-6c1b-4e5c-a4c3-474bdb770e2e/image-6.png"
+          },
+          "title": "Lorem ipsum dolor",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel ultricies leo. Nam vel urna at mi ullamcorper sagittis. Aliquam erat volutpat."
+        },
+        {
+          "image": {
+            "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/electrolux-nola/f752a668-543f-4e76-8ec2-f32145c78d2c/bade25ad07c24a440438cd42aa1bf2f7.webp",
+            "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/electrolux-nola/f752a668-543f-4e76-8ec2-f32145c78d2c/bade25ad07c24a440438cd42aa1bf2f7.webp"
+          },
+          "title": "testeeee",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel ultricies leo. Nam vel urna at mi ullamcorper sagittis. Aliquam erat volutpat."
+        }
+      ],
+      "matcher": "/lavadora-elux-essential-13-kg/p"
+    }
+  ],
+  "spacing": {
+    "desktop": {
+      "top": {
+        "behavior": "split",
+        "size": "none"
+      },
+      "bottom": {
+        "behavior": "split",
+        "size": "none"
+      }
+    },
+    "mobile": {
+      "top": {
+        "behavior": "split",
+        "size": "none"
+      },
+      "bottom": {
+        "behavior": "split",
+        "size": "none"
+      }
+    }
+  }
+}

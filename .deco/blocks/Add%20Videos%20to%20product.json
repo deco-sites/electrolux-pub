@@ -1,0 +1,10 @@
+{
+  "__resolveType": "elux-components-app/actions/product/videos/addProductVideos.ts",
+  "videos": [
+    {
+      "contentUrl": "https://www.youtube.com/watch?v=9oLciwsdPTI",
+      "thumbnailUrl": "https://data.decoassets.com/electrolux-nola/16ee03a2-3ab0-47b6-abad-4faa5b0921ca/Captura-de-Tela-2025-01-10-as-11.13.35.png"
+    }
+  ],
+  "sku": "LED13"
+}

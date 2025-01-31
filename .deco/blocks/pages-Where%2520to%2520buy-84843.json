@@ -1,0 +1,46 @@
+{
+  "path": "/distribuidores-de-partes",
+  "sections": [
+    {
+      "__resolveType": "website/sections/Seo/SeoV2.tsx",
+      "titleTemplate": "Distribuidores de partes autorizados"
+    },
+    {
+      "__resolveType": "Header"
+    },
+    {
+      "__resolveType": "Reusable-Breadcrumb"
+    },
+    {
+      "__resolveType": "elux-components-app/sections/Institutional/WhereToBuy.tsx",
+      "titleText": "Where to buy",
+      "descriptionText": "Select a country, and see the stores where you can buy Electrolux products.",
+      "emptyContent": "Select the city",
+      "countries": {
+        "__resolveType": "WhereToBuy"
+      },
+      "spacing": {
+        "desktop": {
+          "top": {
+            "behavior": "split",
+            "size": "small"
+          }
+        },
+        "mobile": {
+          "top": {
+            "behavior": "split",
+            "size": "medium"
+          }
+        }
+      }
+    },
+    {
+      "__resolveType": "Footer"
+    }
+  ],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx",
+  "name": "Where to buy"
+}

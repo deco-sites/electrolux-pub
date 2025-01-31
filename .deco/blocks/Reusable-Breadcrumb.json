@@ -1,0 +1,85 @@
+{
+  "__resolveType": "website/flags/multivariate/section.ts",
+  "variants": [
+    {
+      "value": {
+        "__resolveType": "elux-components-app/sections/Content/Breadcrumb.tsx",
+        "fontColor": "primary",
+        "fontSize": "text-sm",
+        "items": [
+          {
+            "label": "Distribuidores de partes autorizados",
+            "hoverUnderline": true
+          }
+        ],
+        "spacing": {
+          "desktop": {
+            "top": {
+              "behavior": "split",
+              "size": "extra-small"
+            },
+            "bottom": {
+              "behavior": "split",
+              "size": "none"
+            }
+          },
+          "mobile": {
+            "top": {
+              "behavior": "split",
+              "size": "extra-small"
+            }
+          }
+        },
+        "iconSize": 24,
+        "fontWeight": "font-normal",
+        "icon": "dots-frigidaire",
+        "gap": "1"
+      },
+      "rule": {
+        "__resolveType": "Mobile"
+      }
+    },
+    {
+      "value": {
+        "__resolveType": "elux-components-app/sections/Content/Breadcrumb.tsx",
+        "fontColor": "primary",
+        "fontSize": "text-sm",
+        "items": [
+          {
+            "label": "Home",
+            "overrideFontColor": "secondary",
+            "href": "/"
+          },
+          {
+            "label": "Distribuidores de partes autorizados",
+            "hoverUnderline": true
+          }
+        ],
+        "spacing": {
+          "desktop": {
+            "top": {
+              "behavior": "split",
+              "size": "extra-small"
+            },
+            "bottom": {
+              "behavior": "split",
+              "size": "none"
+            }
+          },
+          "mobile": {
+            "top": {
+              "behavior": "split",
+              "size": "extra-small"
+            }
+          }
+        },
+        "iconSize": 24,
+        "fontWeight": "font-normal",
+        "gap": "1"
+      },
+      "rule": {
+        "__resolveType": "website/matchers/always.ts"
+      }
+    }
+  ]
+}

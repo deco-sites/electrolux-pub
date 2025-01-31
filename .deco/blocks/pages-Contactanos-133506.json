@@ -1,0 +1,189 @@
+{
+  "path": "/contactanos",
+  "sections": [
+    {
+      "__resolveType": "website/sections/Seo/SeoV2.tsx",
+      "titleTemplate": "Contactanos"
+    },
+    {
+      "__resolveType": "Header"
+    },
+    {
+      "__resolveType": "website/flags/multivariate/section.ts",
+      "variants": [
+        {
+          "value": {
+            "__resolveType": "elux-components-app/sections/Content/Breadcrumb.tsx",
+            "icon": "dots-frigidaire",
+            "fontColor": "primary",
+            "fontSize": "text-sm",
+            "fontWeight": "font-normal",
+            "items": [
+              {
+                "overrideFontColor": "primary",
+                "label": "Contactanos form",
+                "hoverUnderline": true
+              }
+            ],
+            "gap": "1",
+            "spacing": {
+              "desktop": {
+                "top": {
+                  "behavior": "split",
+                  "size": "small"
+                },
+                "bottom": {
+                  "behavior": "split",
+                  "size": "none"
+                }
+              },
+              "mobile": {
+                "top": {
+                  "behavior": "split",
+                  "size": "extra-large"
+                },
+                "bottom": {
+                  "behavior": "split",
+                  "size": "none"
+                }
+              }
+            },
+            "iconSize": 24
+          },
+          "rule": {
+            "__resolveType": "Mobile"
+          }
+        },
+        {
+          "value": {
+            "__resolveType": "elux-components-app/sections/Content/Breadcrumb.tsx",
+            "fontColor": "primary",
+            "fontSize": "text-sm",
+            "fontWeight": "font-normal",
+            "items": [
+              {
+                "overrideFontColor": "secondary",
+                "label": "Home",
+                "href": "/"
+              },
+              {
+                "overrideFontColor": "primary",
+                "label": "Contactanos form",
+                "hoverUnderline": true
+              }
+            ],
+            "gap": "1",
+            "spacing": {
+              "desktop": {
+                "top": {
+                  "behavior": "split",
+                  "size": "small"
+                },
+                "bottom": {
+                  "behavior": "split",
+                  "size": "none"
+                }
+              },
+              "mobile": {
+                "top": {
+                  "behavior": "split",
+                  "size": "extra-large"
+                },
+                "bottom": {
+                  "behavior": "split",
+                  "size": "none"
+                }
+              }
+            },
+            "iconSize": 24
+          },
+          "rule": {
+            "__resolveType": "website/matchers/always.ts"
+          }
+        }
+      ]
+    },
+    {
+      "__resolveType": "elux-components-app/sections/Social/ContactForm.tsx",
+      "title": {
+        "text": "Contáctanos",
+        "fontColor": "primary",
+        "fontSize": "text-2xl"
+      },
+      "description": {
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel ultricies leo.",
+        "fontColor": "secondary",
+        "fontSize": "text-base"
+      },
+      "countries": [
+        "Costa Rica",
+        "El Salvador",
+        "Guatemala",
+        "Honduras",
+        "México",
+        "Nicarágua",
+        "Panamá",
+        "Puerto Rico",
+        "República Dominicana"
+      ],
+      "subjects": [
+        "Asunto",
+        "Soporte",
+        "Dudas",
+        "Productos",
+        "Tienda"
+      ],
+      "spacing": {
+        "desktop": {
+          "top": {
+            "behavior": "split",
+            "size": "small"
+          },
+          "bottom": {
+            "behavior": "split",
+            "size": "medium"
+          }
+        },
+        "mobile": {
+          "top": {
+            "behavior": "split",
+            "size": "extra-large"
+          },
+          "bottom": {
+            "behavior": "split",
+            "size": "double-extra-large"
+          }
+        }
+      },
+      "textareaProps": {
+        "characterLimit": 500,
+        "textareaRows": 7
+      },
+      "buttonProps": {
+        "text": "Enviar Mensaje",
+        "color": "primary",
+        "fontColor": "white",
+        "borderWidth": "0",
+        "hoverColor": "primary"
+      },
+      "errorMessages": {
+        "requiredFieldText": "Este campo debe ser completado",
+        "mustBeEqualEmailField": "El email debe ser igual"
+      },
+      "formLabels": {
+        "fontWeight": "font-normal",
+        "fontColor": "secondary",
+        "fontSize": "text-base",
+        "personalDataLabelColor": "primary"
+      }
+    },
+    {
+      "__resolveType": "Footer"
+    }
+  ],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx",
+  "name": "Contactanos"
+}

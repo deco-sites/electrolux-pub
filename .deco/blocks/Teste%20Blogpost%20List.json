@@ -1,0 +1,11 @@
+{
+  "__resolveType": "blog/loaders/BlogpostList.ts",
+  "sortBy": "date_desc",
+  "count": 3,
+  "page": 1,
+  "postSlugs": [
+    "first-post-test",
+    "second-post-test",
+    "third-post-test"
+  ]
+}

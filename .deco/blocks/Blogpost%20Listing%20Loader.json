@@ -1,0 +1,9 @@
+{
+  "__resolveType": "blog/loaders/BlogpostListing.ts",
+  "sortBy": "date_desc",
+  "slug": {
+    "__resolveType": "website/functions/requestToParam.ts",
+    "param": "slug"
+  },
+  "count": 3
+}

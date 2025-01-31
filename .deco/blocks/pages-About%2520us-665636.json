@@ -1,0 +1,871 @@
+{
+  "path": "/sobre-nosotros",
+  "sections": {
+    "__resolveType": "website/flags/multivariate.ts",
+    "variants": [
+      {
+        "value": [
+          {
+            "__resolveType": "website/sections/Seo/SeoV2.tsx",
+            "titleTemplate": "Sobre nosotros"
+          },
+          {
+            "__resolveType": "Header"
+          },
+          {
+            "__resolveType": "elux-components-app/sections/Content/Breadcrumb.tsx",
+            "icon": "dots-frigidaire",
+            "iconSize": 24,
+            "fontColor": "primary",
+            "fontSize": "text-sm",
+            "items": [
+              {
+                "label": "Sobre nosotros",
+                "href": "/",
+                "overrideFontColor": "primary",
+                "hoverUnderline": true
+              }
+            ],
+            "spacing": {
+              "desktop": {
+                "top": {
+                  "behavior": "split",
+                  "size": "small"
+                },
+                "bottom": {
+                  "behavior": "split",
+                  "size": "none"
+                }
+              },
+              "mobile": {
+                "top": {
+                  "behavior": "split",
+                  "size": "small"
+                },
+                "bottom": {
+                  "behavior": "split",
+                  "size": "none"
+                }
+              }
+            },
+            "fontWeight": "font-normal",
+            "gap": "1"
+          },
+          {
+            "__resolveType": "elux-components-app/sections/Content/Banner.tsx",
+            "backgroundColor": "primary",
+            "title": {
+              "text": "About Electrolux Institutional",
+              "fontColor": "white",
+              "fontSize": "text-2.5xl",
+              "fontWeight": "font-semibold"
+            },
+            "description": {
+              "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel ultricies leo. Nam vel urna at mi ullamcorper sagittis.",
+              "fontColor": "white",
+              "fontSize": "text-base",
+              "fontWeight": "font-light"
+            },
+            "image": {
+              "desktop": {
+                "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/elux-latam/2126506c-924e-4cb0-a818-39fb28d32f46/9cf3dae7-f479-4f37-a71c-c44a53488728___b0615db1f74d109c3c30f18309871980-1.png",
+                "sizing": {
+                  "width": 510,
+                  "height": 300
+                }
+              },
+              "mobile": {
+                "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/elux-latam/a8aef190-f0f1-4ecc-91dc-29a3fa988c72/9cf3dae7-f479-4f37-a71c-c44a53488728___b0615db1f74d109c3c30f18309871980-1-(1).png",
+                "sizing": {
+                  "width": 375,
+                  "height": 210
+                }
+              },
+              "alt": "Elux"
+            },
+            "textGap": "4",
+            "imageGap": "10",
+            "fullWidith": true,
+            "spacing": {
+              "desktop": {
+                "top": {
+                  "size": "small",
+                  "behavior": "split"
+                }
+              },
+              "mobile": {
+                "top": {
+                  "behavior": "join",
+                  "size": "medium"
+                }
+              }
+            },
+            "fullWidth": true
+          },
+          {
+            "__resolveType": "elux-components-app/sections/Content/Cards.tsx",
+            "backgroundColor": "base-content",
+            "title": {
+              "text": "Title suggestion: values ​​or characteristics",
+              "fontColor": "primary",
+              "fontSize": "text-2.5xl",
+              "fontWeight": "font-medium"
+            },
+            "description": {
+              "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel ultricies leo. Nam vel urna at mi ullamcorper sagittis.",
+              "fontColor": "secondary",
+              "fontSize": "text-base",
+              "fontWeight": "font-light"
+            },
+            "cardConfig": {
+              "textStyling": {
+                "fontColor": "primary",
+                "fontSize": "text-base",
+                "fontWeight": "font-light"
+              },
+              "bgColor": "white",
+              "gap": "4",
+              "grid": "3"
+            },
+            "cards": [
+              {
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel ultricies leo."
+              },
+              {
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel ultricies leo."
+              },
+              {
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel ultricies leo."
+              }
+            ],
+            "spacing": {
+              "desktop": {
+                "top": {
+                  "behavior": "split",
+                  "size": "medium"
+                },
+                "bottom": {
+                  "behavior": "split",
+                  "size": "medium"
+                }
+              },
+              "mobile": {
+                "top": {
+                  "behavior": "split",
+                  "size": "extra-large"
+                },
+                "bottom": {
+                  "behavior": "split",
+                  "size": "extra-large"
+                }
+              }
+            }
+          },
+          {
+            "__resolveType": "elux-components-app/sections/Content/TextCards.tsx",
+            "title": {
+              "text": "Insert a title here",
+              "fontColor": "primary",
+              "fontSize": "text-2.5xl",
+              "fontWeight": "font-medium"
+            },
+            "description": {
+              "text": "Lorem ipsum dolor sit amet. Ut error voluptates 33 voluptatem veritatis et officiis autem sit enim asperiores qui laudantium dolor ut quaerat deleniti. Id odio ipsam qui omnis dolorem qui dolorem aliquid sed temporibus officia.",
+              "fontColor": "secondary",
+              "fontSize": "text-base",
+              "fontWeight": "font-normal"
+            },
+            "sectionProps": {
+              "titleProps": {
+                "fontColor": "primary",
+                "fontWeight": "font-medium",
+                "fontSize": "text-lg"
+              },
+              "complementProps": {
+                "fontColor": "secondary",
+                "fontSize": "text-base",
+                "fontWeight": "font-normal"
+              },
+              "gapX": "5",
+              "gapY": "10",
+              "grid": "2"
+            },
+            "textSections": [
+              {
+                "title": "Insert a title here",
+                "complement": "<p><span>Lorem ipsum dolor sit amet. Ut error voluptates 33 voluptatem veritatis et officiis autem sit enim asperiores qui laudantium dolor ut quaerat deleniti. Id odio ipsam qui omnis dolorem qui dolorem aliquid sed temporibus officia. Et totam obcaecati non voluptatum provident eum voluptatem quia non nostrum corporis id ducimus dolor a ipsa officiis! Ea omnis aliquid sed inventore nemo ut adipisci dolore eos velit incidunt ut doloribus molestiae.</span></p>"
+              },
+              {
+                "title": "Insert a title here",
+                "complement": "<p><span>Lorem ipsum dolor sit amet. Ut error voluptates 33 voluptatem veritatis et officiis autem sit enim asperiores qui laudantium dolor ut quaerat deleniti. Id odio ipsam qui omnis dolorem qui dolorem aliquid sed temporibus officia. Et totam obcaecati non voluptatum provident eum voluptatem quia non nostrum corporis id ducimus dolor a ipsa officiis! Ea omnis aliquid sed inventore nemo ut adipisci dolore eos velit incidunt ut doloribus molestiae.</span></p>"
+              },
+              {
+                "title": "Insert a title here",
+                "complement": "<p><span>Lorem ipsum dolor sit amet. Ut error voluptates 33 voluptatem veritatis et officiis autem sit enim asperiores qui laudantium dolor ut quaerat deleniti. Id odio ipsam qui omnis dolorem qui dolorem aliquid sed temporibus officia. Et totam obcaecati non voluptatum provident eum voluptatem quia non nostrum corporis id ducimus dolor a ipsa officiis! Ea omnis aliquid sed inventore nemo ut adipisci dolore eos velit incidunt ut doloribus molestiae.</span></p>"
+              },
+              {
+                "title": "Insert a title here",
+                "complement": "<p>Lorem ipsum dolor sit amet. Ut error voluptates 33 voluptatem veritatis et officiis autem sit enim asperiores qui laudantium dolor ut quaerat deleniti. Id odio ipsam qui omnis dolorem qui dolorem aliquid sed temporibus officia. Et totam obcaecati non voluptatum provident eum voluptatem quia non nostrum corporis id ducimus dolor a ipsa officiis! Ea omnis aliquid sed inventore nemo ut adipisci dolore eos velit incidunt ut doloribus molestiae.</p>"
+              }
+            ],
+            "spacingConfig": {
+              "desktop": {
+                "top": {
+                  "behavior": "split",
+                  "size": "medium"
+                },
+                "bottom": {
+                  "behavior": "split",
+                  "size": "medium"
+                }
+              },
+              "mobile": {
+                "top": {
+                  "behavior": "split",
+                  "size": "extra-large"
+                },
+                "bottom": {
+                  "behavior": "split",
+                  "size": "extra-large"
+                }
+              }
+            }
+          },
+          {
+            "__resolveType": "elux-components-app/sections/Content/Banner.tsx",
+            "backgroundColor": "white",
+            "title": {
+              "text": "Insert a title here",
+              "fontColor": "primary",
+              "fontSize": "text-2xl",
+              "fontWeight": "font-medium"
+            },
+            "description": {
+              "text": "Como uma empresa líder global de eletrodomésticos, colocamos o consumidor no centro de tudo o que fazemos. O nosso propósito é transformar a vida para o melhor, e por isso procuramos parceiros que queiram alcançar esse mesmo objetivo com a gente.",
+              "fontColor": "secondary",
+              "fontSize": "text-base",
+              "fontWeight": "font-light"
+            },
+            "image": {
+              "desktop": {
+                "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/elux-latam/916f06d0-a995-4d34-b5e9-8bd5f3779d04/imagem-(2).png",
+                "sizing": {
+                  "width": 510,
+                  "height": 359
+                }
+              },
+              "mobile": {
+                "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/elux-latam/916f06d0-a995-4d34-b5e9-8bd5f3779d04/imagem-(2).png",
+                "sizing": {
+                  "width": 327,
+                  "height": 210
+                }
+              },
+              "alt": "Elux"
+            },
+            "textGap": "4",
+            "imageGap": "6",
+            "fullWidith": false,
+            "spacing": {
+              "desktop": {
+                "top": {
+                  "behavior": "join",
+                  "size": "medium"
+                }
+              },
+              "mobile": {
+                "top": {
+                  "behavior": "split",
+                  "size": "extra-large"
+                },
+                "bottom": {
+                  "behavior": "split",
+                  "size": "extra-large"
+                }
+              }
+            },
+            "link": {
+              "text": "Insert a link here",
+              "fontColor": "primary",
+              "fontSize": "text-base",
+              "fontWeight": "font-medium",
+              "url": "#",
+              "icon": {
+                "icon": "chevron-frigidaire",
+                "color": "accent-content"
+              },
+              "disableUnderline": true
+            },
+            "disablePaddings": true
+          },
+          {
+            "__resolveType": "elux-components-app/sections/Content/Banner.tsx",
+            "backgroundColor": "white",
+            "title": {
+              "text": "Insert a title here",
+              "fontColor": "primary",
+              "fontSize": "text-2xl",
+              "fontWeight": "font-medium"
+            },
+            "description": {
+              "text": "Como uma empresa líder global de eletrodomésticos, colocamos o consumidor no centro de tudo o que fazemos. O nosso propósito é transformar a vida para o melhor, e por isso procuramos parceiros que queiram alcançar esse mesmo objetivo com a gente.",
+              "fontColor": "secondary",
+              "fontSize": "text-base",
+              "fontWeight": "font-light"
+            },
+            "image": {
+              "desktop": {
+                "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/elux-latam/916f06d0-a995-4d34-b5e9-8bd5f3779d04/imagem-(2).png",
+                "sizing": {
+                  "width": 510,
+                  "height": 359
+                }
+              },
+              "mobile": {
+                "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/elux-latam/916f06d0-a995-4d34-b5e9-8bd5f3779d04/imagem-(2).png",
+                "sizing": {
+                  "width": 327,
+                  "height": 210
+                }
+              },
+              "alt": "Elux"
+            },
+            "textGap": "4",
+            "imageGap": "6",
+            "fullWidith": false,
+            "spacing": {
+              "desktop": {
+                "top": {
+                  "behavior": "join",
+                  "size": "medium"
+                }
+              },
+              "mobile": {
+                "top": {
+                  "behavior": "split",
+                  "size": "extra-large"
+                },
+                "bottom": {
+                  "behavior": "split",
+                  "size": "extra-large"
+                }
+              }
+            },
+            "link": {
+              "text": "Insert a link here",
+              "fontColor": "primary",
+              "fontSize": "text-base",
+              "fontWeight": "font-medium",
+              "url": "#",
+              "disableUnderline": true,
+              "icon": {
+                "icon": "chevron-frigidaire",
+                "color": "accent-content"
+              }
+            },
+            "invertPosition": true,
+            "disablePaddings": true
+          },
+          {
+            "__resolveType": "elux-components-app/sections/Content/Banner.tsx",
+            "backgroundColor": "primary",
+            "title": {
+              "text": "Insert a title here",
+              "fontColor": "white",
+              "fontSize": "text-2xl",
+              "fontWeight": "font-semibold"
+            },
+            "description": {
+              "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel ultricies leo. Nam vel urna at mi ullamcorper sagittis.",
+              "fontColor": "white",
+              "fontSize": "text-base",
+              "fontWeight": "font-light"
+            },
+            "image": {
+              "desktop": {
+                "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/elux-latam/e7bb1f06-e294-4f02-88a0-cc65c0d028ac/imagem.png",
+                "sizing": {
+                  "width": 707,
+                  "height": 359
+                }
+              },
+              "mobile": {
+                "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/elux-latam/e7aefb2a-263b-41ec-afbc-10f80c5e312d/imagem.png",
+                "sizing": {
+                  "width": 327,
+                  "height": 210
+                }
+              },
+              "alt": "Elux"
+            },
+            "textGap": "2",
+            "imageGap": "6",
+            "fullWidith": false,
+            "spacing": {
+              "desktop": {
+                "top": {
+                  "behavior": "join",
+                  "size": "medium"
+                }
+              },
+              "mobile": {
+                "top": {
+                  "behavior": "join",
+                  "size": "medium"
+                }
+              }
+            },
+            "link": {
+              "text": "Insert a link to another page here",
+              "fontColor": "white",
+              "fontSize": "text-base",
+              "fontWeight": "font-semibold",
+              "url": "#"
+            }
+          },
+          {
+            "__resolveType": "Footer"
+          }
+        ],
+        "rule": {
+          "__resolveType": "Mobile"
+        }
+      },
+      {
+        "value": [
+          {
+            "__resolveType": "website/sections/Seo/SeoV2.tsx",
+            "titleTemplate": "Sobre nosotros"
+          },
+          {
+            "__resolveType": "Header"
+          },
+          {
+            "__resolveType": "elux-components-app/sections/Content/Breadcrumb.tsx",
+            "iconSize": 24,
+            "fontColor": "primary",
+            "fontSize": "text-sm",
+            "items": [
+              {
+                "label": "Home",
+                "href": "/",
+                "overrideFontColor": "secondary"
+              },
+              {
+                "label": "Sobre nosotros",
+                "hoverUnderline": true,
+                "href": "/",
+                "overrideFontColor": "primary"
+              }
+            ],
+            "spacing": {
+              "desktop": {
+                "top": {
+                  "behavior": "split",
+                  "size": "extra-small"
+                },
+                "bottom": {
+                  "behavior": "split",
+                  "size": "none"
+                }
+              },
+              "mobile": {
+                "top": {
+                  "behavior": "split",
+                  "size": "extra-large"
+                },
+                "bottom": {
+                  "behavior": "split",
+                  "size": "none"
+                }
+              }
+            },
+            "fontWeight": "font-normal",
+            "gap": "1"
+          },
+          {
+            "__resolveType": "elux-components-app/sections/Content/Banner.tsx",
+            "backgroundColor": "primary",
+            "title": {
+              "text": "About Electrolux Institutional",
+              "fontColor": "white",
+              "fontSize": "text-3.5xl",
+              "fontWeight": "font-semibold"
+            },
+            "description": {
+              "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel ultricies leo. Nam vel urna at mi ullamcorper sagittis.",
+              "fontColor": "white",
+              "fontSize": "text-base",
+              "fontWeight": "font-light"
+            },
+            "image": {
+              "desktop": {
+                "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/elux-latam/2126506c-924e-4cb0-a818-39fb28d32f46/9cf3dae7-f479-4f37-a71c-c44a53488728___b0615db1f74d109c3c30f18309871980-1.png",
+                "sizing": {
+                  "width": 510,
+                  "height": 300
+                }
+              },
+              "mobile": {
+                "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/elux-latam/a8aef190-f0f1-4ecc-91dc-29a3fa988c72/9cf3dae7-f479-4f37-a71c-c44a53488728___b0615db1f74d109c3c30f18309871980-1-(1).png",
+                "sizing": {
+                  "width": 375,
+                  "height": 210
+                }
+              },
+              "alt": "Elux"
+            },
+            "textGap": "4",
+            "imageGap": "28",
+            "fullWidith": true,
+            "spacing": {
+              "desktop": {
+                "top": {
+                  "size": "extra-small",
+                  "behavior": "join"
+                }
+              },
+              "mobile": {
+                "top": {
+                  "behavior": "join",
+                  "size": "medium"
+                }
+              }
+            },
+            "fullWidth": true,
+            "invertPosition": false
+          },
+          {
+            "__resolveType": "elux-components-app/sections/Content/Cards.tsx",
+            "backgroundColor": "base-content",
+            "title": {
+              "text": "Title suggestion: values ​​or characteristics",
+              "fontColor": "primary",
+              "fontSize": "text-2.5xl",
+              "fontWeight": "font-medium"
+            },
+            "description": {
+              "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel ultricies leo. Nam vel urna at mi ullamcorper sagittis.",
+              "fontColor": "secondary",
+              "fontSize": "text-base",
+              "fontWeight": "font-light"
+            },
+            "cardConfig": {
+              "textStyling": {
+                "fontColor": "primary",
+                "fontSize": "text-base",
+                "fontWeight": "font-light"
+              },
+              "bgColor": "white",
+              "gap": "5",
+              "grid": "3"
+            },
+            "cards": [
+              {
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel ultricies leo."
+              },
+              {
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel ultricies leo."
+              },
+              {
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel ultricies leo."
+              }
+            ],
+            "spacing": {
+              "desktop": {
+                "top": {
+                  "behavior": "split",
+                  "size": "medium"
+                },
+                "bottom": {
+                  "behavior": "split",
+                  "size": "medium"
+                }
+              },
+              "mobile": {
+                "top": {
+                  "behavior": "split",
+                  "size": "extra-large"
+                },
+                "bottom": {
+                  "behavior": "split",
+                  "size": "extra-large"
+                }
+              }
+            }
+          },
+          {
+            "__resolveType": "elux-components-app/sections/Content/TextCards.tsx",
+            "title": {
+              "text": "Insert a title here",
+              "fontColor": "primary",
+              "fontSize": "text-2.5xl",
+              "fontWeight": "font-medium"
+            },
+            "description": {
+              "text": "Lorem ipsum dolor sit amet. Ut error voluptates 33 voluptatem veritatis et officiis autem sit enim asperiores qui laudantium dolor ut quaerat deleniti. Id odio ipsam qui omnis dolorem qui dolorem aliquid sed temporibus officia.",
+              "fontColor": "secondary",
+              "fontSize": "text-base",
+              "fontWeight": "font-normal"
+            },
+            "sectionProps": {
+              "titleProps": {
+                "fontColor": "primary",
+                "fontWeight": "font-medium",
+                "fontSize": "text-lg"
+              },
+              "complementProps": {
+                "fontColor": "secondary",
+                "fontSize": "text-base",
+                "fontWeight": "font-normal"
+              },
+              "gapX": "5",
+              "gapY": "10",
+              "grid": "2"
+            },
+            "textSections": [
+              {
+                "title": "Insert a title here",
+                "complement": "<p><span>Lorem ipsum dolor sit amet. Ut error voluptates 33 voluptatem veritatis et officiis autem sit enim asperiores qui laudantium dolor ut quaerat deleniti. Id odio ipsam qui omnis dolorem qui dolorem aliquid sed temporibus officia. Et totam obcaecati non voluptatum provident eum voluptatem quia non nostrum corporis id ducimus dolor a ipsa officiis! Ea omnis aliquid sed inventore nemo ut adipisci dolore eos velit incidunt ut doloribus molestiae.</span></p>"
+              },
+              {
+                "title": "Insert a title here",
+                "complement": "<p><span>Lorem ipsum dolor sit amet. Ut error voluptates 33 voluptatem veritatis et officiis autem sit enim asperiores qui laudantium dolor ut quaerat deleniti. Id odio ipsam qui omnis dolorem qui dolorem aliquid sed temporibus officia. Et totam obcaecati non voluptatum provident eum voluptatem quia non nostrum corporis id ducimus dolor a ipsa officiis! Ea omnis aliquid sed inventore nemo ut adipisci dolore eos velit incidunt ut doloribus molestiae.</span></p>"
+              },
+              {
+                "title": "Insert a title here",
+                "complement": "<p><span>Lorem ipsum dolor sit amet. Ut error voluptates 33 voluptatem veritatis et officiis autem sit enim asperiores qui laudantium dolor ut quaerat deleniti. Id odio ipsam qui omnis dolorem qui dolorem aliquid sed temporibus officia. Et totam obcaecati non voluptatum provident eum voluptatem quia non nostrum corporis id ducimus dolor a ipsa officiis! Ea omnis aliquid sed inventore nemo ut adipisci dolore eos velit incidunt ut doloribus molestiae.</span></p>"
+              },
+              {
+                "title": "Insert a title here",
+                "complement": "<p>Lorem ipsum dolor sit amet. Ut error voluptates 33 voluptatem veritatis et officiis autem sit enim asperiores qui laudantium dolor ut quaerat deleniti. Id odio ipsam qui omnis dolorem qui dolorem aliquid sed temporibus officia. Et totam obcaecati non voluptatum provident eum voluptatem quia non nostrum corporis id ducimus dolor a ipsa officiis! Ea omnis aliquid sed inventore nemo ut adipisci dolore eos velit incidunt ut doloribus molestiae.</p>"
+              }
+            ],
+            "spacingConfig": {
+              "desktop": {
+                "top": {
+                  "behavior": "split",
+                  "size": "medium"
+                },
+                "bottom": {
+                  "behavior": "split",
+                  "size": "medium"
+                }
+              },
+              "mobile": {
+                "top": {
+                  "behavior": "split",
+                  "size": "extra-large"
+                },
+                "bottom": {
+                  "behavior": "split",
+                  "size": "extra-large"
+                }
+              }
+            }
+          },
+          {
+            "__resolveType": "elux-components-app/sections/Content/Banner.tsx",
+            "backgroundColor": "white",
+            "title": {
+              "text": "Insert a title here",
+              "fontColor": "primary",
+              "fontSize": "text-2.5xl",
+              "fontWeight": "font-medium"
+            },
+            "description": {
+              "text": "<p>Lorem ipsum dolor sit amet. Ut error voluptates 33 voluptatem veritatis et officiis autem sit enim asperiores qui laudantium dolor ut quaerat deleniti. Id odio ipsam qui omnis dolorem qui dolorem aliquid sed temporibus officia. Et totam obcaecati non voluptatum provident eum voluptatem quia non nostrum corporis id ducimus dolor a ipsa officiis! Ea omnis aliquid sed inventore nemo ut adipisci dolore eos velit incidunt ut doloribus molestiae.</p>",
+              "fontColor": "secondary",
+              "fontSize": "text-base",
+              "fontWeight": "font-light"
+            },
+            "image": {
+              "desktop": {
+                "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/elux-latam/397156ba-4005-4130-bac8-61d0e09e876f/imagem-(1).png",
+                "sizing": {
+                  "width": 510,
+                  "height": 359
+                }
+              },
+              "mobile": {
+                "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/elux-latam/916f06d0-a995-4d34-b5e9-8bd5f3779d04/imagem-(2).png",
+                "sizing": {
+                  "width": 327,
+                  "height": 210
+                }
+              },
+              "alt": "Elux"
+            },
+            "textGap": "4",
+            "imageGap": "28",
+            "fullWidith": false,
+            "spacing": {
+              "desktop": {
+                "top": {
+                  "behavior": "split",
+                  "size": "medium"
+                },
+                "bottom": {
+                  "behavior": "split",
+                  "size": "medium"
+                }
+              },
+              "mobile": {
+                "top": {
+                  "behavior": "split",
+                  "size": "extra-large"
+                },
+                "bottom": {
+                  "behavior": "split",
+                  "size": "extra-large"
+                }
+              }
+            },
+            "link": {
+              "text": "Insert a link here",
+              "fontColor": "primary",
+              "fontSize": "text-xl",
+              "fontWeight": "font-medium",
+              "url": "#",
+              "icon": {},
+              "disableUnderline": true
+            },
+            "invertPosition": false,
+            "disablePaddings": true
+          },
+          {
+            "__resolveType": "elux-components-app/sections/Content/Banner.tsx",
+            "backgroundColor": "white",
+            "title": {
+              "text": "Insert a title here",
+              "fontColor": "primary",
+              "fontSize": "text-2.5xl",
+              "fontWeight": "font-medium"
+            },
+            "description": {
+              "text": "Lorem ipsum dolor sit amet. Ut error voluptates 33 voluptatem veritatis et officiis autem sit enim asperiores qui laudantium dolor ut quaerat deleniti. Id odio ipsam qui omnis dolorem qui dolorem aliquid sed temporibus officia. Et totam obcaecati non voluptatum provident eum voluptatem quia non nostrum corporis id ducimus dolor a ipsa officiis! Ea omnis aliquid sed inventore nemo ut adipisci dolore eos velit incidunt ut doloribus molestiae.",
+              "fontColor": "secondary",
+              "fontSize": "text-base",
+              "fontWeight": "font-light"
+            },
+            "image": {
+              "desktop": {
+                "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/elux-latam/397156ba-4005-4130-bac8-61d0e09e876f/imagem-(1).png",
+                "sizing": {
+                  "width": 510,
+                  "height": 359
+                }
+              },
+              "mobile": {
+                "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/elux-latam/916f06d0-a995-4d34-b5e9-8bd5f3779d04/imagem-(2).png",
+                "sizing": {
+                  "width": 327,
+                  "height": 210
+                }
+              },
+              "alt": "Elux"
+            },
+            "textGap": "4",
+            "imageGap": "28",
+            "fullWidith": false,
+            "spacing": {
+              "desktop": {
+                "top": {
+                  "behavior": "split",
+                  "size": "medium"
+                },
+                "bottom": {
+                  "behavior": "split",
+                  "size": "medium"
+                }
+              },
+              "mobile": {
+                "top": {
+                  "behavior": "split",
+                  "size": "extra-large"
+                },
+                "bottom": {
+                  "behavior": "split",
+                  "size": "extra-large"
+                }
+              }
+            },
+            "link": {
+              "text": "Insert a link here",
+              "fontColor": "primary",
+              "fontSize": "text-xl",
+              "fontWeight": "font-medium",
+              "url": "#",
+              "disableUnderline": true
+            },
+            "invertPosition": true,
+            "disablePaddings": true
+          },
+          {
+            "__resolveType": "elux-components-app/sections/Content/Banner.tsx",
+            "backgroundColor": "primary",
+            "title": {
+              "text": "Insert a title here",
+              "fontColor": "white",
+              "fontSize": "text-2.5xl",
+              "fontWeight": "font-medium"
+            },
+            "description": {
+              "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel ultricies leo. Nam vel urna at mi ullamcorper sagittis.",
+              "fontColor": "white",
+              "fontSize": "text-base",
+              "fontWeight": "font-light"
+            },
+            "image": {
+              "desktop": {
+                "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/elux-latam/e7bb1f06-e294-4f02-88a0-cc65c0d028ac/imagem.png",
+                "sizing": {
+                  "width": 707,
+                  "height": 359
+                }
+              },
+              "mobile": {
+                "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/elux-latam/e7aefb2a-263b-41ec-afbc-10f80c5e312d/imagem.png",
+                "sizing": {
+                  "width": 327,
+                  "height": 210
+                }
+              },
+              "alt": "Elux"
+            },
+            "textGap": "4",
+            "imageGap": "12",
+            "fullWidith": false,
+            "spacing": {
+              "desktop": {
+                "top": {
+                  "behavior": "join",
+                  "size": "medium"
+                }
+              }
+            },
+            "link": {
+              "text": "Insert a link to another page here",
+              "fontColor": "white",
+              "fontSize": "text-base",
+              "fontWeight": "font-medium",
+              "url": "#"
+            },
+            "invertPosition": false
+          },
+          {
+            "__resolveType": "Footer"
+          }
+        ],
+        "rule": {
+          "__resolveType": "website/matchers/always.ts"
+        }
+      }
+    ]
+  },
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx",
+  "name": "About us"
+}

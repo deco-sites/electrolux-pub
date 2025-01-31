@@ -1,0 +1,134 @@
+{
+  "__resolveType": "elux-components-app/actions/product/createProduct.ts",
+  "product": {
+    "sku": "ERG26",
+    "name": "Aspiradora vertical sin cable Electrolux Ergorapido 2 en 1 con boquilla para mascotas hasta 45 min Gold (ERG26) - Bivolt",
+    "url": "aspiradora-vertical-sin-cable-electrolux-ergorapido-2-en-1",
+    "alternateName": "Electrolux Ergorapido 2 in 1 Cordless Upright Vacuum Cleaner with Pet Nozzle up to 45 min Gold (ERG26) - Bivolt",
+    "productID": "ERG26",
+    "brand": "electrolux---Electrolux",
+    "description": "<p>¡Cuidado ideal para ti y tu mascota! Aspiradora Vertical 2 en 1 Ergorapido Gold (ERG26), un moderno electrodoméstico portátil, desarrollado para mantener la casa libre de polvo y pelos de mascotas. </p><p></p><p>¡Mayor autonomía! La batería del Ergorapido ERG26 es de Litio y dura hasta 45 minutos sin que el cargador utilice la mínima potencia. Además, cuenta con filtración Ciclónica y excelente sellado, que elimina las impurezas del aire, cuidando la salud de tu familia. </p><p></p><p>Su exclusiva boquilla Pet Care es ideal para retirar el pelo de mascotas de pisos y tapizados, eliminando la suciedad que queda atrapada entre las fibras e hilos de la tela.</p><p></p><p>Cuenta con el moderno sistema Brush Roll Clean, que corta tanto fibras como hilos atascados en la boquilla del aspirador que podrían dificultar la succión. </p><p></p><p>La boquilla con luz LED ayuda a limpiar rincones oscuros y grietas de la casa. El Ergorapido se puede colocar en cualquier lugar de la casa y se puede utilizar como aspiradora vertical o de mano, aportando mucha practicidad a su vida diaria. Para completar, ¡el color dorado añade un toque de elegancia a la decoración!</p>",
+    "alternateDescription": "<p>Ideal care for you and your pet! The Ergorapido Gold 2-in-1 Upright Vacuum Cleaner (ERG26), a modern portable appliance, developed to keep your home free of dust and pet hair.</p><p></p><p>Longer battery life! The Ergorapido ERG26 has a Lithium battery that lasts up to 45 minutes without the charger using the minimum power. It also has Cyclonic filtration and excellent sealing, which eliminates impurities from the air, taking care of your family's health.</p><p>Its exclusive Pet Care nozzle is ideal for removing pet hair from floors and upholstery, removing dirt that is trapped between the fibers and threads of the fabric.</p><p></p><p>It has the modern Brush Roll Clean system, which cuts both fibers and threads stuck in the vacuum cleaner nozzle that could hinder suction.</p><p></p><p></p><p>The LED light nozzle helps clean dark corners and cracks in the house. The Ergorapido can be placed anywhere in the house and can be used as an upright or handheld vacuum cleaner, bringing a lot of practicality to your daily life. To top it off, the golden colour adds a touch of elegance to the decor!</p>",
+    "gtin": "7896347152934"
+  },
+  "categories": [
+    {
+      "subjectOf": "aspiradora---Aspiradora---2"
+    }
+  ],
+  "measurements": {
+    "height": {
+      "minValue": 114.5,
+      "maxValue": 69,
+      "unitCode": "cm"
+    },
+    "width": {
+      "unitCode": "cm",
+      "minValue": 26.5,
+      "maxValue": 30.3
+    },
+    "depth": {
+      "unitCode": "cm",
+      "minValue": 14.5,
+      "maxValue": 16.2
+    },
+    "weight": {
+      "unitCode": "kg",
+      "minValue": 3.6,
+      "maxValue": 4.71
+    }
+  },
+  "additionalProperties": [
+    {
+      "name": "Ajuste de potencia",
+      "alternateName": "Power adjustment",
+      "value": "Si",
+      "alternateValue": "Yes"
+    },
+    {
+      "name": "En la batería",
+      "alternateName": "On Battery",
+      "value": "Si",
+      "alternateValue": "Yes"
+    },
+    {
+      "alternateName": "Vertical parking (stands upright without the base)",
+      "value": "Si",
+      "alternateValue": "Yes",
+      "name": "Estacionamiento vertical (se mantiene en posición vertical sin la base)"
+    },
+    {
+      "alternateName": "Accessory compartment",
+      "value": "Si",
+      "alternateValue": "Yes",
+      "name": "Compartimento para accesorios"
+    },
+    {
+      "alternateName": "Capacity of container or barrel",
+      "value": "0.46",
+      "alternateValue": "0.46",
+      "name": "Capacidad del contenedor o barril",
+      "unitText": "L",
+      "alternateUnitText": "L"
+    }
+  ],
+  "descriptions": [
+    {
+      "name": "Triple filtración",
+      "alternateName": "Triple Filtration:",
+      "value": "<p>3 niveles de filtración que proporcionan una limpieza más eficiente y un aire más saludable.</p>",
+      "alternateValue": "<p>3 levels of filtration that provide more efficient cleaning and healthier air.</p>"
+    },
+    {
+      "alternateName": "Bagless Technology with Transparent Reservoir:",
+      "value": "<p>No utiliza bolsa para polvo. Más económico y fácil de limpiar. Conozca el momento exacto en el que debe vaciar el contenedor de polvo transparente de su Ergorapido.</p>",
+      "alternateValue": "<p>Does not use a dust bag. More economical and easier to clean. Know the exact time to empty the transparent dust container of your Ergorapido.</p>",
+      "name": "Tecnología sin bolsa con depósito transparente:"
+    },
+    {
+      "name": "Tecnología EasySteer 180°:",
+      "alternateName": "180° EasySteer Technology:",
+      "value": "<p>Con un movimiento preciso, el Ergorapido gira completamente hacia los lados, lo que facilita la limpieza de todos los rincones.</p>",
+      "alternateValue": "<p>With precise movement, the Ergorapido rotates completely sideways, making it easier to clean all corners.</p>"
+    },
+    {
+      "name": "Sistema Brush Roll Clean:",
+      "alternateName": "System Brush Roll Clean:",
+      "value": "<p>Presione el pedal y observe como las fibras e hilos se cortan al instante, evitando que obstruyan la succión del aspirador.</p>",
+      "alternateValue": "<p>Press the pedal and watch the fibers and threads be cut instantly, preventing them from obstructing the vacuum cleaner's suction.</p>"
+    }
+  ],
+  "images": [
+    {
+      "url": "https://electrolux.vtexassets.com/arquivos/ids/214915-1200-1200?v=637722607002970000&width=1200&height=1200&aspect=true"
+    },
+    {
+      "url": "https://electrolux.vtexassets.com/arquivos/ids/246062-1200-1200?v=638354981508100000&width=1200&height=1200&aspect=true"
+    },
+    {
+      "url": "https://electrolux.vtexassets.com/arquivos/ids/246063-1200-1200?v=638354981830030000&width=1200&height=1200&aspect=true"
+    },
+    {
+      "url": "https://electrolux.vtexassets.com/arquivos/ids/246065-1200-1200?v=638354982109370000&width=1200&height=1200&aspect=true"
+    }
+  ],
+  "videos": [
+    {
+      "contentUrl": "https://www.youtube.com/watch?v=VkIdWNNUqSo",
+      "thumbnailUrl": "https://data.decoassets.com/electrolux-nola/16ee03a2-3ab0-47b6-abad-4faa5b0921ca/Captura-de-Tela-2025-01-10-as-11.13.35.png"
+    }
+  ],
+  "avaliableIn": [
+    {
+      "domain": "deco.site"
+    }
+  ],
+  "documents": [
+    {
+      "language": "both",
+      "url": "https://api.electrolux-medialibrary.com/asset/41bb9226-10cb-4f07-8462-575f22ecb007/E4RM3Q/240820NF11/PDF/240820NF11.pdf",
+      "name": "Manual de instrucciones",
+      "alternateName": "Instruction manual"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "seo": {
+    "type": "website",
+    "title": "Lavadoras y secadoras, aspiradoras y electrodomésticos de cocina",
+    "jsonLDs": [],
+    "noIndexing": false,
+    "description": "Descubra lo mejor de Línea Blanca y electrodomésticos de la marca Frigidaire. Ofertas en congeladores, parrillas, microondas, hornos, lavadoras y muchos más productos para tu hogar. ¡Entra y aprovecha ya!",
+    "titleTemplate": "%s | Electrolux",
+    "descriptionTemplate": "%s",
+    "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12041/98666910-cabc-44d0-9fa4-568022fbc558"
+  },
+  "theme": {
+    "__resolveType": "Elux Theme"
+  },
+  "global": [
+    {
+      "__resolveType": "htmx/sections/htmx.tsx"
+    },
+    {
+      "__resolveType": "website/sections/Analytics/Analytics.tsx",
+      "dangerouslyRunOnMainThread": true,
+      "trackingIds": []
+    },
+    {
+      "__resolveType": "analytics/sections/Analytics/DecoAnalytics.tsx"
+    },
+    {
+      "__resolveType": "site/sections/Session.tsx",
+      "minicart": null,
+      "wishlist": null,
+      "mode": "lazy",
+      "user": null
+    },
+    {
+      "__resolveType": "elux-components-app/sections/Content/Toast.tsx"
+    }
+  ],
+  "routes": [
+    {
+      "__resolveType": "website/loaders/pages.ts"
+    },
+    {
+      "__resolveType": "website/loaders/redirects.ts"
+    }
+  ],
+  "caching": {
+    "directives": []
+  },
+  "commerce": {
+    "platform": "other"
+  },
+  "platform": "vtex",
+  "__resolveType": "site/apps/site.ts",
+  "firstByteThresholdMS": false,
+  "abTesting": {
+    "replaces": [],
+    "includeScriptsToHead": {
+      "includes": []
+    },
+    "includeScriptsToBody": {
+      "includes": []
+    }
+  },
+  "flavor": {
+    "framework": "htmx"
+  }
+}

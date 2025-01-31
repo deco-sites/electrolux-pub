@@ -1,0 +1,364 @@
+{
+  "path": "/blog",
+  "sections": {
+    "__resolveType": "website/flags/multivariate.ts",
+    "variants": [
+      {
+        "value": [
+          {
+            "__resolveType": "website/sections/Seo/SeoV2.tsx",
+            "titleTemplate": "Blog Electrolux"
+          },
+          {
+            "__resolveType": "Header"
+          },
+          {
+            "__resolveType": "website/flags/multivariate/section.ts",
+            "variants": [
+              {
+                "value": {
+                  "__resolveType": "elux-components-app/sections/Content/Breadcrumb.tsx",
+                  "fontColor": "primary",
+                  "fontSize": "text-sm",
+                  "items": [
+                    {
+                      "label": "Blog",
+                      "hoverUnderline": true
+                    }
+                  ],
+                  "spacing": {
+                    "desktop": {
+                      "top": {
+                        "behavior": "split",
+                        "size": "extra-small"
+                      },
+                      "bottom": {
+                        "behavior": "split",
+                        "size": "extra-small"
+                      }
+                    },
+                    "mobile": {
+                      "top": {
+                        "behavior": "split",
+                        "size": "small"
+                      },
+                      "bottom": {
+                        "behavior": "split",
+                        "size": "small"
+                      }
+                    }
+                  },
+                  "iconSize": 24,
+                  "fontWeight": "font-normal",
+                  "icon": "dots-frigidaire",
+                  "gap": "1"
+                },
+                "rule": {
+                  "__resolveType": "Mobile"
+                }
+              },
+              {
+                "value": {
+                  "__resolveType": "elux-components-app/sections/Content/Breadcrumb.tsx",
+                  "fontColor": "primary",
+                  "fontSize": "text-sm",
+                  "items": [
+                    {
+                      "label": "Home",
+                      "overrideFontColor": "secondary",
+                      "href": "/"
+                    },
+                    {
+                      "label": "Blog",
+                      "hoverUnderline": true
+                    }
+                  ],
+                  "spacing": {
+                    "desktop": {
+                      "top": {
+                        "behavior": "split",
+                        "size": "extra-small"
+                      },
+                      "bottom": {
+                        "behavior": "split",
+                        "size": "small"
+                      }
+                    },
+                    "mobile": {
+                      "top": {
+                        "behavior": "split",
+                        "size": "extra-small"
+                      },
+                      "bottom": {
+                        "behavior": "split",
+                        "size": "extra-small"
+                      }
+                    }
+                  },
+                  "iconSize": 24,
+                  "fontWeight": "font-normal",
+                  "gap": "1"
+                },
+                "rule": {
+                  "__resolveType": "website/matchers/always.ts"
+                }
+              }
+            ]
+          },
+          {
+            "__resolveType": "Blog Banners"
+          },
+          {
+            "__resolveType": "website/sections/Rendering/Lazy.tsx",
+            "section": {
+              "__resolveType": "Blog Search Controls"
+            }
+          },
+          {
+            "__resolveType": "elux-components-app/sections/blog/BlogListing.tsx",
+            "page": {
+              "__resolveType": "Blogpost Listing Loader"
+            },
+            "spacing": {
+              "desktop": {
+                "top": {
+                  "behavior": "split",
+                  "size": "none"
+                },
+                "bottom": {
+                  "behavior": "split",
+                  "size": "medium"
+                }
+              },
+              "mobile": {
+                "top": {
+                  "behavior": "split",
+                  "size": "none"
+                },
+                "bottom": {
+                  "behavior": "split",
+                  "size": "extra-large"
+                }
+              }
+            },
+            "layout": {
+              "pagination": "show-more",
+              "showResultsQuantity": true
+            },
+            "startingPage": 1
+          },
+          {
+            "__resolveType": "Footer"
+          }
+        ],
+        "rule": {
+          "__resolveType": "website/matchers/queryString.ts",
+          "conditions": [
+            {
+              "case": {
+                "type": "Exists"
+              },
+              "param": "q"
+            }
+          ]
+        }
+      },
+      {
+        "value": [
+          {
+            "__resolveType": "website/sections/Seo/SeoV2.tsx",
+            "titleTemplate": "Blog Electrolux"
+          },
+          {
+            "__resolveType": "Header"
+          },
+          {
+            "__resolveType": "website/flags/multivariate/section.ts",
+            "variants": [
+              {
+                "value": {
+                  "__resolveType": "elux-components-app/sections/Content/Breadcrumb.tsx",
+                  "fontColor": "primary",
+                  "fontSize": "text-sm",
+                  "items": [
+                    {
+                      "label": "Blog",
+                      "hoverUnderline": true
+                    }
+                  ],
+                  "spacing": {
+                    "desktop": {
+                      "top": {
+                        "behavior": "split",
+                        "size": "extra-small"
+                      },
+                      "bottom": {
+                        "behavior": "split",
+                        "size": "extra-small"
+                      }
+                    },
+                    "mobile": {
+                      "top": {
+                        "behavior": "split",
+                        "size": "small"
+                      },
+                      "bottom": {
+                        "behavior": "split",
+                        "size": "small"
+                      }
+                    }
+                  },
+                  "iconSize": 24,
+                  "fontWeight": "font-normal",
+                  "icon": "dots-frigidaire",
+                  "gap": "1"
+                },
+                "rule": {
+                  "__resolveType": "Mobile"
+                }
+              },
+              {
+                "value": {
+                  "__resolveType": "elux-components-app/sections/Content/Breadcrumb.tsx",
+                  "fontColor": "primary",
+                  "fontSize": "text-sm",
+                  "items": [
+                    {
+                      "label": "Home",
+                      "overrideFontColor": "secondary",
+                      "href": "/"
+                    },
+                    {
+                      "label": "Blog",
+                      "hoverUnderline": true
+                    }
+                  ],
+                  "spacing": {
+                    "desktop": {
+                      "top": {
+                        "behavior": "split",
+                        "size": "extra-small"
+                      },
+                      "bottom": {
+                        "behavior": "split",
+                        "size": "small"
+                      }
+                    },
+                    "mobile": {
+                      "top": {
+                        "behavior": "split",
+                        "size": "extra-small"
+                      },
+                      "bottom": {
+                        "behavior": "split",
+                        "size": "extra-small"
+                      }
+                    }
+                  },
+                  "iconSize": 24,
+                  "fontWeight": "font-normal",
+                  "gap": "1"
+                },
+                "rule": {
+                  "__resolveType": "website/matchers/always.ts"
+                }
+              }
+            ]
+          },
+          {
+            "__resolveType": "Blog Banners"
+          },
+          {
+            "__resolveType": "website/sections/Rendering/Lazy.tsx",
+            "section": {
+              "__resolveType": "Blog Search Controls"
+            }
+          },
+          {
+            "__resolveType": "website/sections/Rendering/Lazy.tsx",
+            "section": {
+              "__resolveType": "elux-components-app/sections/blog/BlogShelf.tsx",
+              "title": "Latest posts",
+              "blogposts": {
+                "__resolveType": "blog/loaders/BlogpostList.ts",
+                "count": 2,
+                "postSlugs": [],
+                "sortBy": "date_desc",
+                "page": 1
+              },
+              "gridOption": "2",
+              "spacing": {
+                "desktop": {
+                  "top": {
+                    "behavior": "split",
+                    "size": "medium"
+                  },
+                  "bottom": {
+                    "behavior": "split",
+                    "size": "medium"
+                  }
+                },
+                "mobile": {
+                  "top": {
+                    "behavior": "split",
+                    "size": "large"
+                  },
+                  "bottom": {
+                    "behavior": "split",
+                    "size": "extra-large"
+                  }
+                }
+              },
+              "shelfSize": "large"
+            }
+          },
+          {
+            "__resolveType": "elux-components-app/sections/blog/BlogListing.tsx",
+            "page": {
+              "__resolveType": "Blogpost Listing Loader"
+            },
+            "spacing": {
+              "desktop": {
+                "top": {
+                  "behavior": "split",
+                  "size": "medium"
+                },
+                "bottom": {
+                  "behavior": "split",
+                  "size": "medium"
+                }
+              },
+              "mobile": {
+                "top": {
+                  "behavior": "split",
+                  "size": "large"
+                },
+                "bottom": {
+                  "behavior": "split",
+                  "size": "extra-large"
+                }
+              }
+            },
+            "layout": {
+              "pagination": "show-more",
+              "showResultsQuantity": false
+            },
+            "startingPage": 1,
+            "title": "Check out more content"
+          },
+          {
+            "__resolveType": "Footer"
+          }
+        ],
+        "rule": {
+          "__resolveType": "website/matchers/always.ts"
+        }
+      }
+    ]
+  },
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx",
+  "name": "Blog"
+}

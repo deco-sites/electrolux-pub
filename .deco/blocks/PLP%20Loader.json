@@ -1,0 +1,5 @@
+{
+  "__resolveType": "elux-components-app/loaders/product/listing/productListing.ts",
+  "recordsPerPage": 3,
+  "sort": "name-asc"
+}

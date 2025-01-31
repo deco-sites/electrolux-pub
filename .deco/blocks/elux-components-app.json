@@ -1,0 +1,11 @@
+{
+  "__resolveType": "site/apps/local/elux-components-app.ts",
+  "language": "ES",
+  "originSite": "Elux-LA",
+  "siteTemplate": "elux",
+  "actionPassword": {
+    "__resolveType": "website/loaders/secret.ts",
+    "encrypted": "037d7c96b4db0667e4e433441fe965bf",
+    "name": "ACTION_PASSWORD"
+  }
+}

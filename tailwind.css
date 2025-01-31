@@ -1,0 +1,87 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  /* Allow changing font family via CMS */
+  html {
+    font-family: "Electrolux Sans";
+    @apply antialiased;
+    scroll-behavior: smooth;
+  }
+
+  /** Remove default styles from input[type=number] */
+  input[type="number"]::-webkit-inner-spin-button,
+  input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+
+  /* Disable scroll once drawer/modal is openned */
+  body:has(.open-filters:checked),
+  body:has(.drawer-toggle:checked) {
+    overflow: hidden;
+    height: 100vh;
+  }
+}
+
+.group:disabled .group-disabled\:animate-progress {
+  animation: progress-frame ease normal;
+}
+
+@keyframes progress-frame {
+  0% {
+    --dot-progress: 0%;
+  }
+
+  to {
+    --dot-progress: 100%;
+  }
+}
+
+.policy-content a {
+  @apply underline;
+}
+
+.policy-content h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: revert-layer;
+  font-weight: revert-layer;
+}
+
+select {
+  background-image: url("https://deco-sites-assets.s3.sa-east-1.amazonaws.com/elux-latam/1b6dae1a-cef4-463c-be19-0498b8b9bdd3/Chevron-Down.png")
+    !important;
+  background-size: 24px !important;
+  background-position:
+    calc(100% - 16px) calc(50%),
+    calc(100%) calc(50%) !important;
+  outline: none !important;
+}
+
+textarea {
+  resize: none;
+  outline: none !important;
+}
+
+input {
+  outline: none !important;
+}
+
+.toast-shadow {
+  box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.toast-show {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.toast-hide {
+  transform: translateY(100%);
+  opacity: 0;
+}

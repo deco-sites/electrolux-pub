@@ -1,0 +1,10 @@
+{
+  "__resolveType": "elux-components-app/loaders/guides/products.ts",
+  "slug": {
+    "__resolveType": "website/functions/requestToParam.ts",
+    "param": "slug"
+  },
+  "sortBy": "name-asc",
+  "urlComposing": "modelCode",
+  "customPathname": "/guias-y-manuales"
+}

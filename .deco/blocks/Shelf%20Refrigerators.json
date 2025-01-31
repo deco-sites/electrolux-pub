@@ -1,0 +1,45 @@
+{
+  "__resolveType": "elux-components-app/sections/Product/ProductShelf/ProductShelf.tsx",
+  "products": {
+    "loader": {
+      "__resolveType": "elux-components-app/loaders/product/list/productList.ts",
+      "listOption": [
+        "FE4GS",
+        "AAAAAAAAA",
+        "BBBBBBBBB",
+        "ERFWV3HUS",
+        "KE5TP"
+      ],
+      "sortBy": "name-asc",
+      "skip": 0,
+      "take": 5
+    }
+  },
+  "spacingConfig": {
+    "desktop": {
+      "top": {
+        "behavior": "split",
+        "size": "medium"
+      },
+      "bottom": {
+        "behavior": "split",
+        "size": "medium"
+      }
+    },
+    "mobile": {
+      "top": {
+        "behavior": "split",
+        "size": "extra-large"
+      },
+      "bottom": {
+        "behavior": "split",
+        "size": "extra-large"
+      }
+    }
+  },
+  "title": "Refrigerators for every need",
+  "extraLink": {
+    "text": "See all the products",
+    "href": "/electrodomesticos"
+  }
+}

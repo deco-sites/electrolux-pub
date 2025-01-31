@@ -1,0 +1,12 @@
+{
+  "__resolveType": "elux-components-app/actions/product/update/documents.ts",
+  "documents": [
+    {
+      "language": "both",
+      "url": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/electrolux-nola/f65bd986-affc-4723-9916-868f961fba9d/Projeta-Electrolux.pdf",
+      "name": "Manual de instrucciones",
+      "alternateName": "Instruction manual"
+    }
+  ],
+  "sku": "AAAAAAAAA"
+}

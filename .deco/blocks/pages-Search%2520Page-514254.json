@@ -1,0 +1,59 @@
+{
+  "name": "Search Page",
+  "path": "/s",
+  "sections": [
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "commerce/sections/Seo/SeoPLPV2.tsx",
+        "jsonLD": {
+          "__resolveType": "PLP Loader"
+        }
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "Header"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Product/SearchResult.tsx",
+        "page": {
+          "__resolveType": "PLP Loader"
+        },
+        "layout": {
+          "columns": {
+            "mobile": 2,
+            "desktop": 4
+          },
+          "variant": "aside",
+          "pagination": "show-more"
+        },
+        "startingPage": 1
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Newsletter/Newsletter.tsx",
+        "secret": {
+          "__resolveType": "website/loaders/secret.ts",
+          "encrypted": "9784d77f1a9d9c0f0477745df85f8499d3f33aa38c2da923ee229ed3241d3fe367275050511e4f951f8f38f0fecca49a52636e2ad98c7aa2fafb145835bc33a4c132c59eadbd136129a9e3779fa5d5f00ebb06c16d5bc84892cf75fcca98722c6091fdaca7c4e98c6ee66decf484788fb3b6626b13e6a52598a9d0689041852a71cf213b8240a3eed424bd682dbff8fed248135a0e90e435bd95c9efee7c4f4550cfebb4b3f3d88051da0b4549f19491f656c3449e7853efabfd75da2b04f03e5f376b3b2c9dbd26ad4f1f5670f68ca8a4cda403582be43e0012b0c91adfa21d"
+        }
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "Footer"
+      }
+    }
+  ],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}

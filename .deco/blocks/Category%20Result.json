@@ -1,0 +1,29 @@
+{
+  "__resolveType": "elux-components-app/sections/Product/ProductListing/ProductListingPage.tsx",
+  "page": {
+    "__resolveType": "elux-components-app/loaders/product/listing/productListing.ts",
+    "recordsPerPage": 1
+  },
+  "spacing": {
+    "desktop": {
+      "top": {
+        "behavior": "split",
+        "size": "none"
+      },
+      "bottom": {
+        "behavior": "split",
+        "size": "none"
+      }
+    },
+    "mobile": {
+      "top": {
+        "behavior": "split",
+        "size": "none"
+      },
+      "bottom": {
+        "behavior": "split",
+        "size": "none"
+      }
+    }
+  }
+}

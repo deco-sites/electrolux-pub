@@ -1,0 +1,20 @@
+{
+  "__resolveType": "blog/loaders/extensions/BlogpostPage.ts",
+  "extensions": [
+    {
+      "__resolveType": "blog/loaders/extensions/BlogpostPage/reviews.ts",
+      "ignoreReviews": {
+        "markedAs": [
+          "submitted",
+          "notApproved",
+          "deleted"
+        ],
+        "active": true
+      },
+      "orderBy": "date_desc"
+    }
+  ],
+  "data": {
+    "__resolveType": "Blogpost Page Loader"
+  }
+}

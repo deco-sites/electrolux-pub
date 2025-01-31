@@ -1,0 +1,31 @@
+{
+  "name": "collections/blog/posts/e596e9e2412a",
+  "__resolveType": "blog/loaders/Blogpost.ts",
+  "post": {
+    "authors": [],
+    "categories": [
+      {
+        "name": "Secondary Post Category",
+        "slug": "secondary-post-category"
+      }
+    ],
+    "imageCarousel": {
+      "banners": []
+    },
+    "extraProps": [],
+    "aggregateRating": {
+      "@type": "AggregateRating"
+    },
+    "review": [],
+    "contentRating": [],
+    "interactionStatistic": {
+      "@type": "InteractionCounter"
+    },
+    "excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel ultricies leo. Nam vel urna at mi ullamcorper sagittis. Aliquam erat volutpat.",
+    "slug": "another-post-test",
+    "date": "2024-11-26",
+    "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel ultricies leo. Nam vel urna at mi ullamcorper sagittis. Aliquam erat volutpat. Maecenas tristique egestas lectus sit amet vehicula. Mauris lobortis auctor imperdiet. </p><p>Curabitur id nisi sem. Suspendisse potenti. Morbi dolor arcu, convallis quis convallis eu, tristique consectetur est. Aliquam erat volutpat. Phasellus mollis eleifend risus in finibus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Integer efficitur, ante lobortis elementum commodo, dolor ipsum ultricies dui, non dictum odio tellus in augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel ultricies leo. Nam vel urna at mi ullamcorper sagittis. Aliquam erat volutpat. Maecenas tristique egestas lectus sit amet vehicula. Mauris lobortis auctor imperdiet.</p><h3><span style=\"font-size: 16pt\">Title</span></h3><p></p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel ultricies leo. Nam vel urna at mi ullamcorper sagittis. Aliquam erat volutpat. Maecenas tristique egestas lectus sit amet vehicula. Mauris lobortis auctor imperdiet. </p><p>Curabitur id nisi sem. Suspendisse potenti. Morbi dolor arcu, convallis quis convallis eu, tristique consectetur est. Aliquam erat volutpat. Phasellus mollis eleifend risus in finibus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Integer efficitur, ante lobortis elementum commodo, dolor ipsum ultricies dui, non dictum odio tellus in augue.</p><p><img src=\"https://data.decoassets.com/electrolux-nola/a231747f-779e-4c48-9d32-13837fb2e9fa/13c7bb738f3900cdbb6f6ebd1c8ac630.png\">Text for a caption for the image. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel ultricies leo.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel ultricies leo. Nam vel urna at mi ullamcorper sagittis. Aliquam erat volutpat. Maecenas tristique egestas lectus sit amet vehicula. Mauris lobortis auctor imperdiet. Curabitur id nisi sem. Suspendisse potenti. Morbi dolor arcu, convallis quis convallis eu, tristique consectetur est. Aliquam erat volutpat. Phasellus mollis eleifend risus in finibus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Integer efficitur, ante lobortis elementum commodo, dolor ipsum ultricies dui, non dictum odio tellus in augue.</p><h3><span style=\"font-size: 16pt\">Title</span></h3><p></p><p>1. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel ultricies leo. Nam vel urna at mi ullamcorper sagittis.  </p><p>2. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel ultricies leo. Nam vel urna at mi ullamcorper sagittis. Aliquam erat volutpat. Maecenas tristique egestas lectus sit amet vehicula.  </p><p>3. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel ultricies leo. Nam vel urna at mi ullamcorper sagittis. Aliquam erat volutpat. Maecenas tristique egestas lectus sit amet vehicula.</p><p>[youtube][https://www.youtube.com/watch?v=oOtos52WMCg]</p>",
+    "image": "https://data.decoassets.com/electrolux-nola/a231747f-779e-4c48-9d32-13837fb2e9fa/13c7bb738f3900cdbb6f6ebd1c8ac630.png",
+    "title": "ABCD Post Test"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "__resolveType": "elux-components-app/actions/product/documents/addDocuments.ts",
+  "documents": [
+    {
+      "url": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/electrolux-nola/8fe83e6f-a996-4342-af13-277fa20943ce/Nola-ElectroluxRequisitos-2.pdf",
+      "name": "Manual de instrucciones 2",
+      "alternateName": "Instruction manual 2",
+      "language": "both"
+    }
+  ],
+  "sku": "ERFWV3HUS"
+}

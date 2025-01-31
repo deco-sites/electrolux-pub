@@ -1,0 +1,82 @@
+{
+  "__resolveType": "elux-components-app/sections/Product/ProductShelf/ProductShelf.tsx",
+  "products": [
+    {
+      "loader": {
+        "data": {
+          "__resolveType": "elux-components-app/loaders/product/list/productList.ts",
+          "listOption": {
+            "normalFilters": [],
+            "measurementsFilters": [],
+            "category": "electrodomesticos---Electrodomésticos---1"
+          },
+          "sortBy": "name-asc",
+          "skip": 0,
+          "take": 10
+        },
+        "__resolveType": "resolved"
+      },
+      "title": "Electrodomesticos"
+    },
+    {
+      "loader": {
+        "data": {
+          "__resolveType": "elux-components-app/loaders/testShelf.ts"
+        },
+        "__resolveType": "resolved"
+      },
+      "title": "Estufas"
+    },
+    {
+      "loader": {
+        "data": {
+          "__resolveType": "elux-components-app/loaders/testShelf.ts"
+        },
+        "__resolveType": "resolved"
+      },
+      "title": "Hornos"
+    },
+    {
+      "loader": {
+        "data": {
+          "__resolveType": "elux-components-app/loaders/testShelf.ts"
+        },
+        "__resolveType": "resolved"
+      },
+      "title": "Microondas"
+    },
+    {
+      "loader": {
+        "data": {
+          "__resolveType": "elux-components-app/loaders/testShelf.ts"
+        },
+        "__resolveType": "resolved"
+      },
+      "title": "Lavavajillas"
+    }
+  ],
+  "spacingConfig": {
+    "desktop": {
+      "top": {
+        "behavior": "split",
+        "size": "medium"
+      },
+      "bottom": {
+        "behavior": "split",
+        "size": "half-extra-small"
+      }
+    },
+    "mobile": {
+      "top": {
+        "behavior": "split",
+        "size": "extra-large"
+      },
+      "bottom": {
+        "behavior": "split",
+        "size": "none"
+      }
+    }
+  },
+  "title": "Your dream kitchen is here",
+  "extraLink": {}
+}

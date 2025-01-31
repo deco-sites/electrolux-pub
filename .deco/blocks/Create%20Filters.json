@@ -1,0 +1,16 @@
+{
+  "__resolveType": "elux-components-app/actions/filters/createFilters.ts",
+  "filtersGroups": [
+    {
+      "identifier": "teste",
+      "name": "teste",
+      "alternateName": "teste"
+    },
+    {
+      "identifier": "teste2",
+      "name": "teste2",
+      "alternateName": "teste2"
+    }
+  ],
+  "password": "abacate"
+}

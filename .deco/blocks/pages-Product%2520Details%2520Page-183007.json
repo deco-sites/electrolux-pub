@@ -1,0 +1,363 @@
+{
+  "name": "Product Details Page",
+  "path": "/:slug/p",
+  "sections": {
+    "__resolveType": "website/flags/multivariate.ts",
+    "variants": [
+      {
+        "value": [
+          {
+            "__resolveType": "commerce/sections/Seo/SeoPDP.tsx",
+            "jsonLD": {
+              "__resolveType": "PDP Loader"
+            },
+            "omitVariants": true,
+            "titleTemplate": "%s | Electrolux"
+          },
+          {
+            "__resolveType": "Header"
+          },
+          {
+            "__resolveType": "elux-components-app/sections/Product/ProductDetails/ProductBreadcrumb.tsx",
+            "page": {
+              "__resolveType": "PDP Loader"
+            },
+            "breadcrumbProps": {
+              "iconSize": 24,
+              "fontColor": "secondary",
+              "fontSize": "text-sm",
+              "fontWeight": "font-normal",
+              "iconColor": "primary",
+              "breadcrumbColor": "secondary",
+              "hideProductName": false,
+              "disableContainer": false,
+              "maxItems": 1,
+              "gap": "1",
+              "icon": "dots-frigidaire"
+            },
+            "spacing": {
+              "mobile": {
+                "top": {
+                  "behavior": "split",
+                  "size": "extra-small"
+                },
+                "bottom": {
+                  "behavior": "split",
+                  "size": "medium"
+                }
+              },
+              "desktop": {
+                "top": {
+                  "behavior": "split",
+                  "size": "extra-small"
+                },
+                "bottom": {
+                  "behavior": "split",
+                  "size": "extra-small"
+                }
+              }
+            }
+          },
+          {
+            "__resolveType": "PDP Banners"
+          },
+          {
+            "__resolveType": "elux-components-app/sections/Product/ProductDetails/ProductPage.tsx",
+            "page": {
+              "__resolveType": "PDP Loader"
+            },
+            "productMain": {
+              "buyButton": {
+                "isDisable": false,
+                "redirectTo": "/distribuidores-de-partes",
+                "rounded": "sm",
+                "isDisabled": false
+              },
+              "mergeQuantity": 2,
+              "productName": {
+                "position": "1",
+                "title": {
+                  "fontColor": "primary",
+                  "fontSize": "text-xl",
+                  "fontWeight": "font-medium"
+                },
+                "sku": {
+                  "fontSize": "text-sm",
+                  "fontColor": "primary-content"
+                }
+              },
+              "bgColor": "base-content",
+              "tabs": {
+                "enabledTab": {
+                  "fontColor": "primary",
+                  "fontSize": "text-xl",
+                  "fontWeight": "font-medium",
+                  "underlineColor": "primary"
+                },
+                "disabledTab": {
+                  "fontColor": "primary",
+                  "fontSize": "text-xl",
+                  "fontWeight": "font-medium",
+                  "underlineColor": "base-content"
+                },
+                "productDescription": {
+                  "title": {
+                    "fontColor": "primary",
+                    "fontSize": "text-base",
+                    "fontWeight": "font-medium"
+                  },
+                  "descriptionSize": "text-base"
+                },
+                "titles": {
+                  "fontColor": "primary",
+                  "fontSize": "text-xl",
+                  "fontWeight": "font-medium"
+                },
+                "techSheet": [
+                  {
+                    "bgColor": "base-content",
+                    "descriptionProps": {
+                      "fontColor": "secondary",
+                      "fontWeight": "font-medium"
+                    },
+                    "valueProps": {
+                      "fontColor": "secondary",
+                      "fontWeight": "font-light"
+                    }
+                  },
+                  {
+                    "bgColor": "white",
+                    "descriptionProps": {
+                      "fontColor": "secondary",
+                      "fontWeight": "font-medium"
+                    },
+                    "valueProps": {
+                      "fontColor": "secondary",
+                      "fontWeight": "font-light"
+                    }
+                  }
+                ]
+              }
+            },
+            "breadcrumbProps": {
+              "iconSize": 16,
+              "fontColor": "secondary",
+              "fontSize": "text-sm",
+              "fontWeight": "font-normal",
+              "iconColor": "primary",
+              "breadcrumbColor": "secondary",
+              "hideProductName": false,
+              "disableContainer": false,
+              "maxItems": 1,
+              "gap": "1",
+              "icon": "dots-frigidaire"
+            },
+            "bannersProps": [
+              {
+                "bgColor": "white",
+                "titleColor": "primary",
+                "descriptionColor": "secondary"
+              },
+              {
+                "bgColor": "primary",
+                "titleColor": "white",
+                "descriptionColor": "white"
+              }
+            ],
+            "spacing": {
+              "mobile": {
+                "bottom": {
+                  "behavior": "split",
+                  "size": "small"
+                }
+              }
+            }
+          },
+          {
+            "__resolveType": "Footer"
+          }
+        ],
+        "rule": {
+          "__resolveType": "Mobile"
+        }
+      },
+      {
+        "value": [
+          {
+            "__resolveType": "commerce/sections/Seo/SeoPDP.tsx",
+            "jsonLD": {
+              "__resolveType": "PDP Loader"
+            },
+            "omitVariants": true,
+            "titleTemplate": "%s | Electrolux"
+          },
+          {
+            "__resolveType": "Header"
+          },
+          {
+            "__resolveType": "elux-components-app/sections/Product/ProductDetails/ProductBreadcrumb.tsx",
+            "page": {
+              "__resolveType": "PDP Loader"
+            },
+            "breadcrumbProps": {
+              "iconSize": 16,
+              "fontColor": "secondary",
+              "fontSize": "text-sm",
+              "fontWeight": "font-normal",
+              "iconColor": "primary",
+              "breadcrumbColor": "secondary",
+              "hideProductName": false,
+              "disableContainer": false,
+              "maxItems": 2,
+              "overrideFirst": {
+                "item": "Home",
+                "url": "/"
+              },
+              "gap": "1"
+            },
+            "spacing": {
+              "desktop": {
+                "top": {
+                  "behavior": "split",
+                  "size": "extra-small"
+                },
+                "bottom": {
+                  "behavior": "split",
+                  "size": "extra-small"
+                }
+              },
+              "mobile": {
+                "top": {
+                  "behavior": "split",
+                  "size": "extra-small"
+                },
+                "bottom": {
+                  "behavior": "split",
+                  "size": "medium"
+                }
+              }
+            }
+          },
+          {
+            "__resolveType": "PDP Banners"
+          },
+          {
+            "__resolveType": "elux-components-app/sections/Product/ProductDetails/ProductPage.tsx",
+            "page": {
+              "__resolveType": "PDP Loader"
+            },
+            "productMain": {
+              "buyButton": {
+                "isDisable": false,
+                "redirectTo": "/distribuidores-de-partes",
+                "rounded": "sm",
+                "isDisabled": false
+              },
+              "productName": {
+                "position": "1",
+                "title": {
+                  "fontColor": "primary",
+                  "fontSize": "text-xl",
+                  "fontWeight": "font-medium"
+                },
+                "sku": {
+                  "fontSize": "text-sm",
+                  "fontColor": "primary-content"
+                }
+              },
+              "bgColor": "base-content",
+              "tabs": {
+                "enabledTab": {
+                  "fontColor": "primary",
+                  "fontSize": "text-xl",
+                  "fontWeight": "font-medium",
+                  "underlineColor": "primary"
+                },
+                "disabledTab": {
+                  "fontColor": "primary",
+                  "fontSize": "text-xl",
+                  "fontWeight": "font-medium",
+                  "underlineColor": "base-content"
+                },
+                "productDescription": {
+                  "title": {
+                    "fontColor": "primary",
+                    "fontSize": "text-base",
+                    "fontWeight": "font-medium"
+                  },
+                  "descriptionSize": "text-base"
+                },
+                "titles": {
+                  "fontColor": "primary",
+                  "fontSize": "text-xl",
+                  "fontWeight": "font-medium"
+                },
+                "techSheet": [
+                  {
+                    "bgColor": "base-content",
+                    "descriptionProps": {
+                      "fontColor": "secondary",
+                      "fontWeight": "font-medium"
+                    },
+                    "valueProps": {
+                      "fontColor": "secondary",
+                      "fontWeight": "font-light"
+                    }
+                  },
+                  {
+                    "bgColor": "white",
+                    "descriptionProps": {
+                      "fontColor": "secondary",
+                      "fontWeight": "font-medium"
+                    },
+                    "valueProps": {
+                      "fontColor": "secondary",
+                      "fontWeight": "font-light"
+                    }
+                  }
+                ]
+              },
+              "mergeQuantity": 2
+            },
+            "bannersProps": [
+              {
+                "bgColor": "white",
+                "titleColor": "primary",
+                "descriptionColor": "secondary"
+              },
+              {
+                "bgColor": "primary",
+                "titleColor": "white",
+                "descriptionColor": "white"
+              }
+            ],
+            "spacing": {
+              "mobile": {
+                "bottom": {
+                  "behavior": "join",
+                  "size": "small"
+                }
+              },
+              "desktop": {
+                "top": {
+                  "behavior": "split",
+                  "size": "half-extra-small"
+                }
+              }
+            }
+          },
+          {
+            "__resolveType": "Footer"
+          }
+        ],
+        "rule": {
+          "__resolveType": "website/matchers/always.ts"
+        }
+      }
+    ]
+  },
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}

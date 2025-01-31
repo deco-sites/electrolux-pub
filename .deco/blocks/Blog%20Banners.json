@@ -1,0 +1,23 @@
+{
+  "__resolveType": "elux-components-app/sections/Images/BannersMatcher.tsx",
+  "banners": [
+    {
+      "image": {
+        "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/electrolux-nola/594a7551-b025-45ef-bf30-615f97322e8a/c719814ea8efca75122dd13f51f64f3b.png",
+        "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/electrolux-nola/594a7551-b025-45ef-bf30-615f97322e8a/c719814ea8efca75122dd13f51f64f3b.png"
+      },
+      "matcher": "/*",
+      "description": "Blog Frigidaire",
+      "disabledOpacity": true
+    },
+    {
+      "image": {
+        "desktop": "https://data.decoassets.com/electrolux-nola/a6c8a04e-6808-411b-9b3e-c6bb2e822ccc/11fdc835db785163edbb21da663efceb.png",
+        "mobile": "https://data.decoassets.com/electrolux-nola/a6c8a04e-6808-411b-9b3e-c6bb2e822ccc/11fdc835db785163edbb21da663efceb.png"
+      },
+      "matcher": "/blog/post-category",
+      "description": "Blog Frigidaire",
+      "disabledOpacity": true
+    }
+  ]
+}
