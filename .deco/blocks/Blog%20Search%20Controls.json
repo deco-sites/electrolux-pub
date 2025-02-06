@@ -26,26 +26,26 @@
     "title": "Select a category",
     "categories": [
       {
-        "name": "View all",
+        "name": "Ver todo",
         "slug": "/",
         "default": true
       },
       {
-        "name": "Category",
+        "name": "Categoría",
         "slug": "/post-category",
         "default": false
       },
       {
-        "name": "Secondary Category",
+        "name": "Otra categoría",
         "slug": "/secondary-post-category",
         "default": false
       }
     ]
   },
   "searchSection": {
-    "title": "Search for specific content",
-    "clearText": "Clear search",
-    "placeholder": "Type here",
-    "searchButtonText": "Search"
+    "title": "Buscar contenido específico",
+    "clearText": "Borrar búsqueda",
+    "placeholder": "Escribe aquí",
+    "searchButtonText": "Buscar"
   }
 }

@@ -62,7 +62,7 @@
         },
         {
           "icon": "cocina-frigidaire",
-          "title": "Fogão",
+          "title": "Cocina",
           "url": "/electrodomesticos/cocina"
         },
         {
@@ -72,22 +72,22 @@
         },
         {
           "icon": "vacuum-frigidaire",
-          "title": "Aspiradores de pó",
+          "title": "Aspiradoras",
           "url": "/electrodomesticos"
         },
         {
           "icon": "air-fryer-frigidaire",
-          "title": "Air Fryer",
+          "title": "Freidora de aire",
           "url": "/electrodomesticos"
         },
         {
           "icon": "wind-frigidaire",
-          "title": "Ar condicionado",
+          "title": "Aire acondicionado",
           "url": "/electrodomesticos"
         },
         {
           "icon": "pan-frigidaire",
-          "title": "Utilidades domésticas",
+          "title": "Artigos para el hogar",
           "url": "/electrodomesticos"
         }
       ]
@@ -106,23 +106,23 @@
     },
     {
       "__resolveType": "elux-components-app/sections/Content/HelpCards.tsx",
-      "title": "Do you need some help?",
+      "title": "Necesitas ayuda?",
       "cards": [
         {
           "icon": "email-frigidaire",
-          "title": "Where to buy",
+          "title": "Distribuidores de partes",
           "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel ultricies leo.",
           "url": "/distribuidores-de-partes"
         },
         {
           "icon": "tool-frigidaire",
-          "title": "List of technical support",
+          "title": "Lista de soporte técnico",
           "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel ultricies leo.",
           "url": "/centros-de-servicio"
         },
         {
           "icon": "headset-frigidaire",
-          "title": "Contact form",
+          "title": "Formulario de contacto",
           "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel ultricies leo.",
           "url": "/contactanos"
         }
@@ -132,8 +132,8 @@
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
         "__resolveType": "elux-components-app/sections/blog/BlogShelf.tsx",
-        "title": "Visit our blog",
-        "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel ultricies leo. Nam vel urna at mi ullamcorper sagittis. Aliquam erat volutpat. <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"/blog\"><strong>Link that directs to the blog.</strong></a></p>",
+        "title": "Visita nuestro blog",
+        "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel ultricies leo. Nam vel urna at mi ullamcorper sagittis. Aliquam erat volutpat. <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://electrolux-nola.deco.site/blog\"><u>Enlace que dirige al blog</u></a><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"/blog\"><strong>.</strong></a></p>",
         "blogposts": {
           "__resolveType": "Teste Blogpost List"
         },
