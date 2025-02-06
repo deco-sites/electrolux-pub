@@ -339,7 +339,7 @@
             "icon": "book-frigidaire"
           },
           {
-            "title": "About us",
+            "title": "Sobre nosotros",
             "link": "/sobre-nosotros",
             "textColor": "primary",
             "textSize": "text-sm",
