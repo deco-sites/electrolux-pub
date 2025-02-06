@@ -539,7 +539,7 @@
             "__resolveType": "elux-components-app/sections/Content/Cards.tsx",
             "backgroundColor": "base-content",
             "title": {
-              "text": "Title suggestion: values ​​or characteristics",
+              "text": "Sugerencia de título: valores o características",
               "fontColor": "primary",
               "fontSize": "text-2.5xl",
               "fontWeight": "font-medium"
@@ -597,7 +597,7 @@
           {
             "__resolveType": "elux-components-app/sections/Content/TextCards.tsx",
             "title": {
-              "text": "Insert a title here",
+              "text": "Inserta un título aquí",
               "fontColor": "primary",
               "fontSize": "text-2.5xl",
               "fontWeight": "font-medium"
@@ -668,7 +668,7 @@
             "__resolveType": "elux-components-app/sections/Content/Banner.tsx",
             "backgroundColor": "white",
             "title": {
-              "text": "Insert a title here",
+              "text": "Inserta un título aquí",
               "fontColor": "primary",
               "fontSize": "text-2.5xl",
               "fontWeight": "font-medium"
@@ -805,7 +805,7 @@
             "__resolveType": "elux-components-app/sections/Content/Banner.tsx",
             "backgroundColor": "primary",
             "title": {
-              "text": "Insert a title here",
+              "text": "Inserta un título aquí",
               "fontColor": "white",
               "fontSize": "text-2.5xl",
               "fontWeight": "font-medium"
