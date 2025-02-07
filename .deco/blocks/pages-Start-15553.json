@@ -48,7 +48,7 @@
     },
     {
       "__resolveType": "elux-components-app/sections/Content/CategoryCards.tsx",
-      "title": "Our products",
+      "title": "Nuestros Productos",
       "cards": [
         {
           "title": "Refrigeración",
@@ -87,7 +87,7 @@
         },
         {
           "icon": "pan-frigidaire",
-          "title": "Artigos para el hogar",
+          "title": "Pequeños Electrodomésticos",
           "url": "/electrodomesticos"
         }
       ]
