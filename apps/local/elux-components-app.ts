@@ -1,2 +1,2 @@
-export { default } from "https://cdn.jsdelivr.net/gh/aka-sacci-ccr/elux-components-app@bc5cbda31e34da315a1e64dc0e119f6814d31a48/mod.ts";
-export * from "https://cdn.jsdelivr.net/gh/aka-sacci-ccr/elux-components-app@bc5cbda31e34da315a1e64dc0e119f6814d31a48/mod.ts";
+export { default } from "https://cdn.jsdelivr.net/gh/aka-sacci-ccr/elux-components-app@e8075bc62b92b9b9baa94f611f5a08adf345707c/mod.ts";
+export * from "https://cdn.jsdelivr.net/gh/aka-sacci-ccr/elux-components-app@e8075bc62b92b9b9baa94f611f5a08adf345707c/mod.ts";
