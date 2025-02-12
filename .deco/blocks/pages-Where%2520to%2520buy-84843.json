@@ -13,9 +13,9 @@
     },
     {
       "__resolveType": "elux-components-app/sections/Institutional/WhereToBuy.tsx",
-      "titleText": "Distribuidores de partes",
-      "descriptionText": "Select a country, and see the stores where you can buy Electrolux products.",
-      "emptyContent": "Select the city",
+      "titleText": "¿Dónde comprar?",
+      "descriptionText": "Selecciona el país y consulta las tiendas donde puedes comprar productos Electrolux",
+      "emptyContent": "Selecciona el país",
       "countries": {
         "__resolveType": "WhereToBuy"
       },
