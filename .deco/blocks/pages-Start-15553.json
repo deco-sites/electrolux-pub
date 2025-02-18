@@ -47,48 +47,110 @@
       "fullWidth": true
     },
     {
-      "__resolveType": "elux-components-app/sections/Content/CategoryCards.tsx",
-      "title": "Nuestros Productos",
-      "cards": [
+      "__resolveType": "website/flags/multivariate/section.ts",
+      "variants": [
         {
-          "title": "Refrigeración",
-          "icon": "refrigerator-frigidaire",
-          "url": "/electrodomesticos/refrigeracion"
+          "value": {
+            "__resolveType": "elux-components-app/sections/Content/CategoryCards.tsx",
+            "title": "Nuestros Productos",
+            "cards": [
+              {
+                "title": "Máquinas de lavar",
+                "icon": "washer-frigidaire",
+                "url": "/electrodomesticos"
+              },
+              {
+                "icon": "cocina-frigidaire",
+                "title": "Cocina",
+                "url": "/electrodomesticos/cocina"
+              },
+              {
+                "icon": "water-purifier",
+                "title": "Purificadores",
+                "url": "/electrodomesticos"
+              },
+              {
+                "icon": "vacuum-frigidaire",
+                "title": "Aspiradoras",
+                "url": "/electrodomesticos"
+              },
+              {
+                "icon": "air-fryer-frigidaire",
+                "title": "Freidora de aire",
+                "url": "/electrodomesticos"
+              },
+              {
+                "icon": "wind-frigidaire",
+                "title": "Aire acondicionado",
+                "url": "/electrodomesticos"
+              },
+              {
+                "icon": "pan-frigidaire",
+                "title": "Pequeños Electrodomésticos",
+                "url": "/electrodomesticos"
+              },
+              {
+                "icon": "refrigerator-frigidaire",
+                "title": "Refrigeración",
+                "url": "/electrodomesticos/refrigeracion"
+              }
+            ]
+          },
+          "rule": {
+            "__resolveType": "website/matchers/host.ts",
+            "includes": "electrolux.com.bo"
+          }
         },
         {
-          "icon": "washer-frigidaire",
-          "title": "Máquinas de lavar",
-          "url": "/electrodomesticos"
-        },
-        {
-          "icon": "cocina-frigidaire",
-          "title": "Cocina",
-          "url": "/electrodomesticos/cocina"
-        },
-        {
-          "icon": "water-purifier",
-          "title": "Purificadores",
-          "url": "/electrodomesticos"
-        },
-        {
-          "icon": "vacuum-frigidaire",
-          "title": "Aspiradoras",
-          "url": "/electrodomesticos"
-        },
-        {
-          "icon": "air-fryer-frigidaire",
-          "title": "Freidora de aire",
-          "url": "/electrodomesticos"
-        },
-        {
-          "icon": "wind-frigidaire",
-          "title": "Aire acondicionado",
-          "url": "/electrodomesticos"
-        },
-        {
-          "icon": "pan-frigidaire",
-          "title": "Pequeños Electrodomésticos",
-          "url": "/electrodomesticos"
+          "value": {
+            "__resolveType": "elux-components-app/sections/Content/CategoryCards.tsx",
+            "title": "Nuestros Productos",
+            "cards": [
+              {
+                "title": "Refrigeración",
+                "icon": "refrigerator-frigidaire",
+                "url": "/electrodomesticos/refrigeracion"
+              },
+              {
+                "icon": "washer-frigidaire",
+                "title": "Máquinas de lavar",
+                "url": "/electrodomesticos"
+              },
+              {
+                "icon": "cocina-frigidaire",
+                "title": "Cocina",
+                "url": "/electrodomesticos/cocina"
+              },
+              {
+                "icon": "water-purifier",
+                "title": "Purificadores",
+                "url": "/electrodomesticos"
+              },
+              {
+                "icon": "vacuum-frigidaire",
+                "title": "Aspiradoras",
+                "url": "/electrodomesticos"
+              },
+              {
+                "icon": "air-fryer-frigidaire",
+                "title": "Freidora de aire",
+                "url": "/electrodomesticos"
+              },
+              {
+                "icon": "wind-frigidaire",
+                "title": "Aire acondicionado",
+                "url": "/electrodomesticos"
+              },
+              {
+                "icon": "pan-frigidaire",
+                "title": "Pequeños Electrodomésticos",
+                "url": "/electrodomesticos"
+              }
+            ]
+          },
+          "rule": {
+            "__resolveType": "website/matchers/always.ts"
+          }
         }
       ]
     },

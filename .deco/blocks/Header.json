@@ -292,6 +292,33 @@
         "title": "Bienestar del hogar",
         "link": "/electrodomesticos",
         "color": "primary"
+      },
+      {
+        "color": "primary",
+        "collums": [
+          {
+            "categories": [
+              {
+                "navItems": [],
+                "titleColor": "primary",
+                "title": "Batidora fija",
+                "link": "/"
+              }
+            ]
+          },
+          {
+            "categories": [
+              {
+                "navItems": [],
+                "titleColor": "primary",
+                "title": "Batidora de mano",
+                "link": "/"
+              }
+            ]
+          }
+        ],
+        "title": "Pequeños Electrodomésticos",
+        "link": "/"
       }
     ],
     "extraLinks": [
