@@ -299,28 +299,25 @@
           {
             "categories": [
               {
-                "navItems": [],
-                "titleColor": "primary",
-                "title": "Batidora fija",
-                "link": "/"
-              }
-            ]
-          },
-          {
-            "categories": [
-              {
-                "navItems": [],
-                "titleColor": "primary",
-                "title": "Batidora de mano",
-                "link": "/"
-              }
-            ]
-          },
-          {
-            "categories": [
-              {
-                "navItems": [],
-                "title": "Cafetera",
+                "navItems": [
+                  {
+                    "title": "Batidora fija",
+                    "link": "/"
+                  },
+                  {
+                    "title": "Batidora de mano",
+                    "link": "/"
+                  },
+                  {
+                    "title": "Cafetera",
+                    "link": "/"
+                  },
+                  {
+                    "title": "Exprimidor",
+                    "link": "/"
+                  }
+                ],
+                "title": "Electrodomésticos",
                 "link": "/"
               }
             ]
