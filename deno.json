@@ -33,14 +33,15 @@
     "simple-git": "npm:simple-git@^3.25.0",
     "std/": "https://deno.land/std@0.190.0/",
     "deco/": "https://cdn.jsdelivr.net/gh/deco-cx/deco@1.108.3/",
-    "apps/": "https://cdn.jsdelivr.net/gh/deco-cx/apps@69e78c993618ef11c31e2460de552216e1b6710e/",
+    "apps/": "https://cdn.jsdelivr.net/gh/deco-cx/apps@138c53ee7113b205268a76789f6b984dfadae0aa/",
     "@preact/signals": "https://esm.sh/*@preact/signals@1.2.2",
     "@preact/signals-core": "https://esm.sh/*@preact/signals-core@1.5.1",
     "daisyui": "npm:daisyui@4.6.0",
-    "@deco/dev": "jsr:@deco/dev@1.108.3",
+    "@deco/dev": "jsr:@deco/dev@1.110.5",
     "drizzle-orm": "https://esm.sh/drizzle-orm@0.30.10",
     "drizzle-orm/": "https://esm.sh/drizzle-orm@0.30.10/",
-    "drizzle-kit": "https://esm.sh/drizzle-kit@0.21.2"
+    "drizzle-kit": "https://esm.sh/drizzle-kit@0.21.2",
+    "@deco/deno-ast-wasm": "jsr:@deco/deno-ast-wasm@^0.5.4"
   },
   "tasks": {
     "start": "deno run -A --unstable-http --env https://deco.cx/run -- deno task dev",
@@ -67,9 +68,7 @@
     "db:schema:update": "DENO_FUTURE=1 deno task db:check:credentials && deno task db:generate && deno task db:migrate",
     "db:drop": "deno run -A --node-modules-dir --config=deno.json npm:drizzle-kit@0.21.2 drop"
   },
-  "githooks": {
-    "pre-commit": "check"
-  },
+  "githooks": { "pre-commit": "check" },
   "exclude": [
     "node_modules",
     "static/",
@@ -79,15 +78,7 @@
     ".deco"
   ],
   "lint": {
-    "rules": {
-      "exclude": [
-        "no-window"
-      ],
-      "tags": [
-        "fresh",
-        "recommended"
-      ]
-    }
+    "rules": { "exclude": ["no-window"], "tags": ["fresh", "recommended"] }
   },
   "nodeModulesDir": true,
   "compilerOptions": {

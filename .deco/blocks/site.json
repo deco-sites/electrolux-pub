@@ -17,22 +17,67 @@
       "__resolveType": "htmx/sections/htmx.tsx"
     },
     {
-      "__resolveType": "website/sections/Analytics/Analytics.tsx",
-      "dangerouslyRunOnMainThread": true,
-      "trackingIds": []
+      "__resolveType": "website/flags/multivariate/section.ts",
+      "variants": [
+        {
+          "value": {
+            "__resolveType": "website/sections/Analytics/Analytics.tsx",
+            "dangerouslyRunOnMainThread": true,
+            "trackingIds": [
+              "GTM-KP7QSDPF"
+            ]
+          },
+          "rule": {
+            "__resolveType": "website/matchers/host.ts",
+            "includes": "electrolux.com.py"
+          }
+        },
+        {
+          "value": {
+            "__resolveType": "website/sections/Analytics/Analytics.tsx",
+            "dangerouslyRunOnMainThread": true,
+            "trackingIds": [
+              "GTM-54LK4P83"
+            ]
+          },
+          "rule": {
+            "__resolveType": "website/matchers/host.ts",
+            "includes": "electrolux.com.uy"
+          }
+        },
+        {
+          "value": {
+            "__resolveType": "website/sections/Analytics/Analytics.tsx",
+            "dangerouslyRunOnMainThread": true,
+            "trackingIds": [
+              "GTM-W4LZ66QC"
+            ]
+          },
+          "rule": {
+            "__resolveType": "website/matchers/host.ts",
+            "includes": "electrolux.com.bo"
+          }
+        },
+        {
+          "value": {
+            "__resolveType": "website/sections/Analytics/Analytics.tsx",
+            "dangerouslyRunOnMainThread": true,
+            "trackingIds": []
+          },
+          "rule": {
+            "__resolveType": "website/matchers/always.ts"
+          }
+        }
+      ]
     },
     {
       "__resolveType": "analytics/sections/Analytics/DecoAnalytics.tsx"
     },
     {
-      "__resolveType": "site/sections/Session.tsx",
-      "minicart": null,
-      "wishlist": null,
-      "mode": "lazy",
-      "user": null
+      "__resolveType": "elux-components-app/sections/Content/Toast.tsx"
     },
     {
-      "__resolveType": "elux-components-app/sections/Content/Toast.tsx"
+      "__resolveType": "elux-components-app/sections/PageView.tsx"
     }
   ],
   "routes": [
@@ -49,7 +94,6 @@
   "commerce": {
     "platform": "other"
   },
-  "platform": "vtex",
   "__resolveType": "site/apps/site.ts",
   "firstByteThresholdMS": false,
   "abTesting": {
@@ -63,5 +107,6 @@
   },
   "flavor": {
     "framework": "htmx"
-  }
+  },
+  "platform": "custom"
 }
