@@ -33,7 +33,7 @@
     "simple-git": "npm:simple-git@^3.25.0",
     "std/": "https://deno.land/std@0.190.0/",
     "deco/": "https://cdn.jsdelivr.net/gh/deco-cx/deco@1.108.3/",
-    "apps/": "https://cdn.jsdelivr.net/gh/deco-cx/apps@138c53ee7113b205268a76789f6b984dfadae0aa/",
+    "apps/": "https://cdn.jsdelivr.net/gh/deco-cx/apps@0.67.0/",
     "@preact/signals": "https://esm.sh/*@preact/signals@1.2.2",
     "@preact/signals-core": "https://esm.sh/*@preact/signals-core@1.5.1",
     "daisyui": "npm:daisyui@4.6.0",
@@ -57,7 +57,7 @@
     "cache_clean": "rm deno.lock; deno cache -r main.ts",
     "build": "deno run -A dev.ts build",
     "preview": "deno run -A main.ts",
-    "generate-icons": "deno run -A --unstable static/getIcons.ts",
+    "generate-icons": "deno run -A --unstable static/generate-icons.ts",
     "dev": "deno run -A --env --unstable-kv --unstable-hmr dev.ts",
     "reload": "deno cache -r https://deco.cx/run",
     "db:setup:deps": "deno cache -r --node-modules-dir npm:drizzle-orm@0.30.10 npm:drizzle-kit@0.21.2 npm:@libsql/client@0.6.0/node",
@@ -68,7 +68,9 @@
     "db:schema:update": "DENO_FUTURE=1 deno task db:check:credentials && deno task db:generate && deno task db:migrate",
     "db:drop": "deno run -A --node-modules-dir --config=deno.json npm:drizzle-kit@0.21.2 drop"
   },
-  "githooks": { "pre-commit": "check" },
+  "githooks": {
+    "pre-commit": "check"
+  },
   "exclude": [
     "node_modules",
     "static/",
@@ -78,7 +80,15 @@
     ".deco"
   ],
   "lint": {
-    "rules": { "exclude": ["no-window"], "tags": ["fresh", "recommended"] }
+    "rules": {
+      "exclude": [
+        "no-window"
+      ],
+      "tags": [
+        "fresh",
+        "recommended"
+      ]
+    }
   },
   "nodeModulesDir": true,
   "compilerOptions": {
