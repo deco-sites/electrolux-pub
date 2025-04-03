@@ -5,7 +5,7 @@
   "siteTemplate": "elux",
   "actionPassword": {
     "__resolveType": "website/loaders/secret.ts",
-    "encrypted": "037d7c96b4db0667e4e433441fe965bf",
+    "encrypted": "f1487aafbda1ceac015f897630a0e5bc",
     "name": "ACTION_PASSWORD"
   }
 }
