@@ -107,7 +107,7 @@
                   }
                 ],
                 "title": "Refrigeración",
-                "link": "/electrodomesticos/refrigeracion",
+                "link": "/cocina/refrigeracion",
                 "titleColor": "primary"
               }
             ]
@@ -120,7 +120,7 @@
                   {
                     "icon": "search",
                     "title": "Cocinas / Estufas",
-                    "link": "/electrodomesticos/cocina"
+                    "link": "/cocina/cocinas/estufas-y-cocinas"
                   },
                   {
                     "icon": "search",
@@ -130,21 +130,21 @@
                   {
                     "icon": "search",
                     "title": "Microondas",
-                    "link": "/"
+                    "link": "/cocina/cocinas/microondas"
                   },
                   {
                     "icon": "search",
                     "title": "Campanas",
-                    "link": "/"
+                    "link": "/cocina/cocinas/campanas-extractoras"
                   },
                   {
                     "icon": "search",
                     "title": "Hornos",
-                    "link": "/"
+                    "link": "/cocina/cocinas/hornos"
                   }
                 ],
                 "title": "Cocinas",
-                "link": "/electrodomesticos/cocina",
+                "link": "/cocina/cocinas",
                 "titleColor": "primary"
               }
             ]
@@ -161,20 +161,14 @@
                   }
                 ],
                 "title": "Lavavajillas",
-                "link": "/",
+                "link": "/cocina/lavavajillas",
                 "titleColor": "primary"
               },
               {
                 "icon": "iron-frigidaire",
-                "navItems": [
-                  {
-                    "icon": "search",
-                    "title": "xxx",
-                    "link": "/"
-                  }
-                ],
-                "title": "Pequeños  Electrodomésticos",
-                "link": "/",
+                "navItems": [],
+                "title": "Pequeños Electrodomésticos",
+                "link": "/pequenos-electrodomesticos",
                 "titleColor": "primary"
               }
             ]
@@ -236,14 +230,14 @@
                   }
                 ],
                 "title": "Secadoras",
-                "link": "/",
+                "link": "/area-de-lavado/secadoras",
                 "titleColor": "primary"
               }
             ]
           }
         ],
         "title": "Área de lavado",
-        "link": "/electrodomesticos",
+        "link": "/area-de-lavado",
         "color": "primary"
       },
       {
@@ -266,7 +260,7 @@
                   }
                 ],
                 "title": "Aire Acondicionado",
-                "link": "/",
+                "link": "/bienestar-del-hogar/aire-acondicionado",
                 "titleColor": "primary"
               }
             ]
@@ -275,22 +269,16 @@
             "categories": [
               {
                 "icon": "vacuum-frigidaire",
-                "navItems": [
-                  {
-                    "icon": "search",
-                    "title": "xxx",
-                    "link": "/"
-                  }
-                ],
-                "title": "Aspiradoras",
-                "link": "/",
+                "navItems": [],
+                "title": "Limpieza",
+                "link": "/bienestar-del-hogar/limpieza",
                 "titleColor": "primary"
               }
             ]
           }
         ],
         "title": "Bienestar del hogar",
-        "link": "/electrodomesticos",
+        "link": "/bienestar-del-hogar",
         "color": "primary"
       },
       {
@@ -346,13 +334,13 @@
                   }
                 ],
                 "title": "Electrodomésticos",
-                "link": "/"
+                "link": "/pequenos-electrodomesticos/electrodomesticos"
               }
             ]
           }
         ],
         "title": "Pequeños Electrodomésticos",
-        "link": "/"
+        "link": "/pequenos-electrodomesticos/electrodomesticos"
       }
     ],
     "extraLinks": [
