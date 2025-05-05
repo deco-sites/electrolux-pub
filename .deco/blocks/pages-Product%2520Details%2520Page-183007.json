@@ -174,7 +174,44 @@
             }
           },
           {
-            "__resolveType": "Footer"
+            "__resolveType": "website/flags/multivariate/section.ts",
+            "variants": [
+              {
+                "value": {
+                  "__resolveType": "Footer PY"
+                },
+                "rule": {
+                  "__resolveType": "website/matchers/host.ts",
+                  "includes": "electrolux.com.py"
+                }
+              },
+              {
+                "value": {
+                  "__resolveType": "Footer UY"
+                },
+                "rule": {
+                  "__resolveType": "website/matchers/host.ts",
+                  "includes": "electrolux.com.uy"
+                }
+              },
+              {
+                "value": {
+                  "__resolveType": "Footer BO"
+                },
+                "rule": {
+                  "__resolveType": "website/matchers/host.ts",
+                  "includes": "electrolux.com.bo"
+                }
+              },
+              {
+                "value": {
+                  "__resolveType": "Footer"
+                },
+                "rule": {
+                  "__resolveType": "website/matchers/always.ts"
+                }
+              }
+            ]
           }
         ],
         "rule": {
@@ -347,7 +384,44 @@
             }
           },
           {
-            "__resolveType": "Footer"
+            "__resolveType": "website/flags/multivariate/section.ts",
+            "variants": [
+              {
+                "value": {
+                  "__resolveType": "Footer PY"
+                },
+                "rule": {
+                  "__resolveType": "website/matchers/host.ts",
+                  "includes": "electrolux.com.py"
+                }
+              },
+              {
+                "value": {
+                  "__resolveType": "Footer UY"
+                },
+                "rule": {
+                  "__resolveType": "website/matchers/host.ts",
+                  "includes": "electrolux.com.uy"
+                }
+              },
+              {
+                "value": {
+                  "__resolveType": "Footer BO"
+                },
+                "rule": {
+                  "__resolveType": "website/matchers/host.ts",
+                  "includes": "electrolux.com.bo"
+                }
+              },
+              {
+                "value": {
+                  "__resolveType": "Footer"
+                },
+                "rule": {
+                  "__resolveType": "website/matchers/always.ts"
+                }
+              }
+            ]
           }
         ],
         "rule": {

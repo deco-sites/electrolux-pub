@@ -1,10 +1,19 @@
 {
   "__resolveType": "elux-components-app/sections/Footer/Footer.tsx",
+  "title": {
+    "fontColor": "primary",
+    "fontSize": "text-xl",
+    "fontWeight": "font-thin",
+    "text": "Electrolux"
+  },
+  "bgColor": "base-200",
   "collumns": [
     {
       "categories": [
         {
           "type": "text",
+          "title": "Product Categories",
+          "link": "/",
           "items": [
             {
               "link": "/electrodomesticos/cocina",
@@ -22,8 +31,6 @@
               "fontWeight": "font-medium"
             }
           ],
-          "title": "Product Categories",
-          "link": "/",
           "textColor": "primary",
           "fontWeight": "font-thin"
         }
@@ -33,6 +40,8 @@
       "categories": [
         {
           "type": "text",
+          "title": "Soporte y Servicio Técnico",
+          "link": "/",
           "items": [
             {
               "title": "Distribuidores de partes",
@@ -55,8 +64,6 @@
               "fontWeight": "font-medium"
             }
           ],
-          "title": "Soporte y Servicio Técnico",
-          "link": "/",
           "textColor": "primary",
           "fontWeight": "font-thin"
         }
@@ -66,6 +73,8 @@
       "categories": [
         {
           "type": "text",
+          "title": "Electrolux",
+          "link": "/",
           "items": [
             {
               "title": "Blog Mexico",
@@ -78,22 +87,77 @@
               "fontWeight": "font-medium"
             }
           ],
-          "title": "Electrolux",
-          "link": "/",
           "textColor": "primary",
           "fontWeight": "font-thin"
         }
       ]
     }
   ],
-  "richText": "<p><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"/politica-de-privacidad\"><strong><u><span style=\"color: rgb(1, 30, 65); font-size: 11pt\">Privacy Policy</span></u></strong></a><strong><span style=\"color: rgb(1, 30, 65); font-size: 11pt\"> - </span></strong><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"/politica-de-garantia\"><strong><u><span style=\"color: rgb(1, 30, 65); font-size: 11pt\">Warranty Policy</span></u></strong></a></p><p><br></p><p>Copyright Electrolux @ 2022 todos os direitos reservados - Loja Electrolux Comércio virtual de eletrodomésticos LTDA Rua João Lunardelli, 2205 - Cidade Industrial - Curitiba - PR - CEP: 81460-100 CNPJ: 13.986.197/0001-21.<br><br></p><p style=\"text-align: justify\">As fotos dos produtos são meramente ilustrativas. A venda dos produtos publicados está sujeita a disponibilidade de estoque. Os preços, promoções e formas de pagamento publicados em <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://atendimento.electrolux.com.br\">https://atendimento.electrolux.com.br</a> estão válidos exclusivamente para compra via site no endereço mencionado. As especificações técnicas e descrições estão sujeitas a alterações sem aviso prévio.</p>",
-  "title": {
-    "fontColor": "primary",
-    "fontSize": "text-xl",
-    "text": "Electrolux",
-    "fontWeight": "font-thin"
+  "gap": "0",
+  "extraMedia": {
+    "title": {
+      "fontColor": "primary",
+      "fontSize": "text-base",
+      "fontWeight": "font-thin",
+      "text": "Enjoy our social media"
+    },
+    "description": {
+      "fontColor": "secondary",
+      "fontSize": "text-xs",
+      "fontWeight": "font-thin",
+      "text": "You can ask questions, learn more about products in action and their features, as well as check out tips and more about Electrolux."
+    },
+    "images": [
+      {
+        "alt": "Facebook",
+        "link": "/",
+        "isBlank": true,
+        "width": 32,
+        "height": 32,
+        "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/elux-latam/4bacb11c-87b3-420b-ac33-fb07a6a8b6ae/32px.png"
+      },
+      {
+        "alt": "Instagram",
+        "link": "/",
+        "isBlank": true,
+        "width": 32,
+        "height": 32,
+        "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/elux-latam/749bf2e7-1c97-4b83-a7f4-c5386b279552/32px.png"
+      },
+      {
+        "alt": "Youtube",
+        "link": "/",
+        "isBlank": true,
+        "width": 32,
+        "height": 32,
+        "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/elux-latam/295be98b-f7fa-4963-b34e-4c6aa90b738d/32px.png"
+      }
+    ],
+    "gap": "5",
+    "align": "start",
+    "social": [
+      {
+        "alt": "facebook",
+        "href": "#",
+        "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2177/66137259-6bdb-4322-bed1-a2593560934c"
+      },
+      {
+        "alt": "Instagram",
+        "href": "#",
+        "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2177/e71ae7f3-0f51-4185-af0a-fca08ebe4451"
+      },
+      {
+        "alt": "Pinterest",
+        "href": "#",
+        "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2177/4becba39-fc08-4df2-bb5d-5e843f375deb"
+      },
+      {
+        "alt": "X",
+        "href": "#",
+        "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2177/179a9ee9-3813-47b8-96eb-11e0c5558ede"
+      }
+    ]
   },
-  "bgColor": "base-200",
   "spacing": {
     "desktop": {
       "top": {
@@ -118,70 +182,6 @@
   },
   "justifyBetween": false,
   "hideHr": false,
-  "extraMedia": {
-    "title": {
-      "fontColor": "primary",
-      "fontSize": "text-base",
-      "text": "Enjoy our social media",
-      "fontWeight": "font-thin"
-    },
-    "description": {
-      "fontColor": "secondary",
-      "fontSize": "text-xs",
-      "text": "You can ask questions, learn more about products in action and their features, as well as check out tips and more about Electrolux.",
-      "fontWeight": "font-thin"
-    },
-    "images": [
-      {
-        "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/elux-latam/4bacb11c-87b3-420b-ac33-fb07a6a8b6ae/32px.png",
-        "link": "/",
-        "isBlank": true,
-        "width": 32,
-        "height": 32,
-        "alt": "Facebook"
-      },
-      {
-        "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/elux-latam/749bf2e7-1c97-4b83-a7f4-c5386b279552/32px.png",
-        "link": "/",
-        "isBlank": true,
-        "width": 32,
-        "height": 32,
-        "alt": "Instagram"
-      },
-      {
-        "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/elux-latam/295be98b-f7fa-4963-b34e-4c6aa90b738d/32px.png",
-        "link": "/",
-        "isBlank": true,
-        "width": 32,
-        "height": 32,
-        "alt": "Youtube"
-      }
-    ],
-    "social": [
-      {
-        "alt": "facebook",
-        "href": "#",
-        "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2177/66137259-6bdb-4322-bed1-a2593560934c"
-      },
-      {
-        "alt": "Instagram",
-        "href": "#",
-        "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2177/e71ae7f3-0f51-4185-af0a-fca08ebe4451"
-      },
-      {
-        "alt": "Pinterest",
-        "href": "#",
-        "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2177/4becba39-fc08-4df2-bb5d-5e843f375deb"
-      },
-      {
-        "alt": "X",
-        "href": "#",
-        "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2177/179a9ee9-3813-47b8-96eb-11e0c5558ede"
-      }
-    ],
-    "gap": "5",
-    "align": "start"
-  },
-  "reverseColumn": true,
-  "gap": "0"
+  "richText": "<p><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"/politica-de-privacidad\"><strong><u><span style=\"color: rgb(1, 30, 65); font-size: 11pt\">Privacy Policy</span></u></strong></a><strong><span style=\"color: rgb(1, 30, 65); font-size: 11pt\"> - </span></strong><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"/politica-de-garantia\"><strong><u><span style=\"color: rgb(1, 30, 65); font-size: 11pt\">Warranty Policy</span></u></strong></a></p><p><br></p><p>Copyright Electrolux @ 2022 todos os direitos reservados - Loja Electrolux Comércio virtual de eletrodomésticos LTDA Rua João Lunardelli, 2205 - Cidade Industrial - Curitiba - PR - CEP: 81460-100 CNPJ: 13.986.197/0001-21.<br><br></p><p style=\"text-align: justify\">As fotos dos produtos são meramente ilustrativas. A venda dos produtos publicados está sujeita a disponibilidade de estoque. Os preços, promoções e formas de pagamento publicados em <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://atendimento.electrolux.com.br\">https://atendimento.electrolux.com.br</a> estão válidos exclusivamente para compra via site no endereço mencionado. As especificações técnicas e descrições estão sujeitas a alterações sem aviso prévio.</p>",
+  "reverseColumn": true
 }
