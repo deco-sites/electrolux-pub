@@ -167,6 +167,49 @@
       }
     },
     {
+      "__resolveType": "elux-components-app/sections/Content/ImageCards.tsx",
+      "title": "FRIGIDAIRE INSPIRA",
+      "spacing": {
+        "desktop": {
+          "top": {
+            "behavior": "split",
+            "size": "medium"
+          },
+          "bottom": {
+            "behavior": "split",
+            "size": "medium"
+          }
+        },
+        "mobile": {
+          "top": {
+            "behavior": "split",
+            "size": "large"
+          },
+          "bottom": {
+            "behavior": "split",
+            "size": "double-extra-large"
+          }
+        }
+      },
+      "imageCards": [
+        {
+          "image": "https://data.decoassets.com/frigidaire-es/8beeab5c-301d-4996-a767-e95e5ee2cfb9/COCINA.jpg",
+          "link": "/cocina",
+          "text": "Cocina"
+        },
+        {
+          "image": "https://data.decoassets.com/frigidaire-es/c9d83555-c847-4887-8e74-aefe199f108b/AREA-DE-LAVADO.jpg",
+          "link": "/area-de-lavado",
+          "text": "Área de lavado"
+        },
+        {
+          "image": "https://data.decoassets.com/frigidaire-es/f3f4cf9a-0faa-4340-842b-820f8f080b03/BIENESTAR-DEL-HOGAR.jpg",
+          "text": "Bienestar del hogar",
+          "link": "bienestar-del-hogar"
+        }
+      ]
+    },
+    {
       "__resolveType": "elux-components-app/sections/Content/HelpCards.tsx",
       "title": "Necesitas ayuda?",
       "cards": [
@@ -189,39 +232,6 @@
           "url": "/contactanos"
         }
       ]
-    },
-    {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "elux-components-app/sections/blog/BlogShelf.tsx",
-        "title": "Visita nuestro blog",
-        "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel ultricies leo. Nam vel urna at mi ullamcorper sagittis. Aliquam erat volutpat. <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://electrolux-nola.deco.site/blog\"><u>Enlace que dirige al blog</u></a><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"/blog\"><strong>.</strong></a></p>",
-        "blogposts": {
-          "__resolveType": "Teste Blogpost List"
-        },
-        "spacing": {
-          "desktop": {
-            "top": {
-              "behavior": "split",
-              "size": "medium"
-            },
-            "bottom": {
-              "behavior": "split",
-              "size": "extra-large"
-            }
-          },
-          "mobile": {
-            "top": {
-              "behavior": "split",
-              "size": "large"
-            },
-            "bottom": {
-              "behavior": "split",
-              "size": "double-extra-large"
-            }
-          }
-        }
-      }
     },
     {
       "__resolveType": "website/flags/multivariate/section.ts",
