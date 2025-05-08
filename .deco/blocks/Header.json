@@ -380,14 +380,6 @@
       {
         "links": [
           {
-            "title": "Blog Mexico",
-            "link": "/blog",
-            "textColor": "primary",
-            "textSize": "text-sm",
-            "fontWeight": "font-normal",
-            "icon": "book-frigidaire"
-          },
-          {
             "title": "Sobre nosotros",
             "link": "/sobre-nosotros",
             "textColor": "primary",

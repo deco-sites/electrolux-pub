@@ -111,20 +111,14 @@
         "fontSize": "text-2xl"
       },
       "description": {
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel ultricies leo.",
         "fontColor": "secondary",
-        "fontSize": "text-base"
+        "fontSize": "text-base",
+        "text": "Temporario"
       },
       "countries": [
-        "Costa Rica",
-        "El Salvador",
-        "Guatemala",
-        "Honduras",
-        "México",
-        "Nicarágua",
-        "Panamá",
-        "Puerto Rico",
-        "República Dominicana"
+        "Bolivia",
+        "Paraguay",
+        "Uruguay"
       ],
       "subjects": [
         "Asunto",
