@@ -77,11 +77,6 @@
           "link": "/",
           "items": [
             {
-              "title": "Blog Mexico",
-              "link": "/blog",
-              "fontWeight": "font-medium"
-            },
-            {
               "title": "Acerca de Electrolux",
               "link": "/sobre-nosotros",
               "fontWeight": "font-medium"
@@ -110,7 +105,7 @@
     "images": [
       {
         "alt": "Facebook",
-        "link": "/",
+        "link": "https://www.facebook.com/ElectroluxParaguay/",
         "isBlank": true,
         "width": 32,
         "height": 32,
@@ -118,15 +113,15 @@
       },
       {
         "alt": "Instagram",
-        "link": "/",
         "isBlank": true,
         "width": 32,
         "height": 32,
-        "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/elux-latam/749bf2e7-1c97-4b83-a7f4-c5386b279552/32px.png"
+        "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/elux-latam/749bf2e7-1c97-4b83-a7f4-c5386b279552/32px.png",
+        "link": "https://www.instagram.com/electroluxpy/"
       },
       {
         "alt": "Youtube",
-        "link": "/",
+        "link": "https://www.youtube.com/@electroluxpy",
         "isBlank": true,
         "width": 32,
         "height": 32,

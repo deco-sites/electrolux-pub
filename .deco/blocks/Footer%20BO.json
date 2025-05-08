@@ -77,11 +77,6 @@
           "link": "/",
           "items": [
             {
-              "title": "Blog Mexico",
-              "link": "/blog",
-              "fontWeight": "font-medium"
-            },
-            {
               "title": "Acerca de Electrolux",
               "link": "/sobre-nosotros",
               "fontWeight": "font-medium"
@@ -110,7 +105,7 @@
     "images": [
       {
         "alt": "Facebook",
-        "link": "/",
+        "link": "https://www.facebook.com/ElectroluxBolivia",
         "isBlank": true,
         "width": 32,
         "height": 32,
@@ -118,7 +113,7 @@
       },
       {
         "alt": "Instagram",
-        "link": "/",
+        "link": "https://www.instagram.com/electroluxbo/",
         "isBlank": true,
         "width": 32,
         "height": 32,
@@ -126,7 +121,7 @@
       },
       {
         "alt": "Youtube",
-        "link": "/",
+        "link": "https://www.youtube.com/@electroluxbo",
         "isBlank": true,
         "width": 32,
         "height": 32,
