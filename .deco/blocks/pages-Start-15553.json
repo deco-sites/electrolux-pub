@@ -125,26 +125,6 @@
                 "icon": "water-purifier",
                 "title": "Purificadores",
                 "url": "/electrodomesticos"
-              },
-              {
-                "icon": "vacuum-frigidaire",
-                "title": "Aspiradoras",
-                "url": "/electrodomesticos"
-              },
-              {
-                "icon": "air-fryer-frigidaire",
-                "title": "Freidora de aire",
-                "url": "/electrodomesticos"
-              },
-              {
-                "icon": "wind-frigidaire",
-                "title": "Aire acondicionado",
-                "url": "/electrodomesticos"
-              },
-              {
-                "icon": "pan-frigidaire",
-                "title": "Pequeños Electrodomésticos",
-                "url": "/electrodomesticos"
               }
             ]
           },
@@ -214,22 +194,20 @@
       "title": "Necesitas ayuda?",
       "cards": [
         {
-          "icon": "email-frigidaire",
+          "icon": "bag-frigidaire",
           "title": "¿Dónde comprar?",
-          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel ultricies leo.",
           "url": "/distribuidores-de-partes"
         },
         {
           "icon": "tool-frigidaire",
-          "title": "Lista de soporte técnico",
-          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel ultricies leo.",
+          "title": "Soporte técnico",
           "url": "/centros-de-servicio"
         },
         {
           "icon": "headset-frigidaire",
-          "title": "Formulario de contacto",
-          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel ultricies leo.",
-          "url": "/contactanos"
+          "title": "Contáctanos",
+          "url": "/contactanos",
+          "description": "Llena el formulario."
         }
       ]
     },
