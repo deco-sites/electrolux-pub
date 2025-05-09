@@ -55,10 +55,10 @@
               "fontWeight": "font-medium"
             }
           ],
-          "title": "Soporte y Servicio Técnico",
           "link": "/",
           "textColor": "primary",
-          "fontWeight": "font-thin"
+          "fontWeight": "font-thin",
+          "title": "Servicio al Cliente"
         }
       ]
     },
