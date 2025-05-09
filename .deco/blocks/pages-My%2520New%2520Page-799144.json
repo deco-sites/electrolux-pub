@@ -317,6 +317,11 @@
                     "label": "3369972"
                   },
                   {
+                    "icon": "check-circle",
+                    "label": "Horarios de Atención: Lun~Vier: 8:30 a 16:30 | Sabados: 8:30 a 12:30"
+                  },
+                  {},
+                  {
                     "icon": "home_pin",
                     "label": "2 - Los Pinos – Calle 28 Urb. Los Olivos N° 315, La Paz"
                   },
@@ -324,6 +329,11 @@
                     "icon": "headset-frigidaire",
                     "label": "221 44813"
                   },
+                  {
+                    "icon": "check-circle",
+                    "label": "Horarios de Atención: Lun~Vier: 8:30 a 16:30 | Sabados: 8:30 a 12:30"
+                  },
+                  {},
                   {
                     "icon": "home_pin",
                     "label": "3 - KM 7 ½ Carretera a Sacaba – Detrás de fabrica Faboce (Calle innominada), Cochabamba"
