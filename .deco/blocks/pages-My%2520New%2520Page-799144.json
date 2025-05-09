@@ -68,9 +68,9 @@
                 "overrideFontColor": "secondary"
               },
               {
-                "label": "Contactanos form",
+                "label": "Centros de servício",
                 "hoverUnderline": true,
-                "href": "/",
+                "href": "/centros-de-servicio",
                 "overrideFontColor": "primary"
               }
             ],
