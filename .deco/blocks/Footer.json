@@ -68,11 +68,6 @@
           "type": "text",
           "items": [
             {
-              "title": "Blog Mexico",
-              "link": "/blog",
-              "fontWeight": "font-medium"
-            },
-            {
               "title": "Acerca de Electrolux",
               "link": "/sobre-nosotros",
               "fontWeight": "font-medium"
