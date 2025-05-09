@@ -530,7 +530,7 @@
               "fontWeight": "font-semibold"
             },
             "description": {
-              "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel ultricies leo. Nam vel urna at mi ullamcorper sagittis.",
+              "text": "<p></p>",
               "fontColor": "white",
               "fontSize": "text-base",
               "fontWeight": "font-light"
@@ -576,13 +576,11 @@
             "__resolveType": "elux-components-app/sections/Content/Cards.tsx",
             "backgroundColor": "base-content",
             "title": {
-              "text": "Sugerencia de título: valores o características",
               "fontColor": "primary",
               "fontSize": "text-2.5xl",
               "fontWeight": "font-medium"
             },
             "description": {
-              "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel ultricies leo. Nam vel urna at mi ullamcorper sagittis.",
               "fontColor": "secondary",
               "fontSize": "text-base",
               "fontWeight": "font-light"
@@ -594,18 +592,15 @@
                 "fontWeight": "font-light"
               },
               "bgColor": "white",
-              "gap": "5",
-              "grid": "3"
+              "gap": "2",
+              "grid": "2"
             },
             "cards": [
               {
-                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel ultricies leo."
+                "text": "Nacidos en Suecia, en 1919, nuestro grupo se encuentra conformado por seis marcas en América Latina: Electrolux, Continental, Fensa, Mademsa, Somela y Gafa. "
               },
               {
-                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel ultricies leo."
-              },
-              {
-                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel ultricies leo."
+                "text": "Todas ellas mantienen calidad y diseño reconocidos en todo el mundo, además del enfoque y propósito principal de nuestra compañía: ubicar al consumidor en el centro de todo."
               }
             ],
             "spacing": {
@@ -632,227 +627,19 @@
             }
           },
           {
-            "__resolveType": "elux-components-app/sections/Content/TextCards.tsx",
-            "title": {
-              "text": "Inserta un título aquí",
-              "fontColor": "primary",
-              "fontSize": "text-2.5xl",
-              "fontWeight": "font-medium"
-            },
-            "description": {
-              "text": "Lorem ipsum dolor sit amet. Ut error voluptates 33 voluptatem veritatis et officiis autem sit enim asperiores qui laudantium dolor ut quaerat deleniti. Id odio ipsam qui omnis dolorem qui dolorem aliquid sed temporibus officia.",
-              "fontColor": "secondary",
-              "fontSize": "text-base",
-              "fontWeight": "font-normal"
-            },
-            "sectionProps": {
-              "titleProps": {
-                "fontColor": "primary",
-                "fontWeight": "font-medium",
-                "fontSize": "text-lg"
-              },
-              "complementProps": {
-                "fontColor": "secondary",
-                "fontSize": "text-base",
-                "fontWeight": "font-normal"
-              },
-              "gapX": "5",
-              "gapY": "10",
-              "grid": "2"
-            },
-            "textSections": [
-              {
-                "title": "Insert a title here",
-                "complement": "<p><span>Lorem ipsum dolor sit amet. Ut error voluptates 33 voluptatem veritatis et officiis autem sit enim asperiores qui laudantium dolor ut quaerat deleniti. Id odio ipsam qui omnis dolorem qui dolorem aliquid sed temporibus officia. Et totam obcaecati non voluptatum provident eum voluptatem quia non nostrum corporis id ducimus dolor a ipsa officiis! Ea omnis aliquid sed inventore nemo ut adipisci dolore eos velit incidunt ut doloribus molestiae.</span></p>"
-              },
-              {
-                "title": "Insert a title here",
-                "complement": "<p><span>Lorem ipsum dolor sit amet. Ut error voluptates 33 voluptatem veritatis et officiis autem sit enim asperiores qui laudantium dolor ut quaerat deleniti. Id odio ipsam qui omnis dolorem qui dolorem aliquid sed temporibus officia. Et totam obcaecati non voluptatum provident eum voluptatem quia non nostrum corporis id ducimus dolor a ipsa officiis! Ea omnis aliquid sed inventore nemo ut adipisci dolore eos velit incidunt ut doloribus molestiae.</span></p>"
-              },
-              {
-                "title": "Insert a title here",
-                "complement": "<p><span>Lorem ipsum dolor sit amet. Ut error voluptates 33 voluptatem veritatis et officiis autem sit enim asperiores qui laudantium dolor ut quaerat deleniti. Id odio ipsam qui omnis dolorem qui dolorem aliquid sed temporibus officia. Et totam obcaecati non voluptatum provident eum voluptatem quia non nostrum corporis id ducimus dolor a ipsa officiis! Ea omnis aliquid sed inventore nemo ut adipisci dolore eos velit incidunt ut doloribus molestiae.</span></p>"
-              },
-              {
-                "title": "Insert a title here",
-                "complement": "<p>Lorem ipsum dolor sit amet. Ut error voluptates 33 voluptatem veritatis et officiis autem sit enim asperiores qui laudantium dolor ut quaerat deleniti. Id odio ipsam qui omnis dolorem qui dolorem aliquid sed temporibus officia. Et totam obcaecati non voluptatum provident eum voluptatem quia non nostrum corporis id ducimus dolor a ipsa officiis! Ea omnis aliquid sed inventore nemo ut adipisci dolore eos velit incidunt ut doloribus molestiae.</p>"
-              }
-            ],
-            "spacingConfig": {
-              "desktop": {
-                "top": {
-                  "behavior": "split",
-                  "size": "medium"
-                },
-                "bottom": {
-                  "behavior": "split",
-                  "size": "medium"
-                }
-              },
-              "mobile": {
-                "top": {
-                  "behavior": "split",
-                  "size": "extra-large"
-                },
-                "bottom": {
-                  "behavior": "split",
-                  "size": "extra-large"
-                }
-              }
-            }
-          },
-          {
             "__resolveType": "elux-components-app/sections/Content/Banner.tsx",
-            "backgroundColor": "white",
             "title": {
-              "text": "Inserta un título aquí",
-              "fontColor": "primary",
+              "fontColor": "white",
               "fontSize": "text-2.5xl",
               "fontWeight": "font-medium"
             },
             "description": {
-              "text": "<p>Lorem ipsum dolor sit amet. Ut error voluptates 33 voluptatem veritatis et officiis autem sit enim asperiores qui laudantium dolor ut quaerat deleniti. Id odio ipsam qui omnis dolorem qui dolorem aliquid sed temporibus officia. Et totam obcaecati non voluptatum provident eum voluptatem quia non nostrum corporis id ducimus dolor a ipsa officiis! Ea omnis aliquid sed inventore nemo ut adipisci dolore eos velit incidunt ut doloribus molestiae.</p>",
-              "fontColor": "secondary",
+              "text": "<p>Desde el desarrollo y creación de la primera aspiradora de polvo, somos la única empresa de electrodomésticos del mundo que es capaz de ofrecer soluciones completas a consumidores y profesionales.</p>",
+              "fontColor": "white",
               "fontSize": "text-base",
               "fontWeight": "font-light"
             },
-            "image": {
-              "desktop": {
-                "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/elux-latam/397156ba-4005-4130-bac8-61d0e09e876f/imagem-(1).png",
-                "sizing": {
-                  "width": 510,
-                  "height": 359
-                }
-              },
-              "mobile": {
-                "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/elux-latam/916f06d0-a995-4d34-b5e9-8bd5f3779d04/imagem-(2).png",
-                "sizing": {
-                  "width": 327,
-                  "height": 210
-                }
-              },
-              "alt": "Elux"
-            },
-            "textGap": "4",
-            "imageGap": "28",
-            "fullWidith": false,
-            "spacing": {
-              "desktop": {
-                "top": {
-                  "behavior": "split",
-                  "size": "medium"
-                },
-                "bottom": {
-                  "behavior": "split",
-                  "size": "medium"
-                }
-              },
-              "mobile": {
-                "top": {
-                  "behavior": "split",
-                  "size": "extra-large"
-                },
-                "bottom": {
-                  "behavior": "split",
-                  "size": "extra-large"
-                }
-              }
-            },
-            "link": {
-              "text": "Insert a link here",
-              "fontColor": "primary",
-              "fontSize": "text-xl",
-              "fontWeight": "font-medium",
-              "url": "#",
-              "icon": {},
-              "disableUnderline": true
-            },
-            "invertPosition": false,
-            "disablePaddings": true
-          },
-          {
-            "__resolveType": "elux-components-app/sections/Content/Banner.tsx",
-            "backgroundColor": "white",
-            "title": {
-              "text": "Insert a title here",
-              "fontColor": "primary",
-              "fontSize": "text-2.5xl",
-              "fontWeight": "font-medium"
-            },
-            "description": {
-              "text": "Lorem ipsum dolor sit amet. Ut error voluptates 33 voluptatem veritatis et officiis autem sit enim asperiores qui laudantium dolor ut quaerat deleniti. Id odio ipsam qui omnis dolorem qui dolorem aliquid sed temporibus officia. Et totam obcaecati non voluptatum provident eum voluptatem quia non nostrum corporis id ducimus dolor a ipsa officiis! Ea omnis aliquid sed inventore nemo ut adipisci dolore eos velit incidunt ut doloribus molestiae.",
-              "fontColor": "secondary",
-              "fontSize": "text-base",
-              "fontWeight": "font-light"
-            },
-            "image": {
-              "desktop": {
-                "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/elux-latam/397156ba-4005-4130-bac8-61d0e09e876f/imagem-(1).png",
-                "sizing": {
-                  "width": 510,
-                  "height": 359
-                }
-              },
-              "mobile": {
-                "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/elux-latam/916f06d0-a995-4d34-b5e9-8bd5f3779d04/imagem-(2).png",
-                "sizing": {
-                  "width": 327,
-                  "height": 210
-                }
-              },
-              "alt": "Elux"
-            },
-            "textGap": "4",
-            "imageGap": "28",
-            "fullWidith": false,
-            "spacing": {
-              "desktop": {
-                "top": {
-                  "behavior": "split",
-                  "size": "medium"
-                },
-                "bottom": {
-                  "behavior": "split",
-                  "size": "medium"
-                }
-              },
-              "mobile": {
-                "top": {
-                  "behavior": "split",
-                  "size": "extra-large"
-                },
-                "bottom": {
-                  "behavior": "split",
-                  "size": "extra-large"
-                }
-              }
-            },
-            "link": {
-              "text": "Insert a link here",
-              "fontColor": "primary",
-              "fontSize": "text-xl",
-              "fontWeight": "font-medium",
-              "url": "#",
-              "disableUnderline": true
-            },
-            "invertPosition": true,
-            "disablePaddings": true
-          },
-          {
-            "__resolveType": "elux-components-app/sections/Content/Banner.tsx",
             "backgroundColor": "primary",
-            "title": {
-              "text": "Inserta un título aquí",
-              "fontColor": "white",
-              "fontSize": "text-2.5xl",
-              "fontWeight": "font-medium"
-            },
-            "description": {
-              "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel ultricies leo. Nam vel urna at mi ullamcorper sagittis.",
-              "fontColor": "white",
-              "fontSize": "text-base",
-              "fontWeight": "font-light"
-            },
             "image": {
               "desktop": {
                 "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/elux-latam/e7bb1f06-e294-4f02-88a0-cc65c0d028ac/imagem.png",
@@ -882,13 +669,79 @@
               }
             },
             "link": {
-              "text": "Insert a link to another page here",
               "fontColor": "white",
               "fontSize": "text-base",
               "fontWeight": "font-medium",
               "url": "#"
             },
             "invertPosition": false
+          },
+          {
+            "__resolveType": "elux-components-app/sections/Content/Banner.tsx",
+            "backgroundColor": "white",
+            "title": {
+              "fontColor": "primary",
+              "fontSize": "text-2.5xl",
+              "fontWeight": "font-medium"
+            },
+            "description": {
+              "text": "<p>Y eso se puede comprobar gracias a los 60 millones de electrodomésticos vendidos, todos los años, en más de 150 mercados.</p>",
+              "fontColor": "secondary",
+              "fontSize": "text-base",
+              "fontWeight": "font-light"
+            },
+            "image": {
+              "desktop": {
+                "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/elux-latam/397156ba-4005-4130-bac8-61d0e09e876f/imagem-(1).png",
+                "sizing": {
+                  "width": 510,
+                  "height": 359
+                }
+              },
+              "mobile": {
+                "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/elux-latam/916f06d0-a995-4d34-b5e9-8bd5f3779d04/imagem-(2).png",
+                "sizing": {
+                  "width": 327,
+                  "height": 210
+                }
+              },
+              "alt": "Elux"
+            },
+            "textGap": "4",
+            "imageGap": "28",
+            "fullWidith": false,
+            "spacing": {
+              "desktop": {
+                "top": {
+                  "behavior": "split",
+                  "size": "medium"
+                },
+                "bottom": {
+                  "behavior": "split",
+                  "size": "medium"
+                }
+              },
+              "mobile": {
+                "top": {
+                  "behavior": "split",
+                  "size": "extra-large"
+                },
+                "bottom": {
+                  "behavior": "split",
+                  "size": "extra-large"
+                }
+              }
+            },
+            "link": {
+              "fontColor": "primary",
+              "fontSize": "text-xl",
+              "fontWeight": "font-medium",
+              "url": "#",
+              "text": "Haz tu vida más fácil y moderna con Electrolux en casa.",
+              "disableUnderline": true
+            },
+            "invertPosition": true,
+            "disablePaddings": true
           },
           {
             "__resolveType": "website/flags/multivariate/section.ts",
