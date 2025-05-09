@@ -10,14 +10,14 @@
       "images": [
         {
           "desktop": {
-            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/elux-latam/3d5316ba-5708-4ecd-bf6f-32cbf6ccad30/image-20.png",
-            "width": 1280,
-            "height": 420
+            "image": "https://assets.decocache.com/electrolux-pub/3c8c92ed-3e80-4534-b753-f8e5c84b8635/DESKTOP-COCINA-FE5AD.png",
+            "width": 1920,
+            "height": 600
           },
           "mobile": {
-            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/elux-latam/54789211-f941-4562-b3d2-f15a61b2a197/Banner-Full-Home.png",
-            "width": 375,
-            "height": 320
+            "image": "https://assets.decocache.com/electrolux-pub/bd56d795-093b-4164-8000-262eb095504d/MOBILE-COCINA-FE5AD.png",
+            "width": 600,
+            "height": 600
           },
           "bannerType": "image",
           "alt": "Banner",
