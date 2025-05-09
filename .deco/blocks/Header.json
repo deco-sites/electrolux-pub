@@ -87,8 +87,8 @@
                   },
                   {
                     "icon": "search",
-                    "title": "French Door",
-                    "link": "/"
+                    "link": "/",
+                    "title": "Multidoor"
                   },
                   {
                     "icon": "search",
@@ -98,11 +98,6 @@
                   {
                     "icon": "search",
                     "title": "Congeladores",
-                    "link": "/"
-                  },
-                  {
-                    "icon": "search",
-                    "title": "Cavas de Vino",
                     "link": "/"
                   }
                 ],
@@ -175,17 +170,7 @@
                   },
                   {
                     "icon": "search",
-                    "title": "Lavadora Carga Frontal",
-                    "link": "/"
-                  },
-                  {
-                    "icon": "search",
                     "title": "Lava Secadora",
-                    "link": "/"
-                  },
-                  {
-                    "icon": "search",
-                    "title": "Centro de lavado",
                     "link": "/"
                   }
                 ],
@@ -202,13 +187,12 @@
                 "navItems": [
                   {
                     "icon": "search",
-                    "title": "Secadora Carga Superior",
+                    "title": "Secadora Carga Frontal",
                     "link": "/"
                   },
                   {
                     "icon": "search",
-                    "title": "Secadora Carga Frontal",
-                    "link": "/"
+                    "title": "Secadoras Pared y Piso"
                   }
                 ],
                 "title": "Secadoras",
@@ -223,25 +207,13 @@
         "color": "primary"
       },
       {
-        "icon": "wind-frigidaire",
+        "icon": "water-purifier",
         "collums": [
           {
             "categories": [
               {
-                "icon": "conditioning-frigidaire",
-                "navItems": [
-                  {
-                    "icon": "search",
-                    "title": "Split",
-                    "link": "/"
-                  },
-                  {
-                    "icon": "search",
-                    "title": "Portátiles",
-                    "link": "/"
-                  }
-                ],
-                "title": "Aire Acondicionado",
+                "navItems": [],
+                "title": "Purificadores de Agua",
                 "link": "/bienestar-del-hogar/aire-acondicionado",
                 "titleColor": "primary"
               }
@@ -250,18 +222,17 @@
           {
             "categories": [
               {
-                "icon": "vacuum-frigidaire",
                 "navItems": [],
-                "title": "Limpieza",
+                "title": "Minibares",
                 "link": "/bienestar-del-hogar/limpieza",
                 "titleColor": "primary"
               }
             ]
           }
         ],
-        "title": "Bienestar del hogar",
         "link": "/bienestar-del-hogar",
-        "color": "primary"
+        "color": "primary",
+        "title": "Minibar y Purificación"
       }
     ],
     "extraLinks": [
