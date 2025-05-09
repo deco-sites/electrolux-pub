@@ -247,7 +247,8 @@
             },
             "description": {
               "fontColor": "secondary",
-              "fontSize": "text-sm"
+              "fontSize": "text-sm",
+              "text": "Temporario"
             },
             "cardsStyling": {
               "icons": {
