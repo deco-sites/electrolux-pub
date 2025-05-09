@@ -68,20 +68,43 @@
           "type": "text",
           "items": [
             {
+              "title": "Política de Privacidad",
+              "link": "/politica-de-privacidad",
+              "fontWeight": "font-medium"
+            },
+            {
+              "link": "/politica-de-garantia",
+              "fontWeight": "font-medium",
+              "title": "Política de Garantía"
+            }
+          ],
+          "title": "Políticas",
+          "link": "/",
+          "textColor": "primary",
+          "fontWeight": "font-thin"
+        }
+      ]
+    },
+    {
+      "categories": [
+        {
+          "type": "text",
+          "title": "Electrolux",
+          "link": "/",
+          "items": [
+            {
               "title": "Acerca de Electrolux",
               "link": "/sobre-nosotros",
               "fontWeight": "font-medium"
             }
           ],
-          "title": "Electrolux",
-          "link": "/",
           "textColor": "primary",
           "fontWeight": "font-thin"
         }
       ]
     }
   ],
-  "richText": "<p><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"/politica-de-privacidad\"><strong><u><span style=\"color: rgb(1, 30, 65); font-size: 11pt\">Privacy Policy</span></u></strong></a><strong><span style=\"color: rgb(1, 30, 65); font-size: 11pt\"> - </span></strong><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"/politica-de-garantia\"><strong><u><span style=\"color: rgb(1, 30, 65); font-size: 11pt\">Warranty Policy</span></u></strong></a></p><p><br></p><p>Copyright Electrolux @ 2022 todos os direitos reservados - Loja Electrolux Comércio virtual de eletrodomésticos LTDA Rua João Lunardelli, 2205 - Cidade Industrial - Curitiba - PR - CEP: 81460-100 CNPJ: 13.986.197/0001-21.<br><br></p><p style=\"text-align: justify\">As fotos dos produtos são meramente ilustrativas. A venda dos produtos publicados está sujeita a disponibilidade de estoque. Os preços, promoções e formas de pagamento publicados em <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://atendimento.electrolux.com.br\">https://atendimento.electrolux.com.br</a> estão válidos exclusivamente para compra via site no endereço mencionado. As especificações técnicas e descrições estão sujeitas a alterações sem aviso prévio.</p>",
+  "richText": "<p style=\"text-align: center\"><br><br><br>As fotos dos produtos são meramente ilustrativas. A venda dos produtos publicados está sujeita a disponibilidade de estoque. Os preços, promoções e formas de pagamento publicados em <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://atendimento.electrolux.com.br\">https://atendimento.electrolux.com.br</a> estão válidos exclusivamente para compra via site no endereço mencionado. As especificações técnicas e descrições estão sujeitas a alterações sem aviso prévio.</p>",
   "title": {
     "fontColor": "primary",
     "fontSize": "text-xl",
@@ -178,5 +201,5 @@
     "align": "start"
   },
   "reverseColumn": true,
-  "gap": "0"
+  "gap": "4"
 }
