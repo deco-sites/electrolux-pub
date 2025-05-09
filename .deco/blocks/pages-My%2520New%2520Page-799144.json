@@ -20,8 +20,8 @@
             "fontSize": "text-sm",
             "items": [
               {
-                "label": "Contactanos form",
-                "href": "/",
+                "label": "Centros de servicio",
+                "href": "/centros-de-servicio",
                 "overrideFontColor": "primary",
                 "hoverUnderline": true
               }
@@ -68,7 +68,7 @@
                 "overrideFontColor": "secondary"
               },
               {
-                "label": "Centros de servício",
+                "label": "Centros de servicio",
                 "hoverUnderline": true,
                 "href": "/centros-de-servicio",
                 "overrideFontColor": "primary"
