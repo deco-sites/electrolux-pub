@@ -631,12 +631,20 @@
               "fontWeight": "font-medium"
             },
             "description": {
-              "text": "<p>Desde el desarrollo y creación de la primera aspiradora de polvo, somos la única empresa de electrodomésticos del mundo que es capaz de ofrecer soluciones completas a consumidores y profesionales.</p>",
               "fontColor": "white",
               "fontSize": "text-base",
-              "fontWeight": "font-light"
+              "fontWeight": "font-light",
+              "text": "<p style=\"text-align: center\"><span style=\"font-size: 12pt\">Desde el desarrollo y creación de la primera aspiradora de polvo, somos la única empresa de electrodomésticos del mundo que es capaz de ofrecer soluciones completas a consumidores y profesionales.</span></p>"
             },
             "backgroundColor": "primary",
+            "spacing": {
+              "desktop": {
+                "top": {
+                  "behavior": "join",
+                  "size": "medium"
+                }
+              }
+            },
             "image": {
               "desktop": {
                 "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/elux-latam/e7bb1f06-e294-4f02-88a0-cc65c0d028ac/imagem.png",
@@ -657,14 +665,6 @@
             "textGap": "4",
             "imageGap": "12",
             "fullWidith": false,
-            "spacing": {
-              "desktop": {
-                "top": {
-                  "behavior": "join",
-                  "size": "medium"
-                }
-              }
-            },
             "link": {
               "fontColor": "white",
               "fontSize": "text-base",
@@ -682,7 +682,7 @@
               "fontWeight": "font-medium"
             },
             "description": {
-              "text": "<p>Y eso se puede comprobar gracias a los 60 millones de electrodomésticos vendidos, todos los años, en más de 150 mercados.</p>",
+              "text": "<p style=\"text-align: center\">Y eso se puede comprobar gracias a los 60 millones de electrodomésticos vendidos, todos los años, en más de 150 mercados.</p><p style=\"text-align: center\"><span style=\"font-size: 14pt\"><br><br></span><strong><span style=\"color: #131962; font-size: 14pt\">Haz tu vida más fácil y moderna con Electrolux en casa.</span></strong></p>",
               "fontColor": "secondary",
               "fontSize": "text-base",
               "fontWeight": "font-light"
@@ -734,7 +734,6 @@
               "fontSize": "text-xl",
               "fontWeight": "font-medium",
               "url": "#",
-              "text": "Haz tu vida más fácil y moderna con Electrolux en casa.",
               "disableUnderline": true
             },
             "invertPosition": true,
