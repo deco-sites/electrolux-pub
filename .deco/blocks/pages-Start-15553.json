@@ -109,22 +109,21 @@
               {
                 "title": "Refrigeración",
                 "icon": "refrigerator-frigidaire",
-                "url": "/electrodomesticos/refrigeracion"
+                "url": "/cocina/refrigeracion"
               },
               {
                 "icon": "washer-frigidaire",
                 "title": "Máquinas de lavar",
-                "url": "/electrodomesticos"
+                "url": "/area-de-lavado"
               },
               {
                 "icon": "cocina-frigidaire",
                 "title": "Cocina",
-                "url": "/electrodomesticos/cocina"
+                "url": "/cocina"
               },
               {
                 "icon": "water-purifier",
-                "title": "Minibar y Purificación",
-                "url": "/electrodomesticos"
+                "title": "Minibar y Purificación"
               }
             ]
           },
