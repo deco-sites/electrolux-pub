@@ -591,16 +591,13 @@
                 "fontSize": "text-base",
                 "fontWeight": "font-light"
               },
-              "bgColor": "white",
-              "gap": "2",
-              "grid": "2"
+              "bgColor": "base-content",
+              "gap": "1",
+              "grid": "1"
             },
             "cards": [
               {
-                "text": "Nacidos en Suecia, en 1919, nuestro grupo se encuentra conformado por seis marcas en América Latina: Electrolux, Continental, Fensa, Mademsa, Somela y Gafa. "
-              },
-              {
-                "text": "Todas ellas mantienen calidad y diseño reconocidos en todo el mundo, además del enfoque y propósito principal de nuestra compañía: ubicar al consumidor en el centro de todo."
+                "text": "Nacidos en Suecia, en 1919, nuestro grupo se encuentra conformado por seis marcas en América Latina: Electrolux, Continental, Fensa, Mademsa, Somela y Gafa.  Todas ellas mantienen calidad y diseño reconocidos en todo el mundo, además del enfoque y propósito principal de nuestra compañía: ubicar al consumidor en el centro de todo."
               }
             ],
             "spacing": {
