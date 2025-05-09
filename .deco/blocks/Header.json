@@ -124,18 +124,13 @@
                   },
                   {
                     "icon": "search",
-                    "title": "Parrillas / Mesa",
-                    "link": "/"
-                  },
-                  {
-                    "icon": "search",
                     "title": "Microondas",
                     "link": "/cocina/cocinas/microondas"
                   },
                   {
                     "icon": "search",
-                    "title": "Campanas",
-                    "link": "/cocina/cocinas/campanas-extractoras"
+                    "link": "/cocina/cocinas/campanas-extractoras",
+                    "title": "Campanas y Purificadores de Pared"
                   },
                   {
                     "icon": "search",
@@ -143,7 +138,7 @@
                     "link": "/cocina/cocinas/hornos"
                   }
                 ],
-                "title": "Cocinas",
+                "title": "Cocción",
                 "link": "/cocina/cocinas",
                 "titleColor": "primary"
               }
@@ -153,22 +148,9 @@
             "categories": [
               {
                 "icon": "washer-frigidaire",
-                "navItems": [
-                  {
-                    "icon": "search",
-                    "title": "Empotrables",
-                    "link": "/"
-                  }
-                ],
+                "navItems": [],
                 "title": "Lavavajillas",
                 "link": "/cocina/lavavajillas",
-                "titleColor": "primary"
-              },
-              {
-                "icon": "iron-frigidaire",
-                "navItems": [],
-                "title": "Pequeños Electrodomésticos",
-                "link": "/pequenos-electrodomesticos",
                 "titleColor": "primary"
               }
             ]
@@ -280,67 +262,6 @@
         "title": "Bienestar del hogar",
         "link": "/bienestar-del-hogar",
         "color": "primary"
-      },
-      {
-        "color": "primary",
-        "collums": [
-          {
-            "categories": [
-              {
-                "navItems": [
-                  {
-                    "title": "Batidora fija",
-                    "link": "/"
-                  },
-                  {
-                    "title": "Batidora de mano",
-                    "link": "/"
-                  },
-                  {
-                    "title": "Cafetera",
-                    "link": "/"
-                  },
-                  {
-                    "title": "Exprimidor",
-                    "link": "/"
-                  },
-                  {
-                    "title": "Freidora de aire",
-                    "link": "/"
-                  },
-                  {
-                    "title": "Licuadora",
-                    "link": "/"
-                  },
-                  {
-                    "title": "Olla Multifunción",
-                    "link": "/"
-                  },
-                  {
-                    "title": "Plancha",
-                    "link": "/"
-                  },
-                  {
-                    "title": "Pava electrica",
-                    "link": "/"
-                  },
-                  {
-                    "title": "Tostadora",
-                    "link": "/"
-                  },
-                  {
-                    "title": "Sandwichera",
-                    "link": "/"
-                  }
-                ],
-                "title": "Electrodomésticos",
-                "link": "/pequenos-electrodomesticos/electrodomesticos"
-              }
-            ]
-          }
-        ],
-        "title": "Pequeños Electrodomésticos",
-        "link": "/pequenos-electrodomesticos/electrodomesticos"
       }
     ],
     "extraLinks": [
