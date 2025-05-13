@@ -12,35 +12,125 @@
       "__resolveType": "Reusable-Breadcrumb"
     },
     {
-      "__resolveType": "elux-components-app/sections/Institutional/WhereToBuy.tsx",
-      "titleText": "¿Dónde comprar?",
-      "descriptionText": "Consulta las tiendas donde puedes comprar productos Electrolux",
-      "emptyContent": "Selecciona el país",
-      "countries": {
-        "__resolveType": "WhereToBuy"
-      },
-      "spacing": {
-        "desktop": {
-          "top": {
-            "behavior": "split",
-            "size": "small"
+      "__resolveType": "website/flags/multivariate/section.ts",
+      "variants": [
+        {
+          "value": {
+            "__resolveType": "elux-components-app/sections/Institutional/WhereToBuy.tsx",
+            "titleText": "¿Dónde comprar?",
+            "descriptionText": "Consulta las tiendas donde puedes comprar productos Electrolux",
+            "emptyContent": "Selecciona el país",
+            "countries": {
+              "__resolveType": "WhereToBuy"
+            },
+            "spacing": {
+              "desktop": {
+                "top": {
+                  "behavior": "split",
+                  "size": "small"
+                },
+                "bottom": {
+                  "behavior": "split",
+                  "size": "small"
+                }
+              },
+              "mobile": {
+                "top": {
+                  "behavior": "split",
+                  "size": "medium"
+                },
+                "bottom": {
+                  "behavior": "split",
+                  "size": "medium"
+                }
+              }
+            },
+            "forceCountry": "paraguay",
+            "hideCountrySelector": true
           },
-          "bottom": {
-            "behavior": "split",
-            "size": "small"
+          "rule": {
+            "__resolveType": "website/matchers/host.ts",
+            "includes": "electrolux.com.py"
           }
         },
-        "mobile": {
-          "top": {
-            "behavior": "split",
-            "size": "medium"
+        {
+          "value": {
+            "__resolveType": "elux-components-app/sections/Institutional/WhereToBuy.tsx",
+            "titleText": "¿Dónde comprar?",
+            "descriptionText": "Consulta las tiendas donde puedes comprar productos Electrolux",
+            "emptyContent": "Selecciona el país",
+            "countries": {
+              "__resolveType": "WhereToBuy"
+            },
+            "spacing": {
+              "desktop": {
+                "top": {
+                  "behavior": "split",
+                  "size": "small"
+                },
+                "bottom": {
+                  "behavior": "split",
+                  "size": "small"
+                }
+              },
+              "mobile": {
+                "top": {
+                  "behavior": "split",
+                  "size": "medium"
+                },
+                "bottom": {
+                  "behavior": "split",
+                  "size": "medium"
+                }
+              }
+            },
+            "forceCountry": "uruguay",
+            "hideCountrySelector": true
           },
-          "bottom": {
-            "behavior": "split",
-            "size": "medium"
+          "rule": {
+            "__resolveType": "website/matchers/host.ts",
+            "includes": "electrolux.com.uy"
+          }
+        },
+        {
+          "value": {
+            "__resolveType": "elux-components-app/sections/Institutional/WhereToBuy.tsx",
+            "titleText": "¿Dónde comprar?",
+            "descriptionText": "Consulta las tiendas donde puedes comprar productos Electrolux",
+            "emptyContent": "Selecciona el país",
+            "countries": {
+              "__resolveType": "WhereToBuy"
+            },
+            "spacing": {
+              "desktop": {
+                "top": {
+                  "behavior": "split",
+                  "size": "small"
+                },
+                "bottom": {
+                  "behavior": "split",
+                  "size": "small"
+                }
+              },
+              "mobile": {
+                "top": {
+                  "behavior": "split",
+                  "size": "medium"
+                },
+                "bottom": {
+                  "behavior": "split",
+                  "size": "medium"
+                }
+              }
+            },
+            "forceCountry": "bolivia",
+            "hideCountrySelector": true
+          },
+          "rule": {
+            "__resolveType": "website/matchers/always.ts"
           }
         }
-      }
+      ]
     },
     {
       "__resolveType": "website/flags/multivariate/section.ts",
