@@ -117,13 +117,13 @@
       "fontColor": "primary",
       "fontSize": "text-base",
       "fontWeight": "font-thin",
-      "text": "Enjoy our social media"
+      "text": "Síguenos en nuestras redes sociales"
     },
     "description": {
       "fontColor": "secondary",
       "fontSize": "text-xs",
       "fontWeight": "font-thin",
-      "text": "You can ask questions, learn more about products in action and their features, as well as check out tips and more about Electrolux."
+      "text": "Puedes hacer preguntas, conocer más sobre los productos en acción y sus características, así como descubrir consejos y más sobre Electrolux."
     },
     "images": [
       {
@@ -200,6 +200,6 @@
   },
   "justifyBetween": false,
   "hideHr": false,
-  "richText": "<p></p><p style=\"text-align: center\"><br><br><br>As fotos dos produtos são meramente ilustrativas. A venda dos produtos publicados está sujeita a disponibilidade de estoque. Os preços, promoções e formas de pagamento publicados em <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://atendimento.electrolux.com.br\">https://atendimento.electrolux.com.br</a> estão válidos exclusivamente para compra via site no endereço mencionado. As especificações técnicas e descrições estão sujeitas a alterações sem aviso prévio.</p>",
+  "richText": "<p></p><p style=\"text-align: center\"><br><br><br>Las imágenes de los productos son de carácter ilustrativo. La venta de los productos esta sujeta a disponibilidad de stock. Los precios, promociones y formas de pago publicados son válidos exclusivamente para la compra a través del sitio. Las especificaciones técnicas y descripciones están sujetas a cambios sin previo aviso.</p>",
   "reverseColumn": true
 }
