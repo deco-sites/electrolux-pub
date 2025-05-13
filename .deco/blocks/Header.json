@@ -218,21 +218,11 @@
                 "titleColor": "primary"
               }
             ]
-          },
-          {
-            "categories": [
-              {
-                "navItems": [],
-                "title": "Minibares",
-                "link": "/bienestar-del-hogar/limpieza",
-                "titleColor": "primary"
-              }
-            ]
           }
         ],
         "link": "/bienestar-del-hogar",
         "color": "primary",
-        "title": "Minibar y Purificación"
+        "title": "Purificadores de Agua"
       }
     ],
     "extraLinks": [
