@@ -113,17 +113,27 @@
               },
               {
                 "icon": "washer-frigidaire",
-                "title": "Máquinas de lavar",
-                "url": "/area-de-lavado"
+                "url": "/area-de-lavado",
+                "title": "Área de Lavado"
               },
               {
                 "icon": "cocina-frigidaire",
-                "title": "Cocina",
+                "title": "Cocción",
                 "url": "/cocina"
               },
               {
                 "icon": "water-purifier",
-                "title": "Minibar y Purificación"
+                "title": "Purificadores de Água"
+              },
+              {
+                "icon": "air-fryer-frigidaire",
+                "title": "Pequeños Electrodomésticos",
+                "url": "/"
+              },
+              {
+                "icon": "vacuum-frigidaire",
+                "title": "Aspiradoras",
+                "url": "/"
               }
             ]
           },
