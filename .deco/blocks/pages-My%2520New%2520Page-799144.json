@@ -1,478 +1,1022 @@
 {
   "path": "/centros-de-servicio",
-  "sections": [
-    {
-      "__resolveType": "website/sections/Seo/SeoV2.tsx",
-      "titleTemplate": "Soporte y Servicio Técnico"
-    },
-    {
-      "__resolveType": "Header"
-    },
-    {
-      "__resolveType": "website/flags/multivariate/section.ts",
-      "variants": [
-        {
-          "value": {
-            "__resolveType": "elux-components-app/sections/Content/Breadcrumb.tsx",
-            "icon": "dots-frigidaire",
-            "iconSize": 24,
-            "fontColor": "primary",
-            "fontSize": "text-sm",
-            "items": [
-              {
-                "label": "Centros de servicio",
-                "href": "/centros-de-servicio",
-                "overrideFontColor": "primary",
-                "hoverUnderline": true
-              }
-            ],
-            "spacing": {
-              "desktop": {
-                "top": {
-                  "behavior": "split",
-                  "size": "small"
-                },
-                "bottom": {
-                  "behavior": "split",
-                  "size": "none"
-                }
-              },
-              "mobile": {
-                "top": {
-                  "behavior": "split",
-                  "size": "extra-large"
-                },
-                "bottom": {
-                  "behavior": "split",
-                  "size": "none"
-                }
-              }
-            },
-            "fontWeight": "font-normal",
-            "gap": "1"
+  "sections": {
+    "__resolveType": "website/flags/multivariate.ts",
+    "variants": [
+      {
+        "value": [
+          {
+            "__resolveType": "website/sections/Seo/SeoV2.tsx",
+            "titleTemplate": "Soporte y Servicio Técnico"
           },
-          "rule": {
-            "__resolveType": "Mobile"
-          }
-        },
-        {
-          "value": {
-            "__resolveType": "elux-components-app/sections/Content/Breadcrumb.tsx",
-            "iconSize": 24,
-            "fontColor": "primary",
-            "fontSize": "text-sm",
-            "items": [
-              {
-                "label": "Home",
-                "href": "/",
-                "overrideFontColor": "secondary"
-              },
-              {
-                "label": "Centros de servicio",
-                "hoverUnderline": true,
-                "href": "/centros-de-servicio",
-                "overrideFontColor": "primary"
-              }
-            ],
-            "spacing": {
-              "desktop": {
-                "top": {
-                  "behavior": "split",
-                  "size": "small"
-                },
-                "bottom": {
-                  "behavior": "split",
-                  "size": "none"
-                }
-              },
-              "mobile": {
-                "top": {
-                  "behavior": "split",
-                  "size": "extra-large"
-                },
-                "bottom": {
-                  "behavior": "split",
-                  "size": "none"
-                }
-              }
-            },
-            "fontWeight": "font-normal",
-            "gap": "1"
+          {
+            "__resolveType": "Header"
           },
-          "rule": {
-            "__resolveType": "website/matchers/always.ts"
-          }
-        }
-      ]
-    },
-    {
-      "__resolveType": "website/flags/multivariate/section.ts",
-      "variants": [
-        {
-          "value": {
-            "__resolveType": "elux-components-app/sections/Institutional/Support.tsx",
-            "title": {
-              "text": "Asistencia Técnica",
-              "fontColor": "primary",
-              "fontSize": "text-xl"
-            },
-            "description": {
-              "text": "Ponte en contacto con nuestro servicio técnico Electrolux",
-              "fontColor": "secondary",
-              "fontSize": "text-sm"
-            },
-            "cardsStyling": {
-              "icons": {
-                "iconSize": 18,
-                "iconColor": "primary"
-              },
-              "text": {
-                "fontColor": "secondary",
-                "fontSize": "text-sm",
-                "titleFontColor": "primary"
-              },
-              "grid": "1",
-              "gap": "0"
-            },
-            "spacing": {
-              "desktop": {
-                "top": {
-                  "behavior": "split",
-                  "size": "small"
+          {
+            "__resolveType": "website/flags/multivariate/section.ts",
+            "variants": [
+              {
+                "value": {
+                  "__resolveType": "elux-components-app/sections/Content/Breadcrumb.tsx",
+                  "icon": "dots-frigidaire",
+                  "iconSize": 24,
+                  "fontColor": "primary",
+                  "fontSize": "text-sm",
+                  "items": [
+                    {
+                      "label": "Centros de servicio",
+                      "href": "/centros-de-servicio",
+                      "overrideFontColor": "primary",
+                      "hoverUnderline": true
+                    }
+                  ],
+                  "spacing": {
+                    "desktop": {
+                      "top": {
+                        "behavior": "split",
+                        "size": "small"
+                      },
+                      "bottom": {
+                        "behavior": "split",
+                        "size": "none"
+                      }
+                    },
+                    "mobile": {
+                      "top": {
+                        "behavior": "split",
+                        "size": "extra-large"
+                      },
+                      "bottom": {
+                        "behavior": "split",
+                        "size": "none"
+                      }
+                    }
+                  },
+                  "fontWeight": "font-normal",
+                  "gap": "1"
                 },
-                "bottom": {
-                  "behavior": "split",
-                  "size": "half-extra-small"
+                "rule": {
+                  "__resolveType": "Mobile"
                 }
               },
-              "mobile": {
-                "top": {
-                  "behavior": "split",
-                  "size": "extra-large"
+              {
+                "value": {
+                  "__resolveType": "elux-components-app/sections/Content/Breadcrumb.tsx",
+                  "iconSize": 24,
+                  "fontColor": "primary",
+                  "fontSize": "text-sm",
+                  "items": [
+                    {
+                      "label": "Home",
+                      "href": "/",
+                      "overrideFontColor": "secondary"
+                    },
+                    {
+                      "label": "Centros de servicio",
+                      "hoverUnderline": true,
+                      "href": "/centros-de-servicio",
+                      "overrideFontColor": "primary"
+                    }
+                  ],
+                  "spacing": {
+                    "desktop": {
+                      "top": {
+                        "behavior": "split",
+                        "size": "small"
+                      },
+                      "bottom": {
+                        "behavior": "split",
+                        "size": "none"
+                      }
+                    },
+                    "mobile": {
+                      "top": {
+                        "behavior": "split",
+                        "size": "extra-large"
+                      },
+                      "bottom": {
+                        "behavior": "split",
+                        "size": "none"
+                      }
+                    }
+                  },
+                  "fontWeight": "font-normal",
+                  "gap": "1"
                 },
-                "bottom": {
-                  "behavior": "split",
-                  "size": "half-extra-small"
+                "rule": {
+                  "__resolveType": "website/matchers/always.ts"
                 }
-              }
-            },
-            "cards": [
-              {
-                "cardItems": [
-                  {
-                    "icon": "chevron-frigidaire",
-                    "label": "Import Export Salvatierra S.A."
-                  },
-                  {
-                    "icon": "home_pin",
-                    "label": "Calle General Franco #118 entre 2° y 3° anillo avenida Banzer - Santa Cruz de la Sierra"
-                  },
-                  {
-                    "icon": "headset-frigidaire",
-                    "label": "021 518 0000"
-                  },
-                  {
-                    "icon": "check-circle",
-                    "label": "Horarios de Atención: Lun~Vier: 8:00 a 12:00 - 14:00 a 18:00"
-                  },
-                  {},
-                  {
-                    "icon": "chevron-frigidaire",
-                    "label": "Triplex"
-                  },
-                  {
-                    "icon": "home_pin",
-                    "label": "1 - Carretera al Norte KM 8 ½, Santa Cruz de la Sierra"
-                  },
-                  {
-                    "icon": "headset-frigidaire",
-                    "label": "3369972"
-                  },
-                  {
-                    "icon": "check-circle",
-                    "label": "Horarios de Atención: Lun~Vier: 8:30 a 16:30 | Sabados: 8:30 a 12:30"
-                  },
-                  {},
-                  {
-                    "icon": "home_pin",
-                    "label": "2 - Los Pinos – Calle 28 Urb. Los Olivos N° 315, La Paz"
-                  },
-                  {
-                    "icon": "headset-frigidaire",
-                    "label": "221 44813"
-                  },
-                  {
-                    "icon": "check-circle",
-                    "label": "Horarios de Atención: Lun~Vier: 8:30 a 16:30 | Sabados: 8:30 a 12:30"
-                  },
-                  {},
-                  {
-                    "icon": "home_pin",
-                    "label": "3 - KM 7 ½ Carretera a Sacaba – Detrás de fabrica Faboce (Calle innominada), Cochabamba"
-                  },
-                  {
-                    "icon": "headset-frigidaire",
-                    "label": "4714114 / 43160607"
-                  },
-                  {
-                    "icon": "check-circle",
-                    "label": "Horarios de Atención: Lun~Vier: 8:30 a 16:30 | Sabados: 8:30 a 12:30"
-                  }
-                ],
-                "title": "Bolivia"
-              },
-              {
-                "cardItems": [
-                  {
-                    "icon": "chevron-frigidaire",
-                    "label": "Chacomer S.A.E"
-                  },
-                  {
-                    "icon": "home_pin",
-                    "label": "Avenida Eusebio Ayala N°3321 casi Avenida República Argentina"
-                  },
-                  {
-                    "icon": "headset-frigidaire",
-                    "label": "021 518 0000"
-                  },
-                  {
-                    "icon": "check-circle",
-                    "label": "Horarios de atención: Lun~Vier: 7:30 a 18:00 | Sabados: 7:30 a 12:00"
-                  }
-                ],
-                "title": "Paraguay"
-              },
-              {
-                "cardItems": [
-                  {
-                    "icon": "chevron-frigidaire",
-                    "label": "Emprendix"
-                  },
-                  {
-                    "icon": "home_pin",
-                    "label": "Concepción Arenal 1722. Montevideo"
-                  },
-                  {
-                    "icon": "headset-frigidaire",
-                    "label": "(+598) 2203-0734 / 2200-7731"
-                  },
-                  {
-                    "icon": "check-circle",
-                    "label": "Horarios de atención: Lun~Vier: 09:00 a 17:30"
-                  }
-                ],
-                "title": "Uruguay"
               }
             ]
           },
-          "rule": {
-            "__resolveType": "Mobile"
-          }
-        },
-        {
-          "value": {
-            "__resolveType": "elux-components-app/sections/Institutional/Support.tsx",
-            "title": {
-              "text": "Asistencia Técnica",
-              "fontColor": "primary",
-              "fontSize": "text-xl"
-            },
-            "description": {
-              "fontColor": "secondary",
-              "fontSize": "text-sm",
-              "text": "Ponte en contacto con nuestro servicio técnico Electrolux"
-            },
-            "cardsStyling": {
-              "icons": {
-                "iconSize": 24,
-                "iconColor": "primary"
-              },
-              "text": {
-                "fontColor": "secondary",
-                "fontSize": "text-base",
-                "titleFontColor": "primary"
-              },
-              "grid": "1",
-              "gap": "5"
-            },
-            "spacing": {
-              "desktop": {
-                "top": {
-                  "behavior": "split",
-                  "size": "small"
+          {
+            "__resolveType": "website/flags/multivariate/section.ts",
+            "variants": [
+              {
+                "value": {
+                  "__resolveType": "elux-components-app/sections/Institutional/Support.tsx",
+                  "title": {
+                    "text": "Asistencia Técnica",
+                    "fontColor": "primary",
+                    "fontSize": "text-xl"
+                  },
+                  "description": {
+                    "text": "Ponte en contacto con nuestro servicio técnico Electrolux",
+                    "fontColor": "secondary",
+                    "fontSize": "text-sm"
+                  },
+                  "cardsStyling": {
+                    "icons": {
+                      "iconSize": 18,
+                      "iconColor": "primary"
+                    },
+                    "text": {
+                      "fontColor": "secondary",
+                      "fontSize": "text-sm",
+                      "titleFontColor": "primary"
+                    },
+                    "grid": "1",
+                    "gap": "0"
+                  },
+                  "spacing": {
+                    "desktop": {
+                      "top": {
+                        "behavior": "split",
+                        "size": "small"
+                      },
+                      "bottom": {
+                        "behavior": "split",
+                        "size": "half-extra-small"
+                      }
+                    },
+                    "mobile": {
+                      "top": {
+                        "behavior": "split",
+                        "size": "extra-large"
+                      },
+                      "bottom": {
+                        "behavior": "split",
+                        "size": "half-extra-small"
+                      }
+                    }
+                  },
+                  "cards": [
+                    {
+                      "cardItems": [
+                        {
+                          "icon": "chevron-frigidaire",
+                          "label": "Chacomer S.A.E"
+                        },
+                        {
+                          "icon": "home_pin",
+                          "label": "Avenida Eusebio Ayala N°3321 casi Avenida República Argentina"
+                        },
+                        {
+                          "icon": "headset-frigidaire",
+                          "label": "021 518 0000"
+                        },
+                        {
+                          "icon": "check-circle",
+                          "label": "Horarios de atención: Lun~Vier: 7:30 a 18:00 | Sabados: 7:30 a 12:00"
+                        }
+                      ],
+                      "title": "Paraguay"
+                    }
+                  ]
                 },
-                "bottom": {
-                  "behavior": "split",
-                  "size": "half-extra-small"
+                "rule": {
+                  "__resolveType": "Mobile"
                 }
               },
-              "mobile": {
-                "top": {
-                  "behavior": "split",
-                  "size": "extra-large"
+              {
+                "value": {
+                  "__resolveType": "elux-components-app/sections/Institutional/Support.tsx",
+                  "title": {
+                    "text": "Asistencia Técnica",
+                    "fontColor": "primary",
+                    "fontSize": "text-xl"
+                  },
+                  "description": {
+                    "fontColor": "secondary",
+                    "fontSize": "text-sm",
+                    "text": "Ponte en contacto con nuestro servicio técnico Electrolux"
+                  },
+                  "cardsStyling": {
+                    "icons": {
+                      "iconSize": 24,
+                      "iconColor": "primary"
+                    },
+                    "text": {
+                      "fontColor": "secondary",
+                      "fontSize": "text-base",
+                      "titleFontColor": "primary"
+                    },
+                    "grid": "1",
+                    "gap": "5"
+                  },
+                  "spacing": {
+                    "desktop": {
+                      "top": {
+                        "behavior": "split",
+                        "size": "small"
+                      },
+                      "bottom": {
+                        "behavior": "split",
+                        "size": "half-extra-small"
+                      }
+                    },
+                    "mobile": {
+                      "top": {
+                        "behavior": "split",
+                        "size": "extra-large"
+                      },
+                      "bottom": {
+                        "behavior": "split",
+                        "size": "half-extra-small"
+                      }
+                    }
+                  },
+                  "cards": [
+                    {
+                      "cardItems": [
+                        {
+                          "icon": "chevron-frigidaire",
+                          "label": "Chacomer S.A.E"
+                        },
+                        {
+                          "icon": "home_pin",
+                          "label": "Avenida Eusebio Ayala N°3321 casi Avenida República Argentina"
+                        },
+                        {
+                          "icon": "headset-frigidaire",
+                          "label": "021 518 0000"
+                        },
+                        {
+                          "icon": "check-circle",
+                          "label": "Horarios de atención: Lun~Vier: 7:30 a 18:00 | Sabados: 7:30 a 12:00"
+                        }
+                      ],
+                      "title": "Paraguay"
+                    }
+                  ]
                 },
-                "bottom": {
-                  "behavior": "split",
-                  "size": "half-extra-small"
+                "rule": {
+                  "__resolveType": "website/matchers/always.ts"
                 }
-              }
-            },
-            "cards": [
-              {
-                "cardItems": [
-                  {
-                    "icon": "chevron-frigidaire",
-                    "label": "Import Export Salvatierra S.A."
-                  },
-                  {
-                    "icon": "home_pin",
-                    "label": "Calle General Franco #118 entre 2° y 3° anillo avenida Banzer - Santa Cruz de la Sierra"
-                  },
-                  {
-                    "icon": "headset-frigidaire",
-                    "label": "021 518 0000"
-                  },
-                  {
-                    "icon": "check-circle",
-                    "label": "Horarios de Atención: Lun~Vier: 8:00 a 12:00 - 14:00 a 18:00"
-                  },
-                  {},
-                  {
-                    "icon": "chevron-frigidaire",
-                    "label": "Triplex"
-                  },
-                  {
-                    "icon": "home_pin",
-                    "label": "1 - Carretera al Norte KM 8 ½, Santa Cruz de la Sierra"
-                  },
-                  {
-                    "icon": "headset-frigidaire",
-                    "label": "3369972"
-                  },
-                  {
-                    "icon": "check-circle",
-                    "label": "Horarios de Atención: Lun~Vier: 8:30 a 16:30 | Sabados: 8:30 a 12:30"
-                  },
-                  {},
-                  {
-                    "icon": "home_pin",
-                    "label": "2 - Los Pinos – Calle 28 Urb. Los Olivos N° 315, La Paz"
-                  },
-                  {
-                    "icon": "headset-frigidaire",
-                    "label": "221 44813"
-                  },
-                  {
-                    "icon": "check-circle",
-                    "label": "Horarios de Atención: Lun~Vier: 8:30 a 16:30 | Sabados: 8:30 a 12:30"
-                  },
-                  {},
-                  {
-                    "icon": "home_pin",
-                    "label": "3 - KM 7 ½ Carretera a Sacaba – Detrás de fabrica Faboce (Calle innominada), Cochabamba"
-                  },
-                  {
-                    "icon": "headset-frigidaire",
-                    "label": "4714114 / 43160607"
-                  },
-                  {
-                    "icon": "check-circle",
-                    "label": "Horarios de Atención: Lun~Vier: 8:30 a 16:30 | Sabados: 8:30 a 12:30"
-                  }
-                ],
-                "title": "Bolivia"
-              },
-              {
-                "cardItems": [
-                  {
-                    "icon": "chevron-frigidaire",
-                    "label": "Chacomer S.A.E"
-                  },
-                  {
-                    "icon": "home_pin",
-                    "label": "Avenida Eusebio Ayala N°3321 casi Avenida República Argentina"
-                  },
-                  {
-                    "icon": "headset-frigidaire",
-                    "label": "021 518 0000"
-                  },
-                  {
-                    "icon": "check-circle",
-                    "label": "Horarios de atención: Lun~Vier: 7:30 a 18:00 | Sabados: 7:30 a 12:00"
-                  }
-                ],
-                "title": "Paraguay"
-              },
-              {
-                "cardItems": [
-                  {
-                    "icon": "chevron-frigidaire",
-                    "label": "Emprendix"
-                  },
-                  {
-                    "icon": "home_pin",
-                    "label": "Concepción Arenal 1722. Montevideo"
-                  },
-                  {
-                    "icon": "headset-frigidaire",
-                    "label": "(+598) 2203-0734 / 2200-7731"
-                  },
-                  {
-                    "icon": "check-circle",
-                    "label": "Horarios de atención: Lun~Vier: 09:00 a 17:30"
-                  }
-                ],
-                "title": "Uruguay"
               }
             ]
           },
-          "rule": {
-            "__resolveType": "website/matchers/always.ts"
+          {
+            "__resolveType": "website/flags/multivariate/section.ts",
+            "variants": [
+              {
+                "value": {
+                  "__resolveType": "Footer PY"
+                },
+                "rule": {
+                  "__resolveType": "website/matchers/host.ts",
+                  "includes": "electrolux.com.py"
+                }
+              },
+              {
+                "value": {
+                  "__resolveType": "Footer UY"
+                },
+                "rule": {
+                  "__resolveType": "website/matchers/host.ts",
+                  "includes": "electrolux.com.uy"
+                }
+              },
+              {
+                "value": {
+                  "__resolveType": "Footer BO"
+                },
+                "rule": {
+                  "__resolveType": "website/matchers/host.ts",
+                  "includes": "electrolux.com.bo"
+                }
+              },
+              {
+                "value": {
+                  "__resolveType": "Footer"
+                },
+                "rule": {
+                  "__resolveType": "website/matchers/always.ts"
+                }
+              }
+            ]
           }
+        ],
+        "rule": {
+          "__resolveType": "website/matchers/host.ts",
+          "match": "electrolux.com.py"
         }
-      ]
-    },
-    {
-      "__resolveType": "website/flags/multivariate/section.ts",
-      "variants": [
-        {
-          "value": {
-            "__resolveType": "Footer PY"
+      },
+      {
+        "value": [
+          {
+            "__resolveType": "website/sections/Seo/SeoV2.tsx",
+            "titleTemplate": "Soporte y Servicio Técnico"
           },
-          "rule": {
-            "__resolveType": "website/matchers/host.ts",
-            "includes": "electrolux.com.py"
-          }
-        },
-        {
-          "value": {
-            "__resolveType": "Footer UY"
+          {
+            "__resolveType": "Header"
           },
-          "rule": {
-            "__resolveType": "website/matchers/host.ts",
-            "includes": "electrolux.com.uy"
-          }
-        },
-        {
-          "value": {
-            "__resolveType": "Footer BO"
+          {
+            "__resolveType": "website/flags/multivariate/section.ts",
+            "variants": [
+              {
+                "value": {
+                  "__resolveType": "elux-components-app/sections/Content/Breadcrumb.tsx",
+                  "icon": "dots-frigidaire",
+                  "iconSize": 24,
+                  "fontColor": "primary",
+                  "fontSize": "text-sm",
+                  "items": [
+                    {
+                      "label": "Centros de servicio",
+                      "href": "/centros-de-servicio",
+                      "overrideFontColor": "primary",
+                      "hoverUnderline": true
+                    }
+                  ],
+                  "spacing": {
+                    "desktop": {
+                      "top": {
+                        "behavior": "split",
+                        "size": "small"
+                      },
+                      "bottom": {
+                        "behavior": "split",
+                        "size": "none"
+                      }
+                    },
+                    "mobile": {
+                      "top": {
+                        "behavior": "split",
+                        "size": "extra-large"
+                      },
+                      "bottom": {
+                        "behavior": "split",
+                        "size": "none"
+                      }
+                    }
+                  },
+                  "fontWeight": "font-normal",
+                  "gap": "1"
+                },
+                "rule": {
+                  "__resolveType": "Mobile"
+                }
+              },
+              {
+                "value": {
+                  "__resolveType": "elux-components-app/sections/Content/Breadcrumb.tsx",
+                  "iconSize": 24,
+                  "fontColor": "primary",
+                  "fontSize": "text-sm",
+                  "items": [
+                    {
+                      "label": "Home",
+                      "href": "/",
+                      "overrideFontColor": "secondary"
+                    },
+                    {
+                      "label": "Centros de servicio",
+                      "hoverUnderline": true,
+                      "href": "/centros-de-servicio",
+                      "overrideFontColor": "primary"
+                    }
+                  ],
+                  "spacing": {
+                    "desktop": {
+                      "top": {
+                        "behavior": "split",
+                        "size": "small"
+                      },
+                      "bottom": {
+                        "behavior": "split",
+                        "size": "none"
+                      }
+                    },
+                    "mobile": {
+                      "top": {
+                        "behavior": "split",
+                        "size": "extra-large"
+                      },
+                      "bottom": {
+                        "behavior": "split",
+                        "size": "none"
+                      }
+                    }
+                  },
+                  "fontWeight": "font-normal",
+                  "gap": "1"
+                },
+                "rule": {
+                  "__resolveType": "website/matchers/always.ts"
+                }
+              }
+            ]
           },
-          "rule": {
-            "__resolveType": "website/matchers/host.ts",
-            "includes": "electrolux.com.bo"
-          }
-        },
-        {
-          "value": {
-            "__resolveType": "Footer"
+          {
+            "__resolveType": "website/flags/multivariate/section.ts",
+            "variants": [
+              {
+                "value": {
+                  "__resolveType": "elux-components-app/sections/Institutional/Support.tsx",
+                  "title": {
+                    "text": "Asistencia Técnica",
+                    "fontColor": "primary",
+                    "fontSize": "text-xl"
+                  },
+                  "description": {
+                    "text": "Ponte en contacto con nuestro servicio técnico Electrolux",
+                    "fontColor": "secondary",
+                    "fontSize": "text-sm"
+                  },
+                  "cardsStyling": {
+                    "icons": {
+                      "iconSize": 18,
+                      "iconColor": "primary"
+                    },
+                    "text": {
+                      "fontColor": "secondary",
+                      "fontSize": "text-sm",
+                      "titleFontColor": "primary"
+                    },
+                    "grid": "1",
+                    "gap": "0"
+                  },
+                  "spacing": {
+                    "desktop": {
+                      "top": {
+                        "behavior": "split",
+                        "size": "small"
+                      },
+                      "bottom": {
+                        "behavior": "split",
+                        "size": "half-extra-small"
+                      }
+                    },
+                    "mobile": {
+                      "top": {
+                        "behavior": "split",
+                        "size": "extra-large"
+                      },
+                      "bottom": {
+                        "behavior": "split",
+                        "size": "half-extra-small"
+                      }
+                    }
+                  },
+                  "cards": [
+                    {
+                      "cardItems": [
+                        {
+                          "icon": "chevron-frigidaire",
+                          "label": "Emprendix"
+                        },
+                        {
+                          "icon": "home_pin",
+                          "label": "Concepción Arenal 1722. Montevideo"
+                        },
+                        {
+                          "icon": "headset-frigidaire",
+                          "label": "(+598) 2203-0734 / 2200-7731"
+                        },
+                        {
+                          "icon": "check-circle",
+                          "label": "Horarios de atención: Lun~Vier: 09:00 a 17:30"
+                        }
+                      ],
+                      "title": "Uruguay"
+                    }
+                  ]
+                },
+                "rule": {
+                  "__resolveType": "Mobile"
+                }
+              },
+              {
+                "value": {
+                  "__resolveType": "elux-components-app/sections/Institutional/Support.tsx",
+                  "title": {
+                    "text": "Asistencia Técnica",
+                    "fontColor": "primary",
+                    "fontSize": "text-xl"
+                  },
+                  "description": {
+                    "fontColor": "secondary",
+                    "fontSize": "text-sm",
+                    "text": "Ponte en contacto con nuestro servicio técnico Electrolux"
+                  },
+                  "cardsStyling": {
+                    "icons": {
+                      "iconSize": 24,
+                      "iconColor": "primary"
+                    },
+                    "text": {
+                      "fontColor": "secondary",
+                      "fontSize": "text-base",
+                      "titleFontColor": "primary"
+                    },
+                    "grid": "1",
+                    "gap": "5"
+                  },
+                  "spacing": {
+                    "desktop": {
+                      "top": {
+                        "behavior": "split",
+                        "size": "small"
+                      },
+                      "bottom": {
+                        "behavior": "split",
+                        "size": "half-extra-small"
+                      }
+                    },
+                    "mobile": {
+                      "top": {
+                        "behavior": "split",
+                        "size": "extra-large"
+                      },
+                      "bottom": {
+                        "behavior": "split",
+                        "size": "half-extra-small"
+                      }
+                    }
+                  },
+                  "cards": [
+                    {
+                      "cardItems": [
+                        {
+                          "icon": "chevron-frigidaire",
+                          "label": "Emprendix"
+                        },
+                        {
+                          "icon": "home_pin",
+                          "label": "Concepción Arenal 1722. Montevideo"
+                        },
+                        {
+                          "icon": "headset-frigidaire",
+                          "label": "(+598) 2203-0734 / 2200-7731"
+                        },
+                        {
+                          "icon": "check-circle",
+                          "label": "Horarios de atención: Lun~Vier: 09:00 a 17:30"
+                        }
+                      ],
+                      "title": "Uruguay"
+                    }
+                  ]
+                },
+                "rule": {
+                  "__resolveType": "website/matchers/always.ts"
+                }
+              }
+            ]
           },
-          "rule": {
-            "__resolveType": "website/matchers/always.ts"
+          {
+            "__resolveType": "website/flags/multivariate/section.ts",
+            "variants": [
+              {
+                "value": {
+                  "__resolveType": "Footer PY"
+                },
+                "rule": {
+                  "__resolveType": "website/matchers/host.ts",
+                  "includes": "electrolux.com.py"
+                }
+              },
+              {
+                "value": {
+                  "__resolveType": "Footer UY"
+                },
+                "rule": {
+                  "__resolveType": "website/matchers/host.ts",
+                  "includes": "electrolux.com.uy"
+                }
+              },
+              {
+                "value": {
+                  "__resolveType": "Footer BO"
+                },
+                "rule": {
+                  "__resolveType": "website/matchers/host.ts",
+                  "includes": "electrolux.com.bo"
+                }
+              },
+              {
+                "value": {
+                  "__resolveType": "Footer"
+                },
+                "rule": {
+                  "__resolveType": "website/matchers/always.ts"
+                }
+              }
+            ]
           }
+        ],
+        "rule": {
+          "__resolveType": "website/matchers/host.ts",
+          "match": "electrolux.com.uy"
         }
-      ]
-    }
-  ],
+      },
+      {
+        "value": [
+          {
+            "__resolveType": "website/sections/Seo/SeoV2.tsx",
+            "titleTemplate": "Soporte y Servicio Técnico"
+          },
+          {
+            "__resolveType": "Header"
+          },
+          {
+            "__resolveType": "website/flags/multivariate/section.ts",
+            "variants": [
+              {
+                "value": {
+                  "__resolveType": "elux-components-app/sections/Content/Breadcrumb.tsx",
+                  "icon": "dots-frigidaire",
+                  "iconSize": 24,
+                  "fontColor": "primary",
+                  "fontSize": "text-sm",
+                  "items": [
+                    {
+                      "label": "Centros de servicio",
+                      "href": "/centros-de-servicio",
+                      "overrideFontColor": "primary",
+                      "hoverUnderline": true
+                    }
+                  ],
+                  "spacing": {
+                    "desktop": {
+                      "top": {
+                        "behavior": "split",
+                        "size": "small"
+                      },
+                      "bottom": {
+                        "behavior": "split",
+                        "size": "none"
+                      }
+                    },
+                    "mobile": {
+                      "top": {
+                        "behavior": "split",
+                        "size": "extra-large"
+                      },
+                      "bottom": {
+                        "behavior": "split",
+                        "size": "none"
+                      }
+                    }
+                  },
+                  "fontWeight": "font-normal",
+                  "gap": "1"
+                },
+                "rule": {
+                  "__resolveType": "Mobile"
+                }
+              },
+              {
+                "value": {
+                  "__resolveType": "elux-components-app/sections/Content/Breadcrumb.tsx",
+                  "iconSize": 24,
+                  "fontColor": "primary",
+                  "fontSize": "text-sm",
+                  "items": [
+                    {
+                      "label": "Home",
+                      "href": "/",
+                      "overrideFontColor": "secondary"
+                    },
+                    {
+                      "label": "Centros de servicio",
+                      "hoverUnderline": true,
+                      "href": "/centros-de-servicio",
+                      "overrideFontColor": "primary"
+                    }
+                  ],
+                  "spacing": {
+                    "desktop": {
+                      "top": {
+                        "behavior": "split",
+                        "size": "small"
+                      },
+                      "bottom": {
+                        "behavior": "split",
+                        "size": "none"
+                      }
+                    },
+                    "mobile": {
+                      "top": {
+                        "behavior": "split",
+                        "size": "extra-large"
+                      },
+                      "bottom": {
+                        "behavior": "split",
+                        "size": "none"
+                      }
+                    }
+                  },
+                  "fontWeight": "font-normal",
+                  "gap": "1"
+                },
+                "rule": {
+                  "__resolveType": "website/matchers/always.ts"
+                }
+              }
+            ]
+          },
+          {
+            "__resolveType": "website/flags/multivariate/section.ts",
+            "variants": [
+              {
+                "value": {
+                  "__resolveType": "elux-components-app/sections/Institutional/Support.tsx",
+                  "title": {
+                    "text": "Asistencia Técnica",
+                    "fontColor": "primary",
+                    "fontSize": "text-xl"
+                  },
+                  "description": {
+                    "text": "Ponte en contacto con nuestro servicio técnico Electrolux",
+                    "fontColor": "secondary",
+                    "fontSize": "text-sm"
+                  },
+                  "cardsStyling": {
+                    "icons": {
+                      "iconSize": 18,
+                      "iconColor": "primary"
+                    },
+                    "text": {
+                      "fontColor": "secondary",
+                      "fontSize": "text-sm",
+                      "titleFontColor": "primary"
+                    },
+                    "grid": "1",
+                    "gap": "0"
+                  },
+                  "spacing": {
+                    "desktop": {
+                      "top": {
+                        "behavior": "split",
+                        "size": "small"
+                      },
+                      "bottom": {
+                        "behavior": "split",
+                        "size": "half-extra-small"
+                      }
+                    },
+                    "mobile": {
+                      "top": {
+                        "behavior": "split",
+                        "size": "extra-large"
+                      },
+                      "bottom": {
+                        "behavior": "split",
+                        "size": "half-extra-small"
+                      }
+                    }
+                  },
+                  "cards": [
+                    {
+                      "cardItems": [
+                        {
+                          "icon": "chevron-frigidaire",
+                          "label": "Import Export Salvatierra S.A."
+                        },
+                        {
+                          "icon": "home_pin",
+                          "label": "Calle General Franco #118 entre 2° y 3° anillo avenida Banzer - Santa Cruz de la Sierra"
+                        },
+                        {
+                          "icon": "headset-frigidaire",
+                          "label": "021 518 0000"
+                        },
+                        {
+                          "icon": "check-circle",
+                          "label": "Horarios de Atención: Lun~Vier: 8:00 a 12:00 - 14:00 a 18:00"
+                        },
+                        {},
+                        {
+                          "icon": "chevron-frigidaire",
+                          "label": "Triplex"
+                        },
+                        {
+                          "icon": "home_pin",
+                          "label": "1 - Carretera al Norte KM 8 ½, Santa Cruz de la Sierra"
+                        },
+                        {
+                          "icon": "headset-frigidaire",
+                          "label": "3369972"
+                        },
+                        {
+                          "icon": "check-circle",
+                          "label": "Horarios de Atención: Lun~Vier: 8:30 a 16:30 | Sabados: 8:30 a 12:30"
+                        },
+                        {},
+                        {
+                          "icon": "home_pin",
+                          "label": "2 - Los Pinos – Calle 28 Urb. Los Olivos N° 315, La Paz"
+                        },
+                        {
+                          "icon": "headset-frigidaire",
+                          "label": "221 44813"
+                        },
+                        {
+                          "icon": "check-circle",
+                          "label": "Horarios de Atención: Lun~Vier: 8:30 a 16:30 | Sabados: 8:30 a 12:30"
+                        },
+                        {},
+                        {
+                          "icon": "home_pin",
+                          "label": "3 - KM 7 ½ Carretera a Sacaba – Detrás de fabrica Faboce (Calle innominada), Cochabamba"
+                        },
+                        {
+                          "icon": "headset-frigidaire",
+                          "label": "4714114 / 43160607"
+                        },
+                        {
+                          "icon": "check-circle",
+                          "label": "Horarios de Atención: Lun~Vier: 8:30 a 16:30 | Sabados: 8:30 a 12:30"
+                        }
+                      ],
+                      "title": "Bolivia"
+                    }
+                  ]
+                },
+                "rule": {
+                  "__resolveType": "Mobile"
+                }
+              },
+              {
+                "value": {
+                  "__resolveType": "elux-components-app/sections/Institutional/Support.tsx",
+                  "title": {
+                    "text": "Asistencia Técnica",
+                    "fontColor": "primary",
+                    "fontSize": "text-xl"
+                  },
+                  "description": {
+                    "fontColor": "secondary",
+                    "fontSize": "text-sm",
+                    "text": "Ponte en contacto con nuestro servicio técnico Electrolux"
+                  },
+                  "cardsStyling": {
+                    "icons": {
+                      "iconSize": 24,
+                      "iconColor": "primary"
+                    },
+                    "text": {
+                      "fontColor": "secondary",
+                      "fontSize": "text-base",
+                      "titleFontColor": "primary"
+                    },
+                    "grid": "1",
+                    "gap": "5"
+                  },
+                  "spacing": {
+                    "desktop": {
+                      "top": {
+                        "behavior": "split",
+                        "size": "small"
+                      },
+                      "bottom": {
+                        "behavior": "split",
+                        "size": "half-extra-small"
+                      }
+                    },
+                    "mobile": {
+                      "top": {
+                        "behavior": "split",
+                        "size": "extra-large"
+                      },
+                      "bottom": {
+                        "behavior": "split",
+                        "size": "half-extra-small"
+                      }
+                    }
+                  },
+                  "cards": [
+                    {
+                      "cardItems": [
+                        {
+                          "icon": "chevron-frigidaire",
+                          "label": "Import Export Salvatierra S.A."
+                        },
+                        {
+                          "icon": "home_pin",
+                          "label": "Calle General Franco #118 entre 2° y 3° anillo avenida Banzer - Santa Cruz de la Sierra"
+                        },
+                        {
+                          "icon": "headset-frigidaire",
+                          "label": "021 518 0000"
+                        },
+                        {
+                          "icon": "check-circle",
+                          "label": "Horarios de Atención: Lun~Vier: 8:00 a 12:00 - 14:00 a 18:00"
+                        },
+                        {},
+                        {
+                          "icon": "chevron-frigidaire",
+                          "label": "Triplex"
+                        },
+                        {
+                          "icon": "home_pin",
+                          "label": "1 - Carretera al Norte KM 8 ½, Santa Cruz de la Sierra"
+                        },
+                        {
+                          "icon": "headset-frigidaire",
+                          "label": "3369972"
+                        },
+                        {
+                          "icon": "check-circle",
+                          "label": "Horarios de Atención: Lun~Vier: 8:30 a 16:30 | Sabados: 8:30 a 12:30"
+                        },
+                        {},
+                        {
+                          "icon": "home_pin",
+                          "label": "2 - Los Pinos – Calle 28 Urb. Los Olivos N° 315, La Paz"
+                        },
+                        {
+                          "icon": "headset-frigidaire",
+                          "label": "221 44813"
+                        },
+                        {
+                          "icon": "check-circle",
+                          "label": "Horarios de Atención: Lun~Vier: 8:30 a 16:30 | Sabados: 8:30 a 12:30"
+                        },
+                        {},
+                        {
+                          "icon": "home_pin",
+                          "label": "3 - KM 7 ½ Carretera a Sacaba – Detrás de fabrica Faboce (Calle innominada), Cochabamba"
+                        },
+                        {
+                          "icon": "headset-frigidaire",
+                          "label": "4714114 / 43160607"
+                        },
+                        {
+                          "icon": "check-circle",
+                          "label": "Horarios de Atención: Lun~Vier: 8:30 a 16:30 | Sabados: 8:30 a 12:30"
+                        }
+                      ],
+                      "title": "Bolivia"
+                    }
+                  ]
+                },
+                "rule": {
+                  "__resolveType": "website/matchers/always.ts"
+                }
+              }
+            ]
+          },
+          {
+            "__resolveType": "website/flags/multivariate/section.ts",
+            "variants": [
+              {
+                "value": {
+                  "__resolveType": "Footer PY"
+                },
+                "rule": {
+                  "__resolveType": "website/matchers/host.ts",
+                  "includes": "electrolux.com.py"
+                }
+              },
+              {
+                "value": {
+                  "__resolveType": "Footer UY"
+                },
+                "rule": {
+                  "__resolveType": "website/matchers/host.ts",
+                  "includes": "electrolux.com.uy"
+                }
+              },
+              {
+                "value": {
+                  "__resolveType": "Footer BO"
+                },
+                "rule": {
+                  "__resolveType": "website/matchers/host.ts",
+                  "includes": "electrolux.com.bo"
+                }
+              },
+              {
+                "value": {
+                  "__resolveType": "Footer"
+                },
+                "rule": {
+                  "__resolveType": "website/matchers/always.ts"
+                }
+              }
+            ]
+          }
+        ],
+        "rule": {
+          "__resolveType": "website/matchers/always.ts"
+        }
+      }
+    ]
+  },
   "seo": {
     "__resolveType": "website/sections/Seo/SeoV2.tsx"
   },
