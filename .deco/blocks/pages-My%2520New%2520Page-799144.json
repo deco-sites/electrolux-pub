@@ -117,7 +117,7 @@
               "fontSize": "text-xl"
             },
             "description": {
-              "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel ultricies leo.",
+              "text": "Ponte en contacto con nuestro servicio técnico Electrolux",
               "fontColor": "secondary",
               "fontSize": "text-sm"
             },
@@ -131,8 +131,8 @@
                 "fontSize": "text-sm",
                 "titleFontColor": "primary"
               },
-              "grid": "3",
-              "gap": "5"
+              "grid": "1",
+              "gap": "0"
             },
             "spacing": {
               "desktop": {
@@ -160,76 +160,108 @@
               {
                 "cardItems": [
                   {
-                    "icon": "headset-frigidaire",
-                    "label": "0000 000 0000"
+                    "icon": "chevron-frigidaire",
+                    "label": "Import Export Salvatierra S.A."
                   },
                   {
-                    "icon": "email-frigidaire",
-                    "label": "email@electrolux.com",
-                    "href": "mailto:email@electrolux.com"
+                    "icon": "home_pin",
+                    "label": "Calle General Franco #118 entre 2° y 3° anillo avenida Banzer - Santa Cruz de la Sierra"
+                  },
+                  {
+                    "icon": "headset-frigidaire",
+                    "label": "021 518 0000"
+                  },
+                  {
+                    "icon": "check-circle",
+                    "label": "Horarios de Atención: Lun~Vier: 8:00 a 12:00 - 14:00 a 18:00"
+                  },
+                  {},
+                  {
+                    "icon": "chevron-frigidaire",
+                    "label": "Triplex"
+                  },
+                  {
+                    "icon": "home_pin",
+                    "label": "1 - Carretera al Norte KM 8 ½, Santa Cruz de la Sierra"
+                  },
+                  {
+                    "icon": "headset-frigidaire",
+                    "label": "3369972"
+                  },
+                  {
+                    "icon": "check-circle",
+                    "label": "Horarios de Atención: Lun~Vier: 8:30 a 16:30 | Sabados: 8:30 a 12:30"
+                  },
+                  {},
+                  {
+                    "icon": "home_pin",
+                    "label": "2 - Los Pinos – Calle 28 Urb. Los Olivos N° 315, La Paz"
+                  },
+                  {
+                    "icon": "headset-frigidaire",
+                    "label": "221 44813"
+                  },
+                  {
+                    "icon": "check-circle",
+                    "label": "Horarios de Atención: Lun~Vier: 8:30 a 16:30 | Sabados: 8:30 a 12:30"
+                  },
+                  {},
+                  {
+                    "icon": "home_pin",
+                    "label": "3 - KM 7 ½ Carretera a Sacaba – Detrás de fabrica Faboce (Calle innominada), Cochabamba"
+                  },
+                  {
+                    "icon": "headset-frigidaire",
+                    "label": "4714114 / 43160607"
+                  },
+                  {
+                    "icon": "check-circle",
+                    "label": "Horarios de Atención: Lun~Vier: 8:30 a 16:30 | Sabados: 8:30 a 12:30"
                   }
                 ],
-                "title": "Country"
+                "title": "Bolivia"
               },
               {
                 "cardItems": [
                   {
-                    "icon": "headset-frigidaire",
-                    "label": "0000 000 0000"
+                    "icon": "chevron-frigidaire",
+                    "label": "Chacomer S.A.E"
+                  },
+                  {
+                    "icon": "home_pin",
+                    "label": "Avenida Eusebio Ayala N°3321 casi Avenida República Argentina"
                   },
                   {
                     "icon": "headset-frigidaire",
-                    "label": "0000 000 0000"
+                    "label": "021 518 0000"
                   },
                   {
-                    "icon": "email-frigidaire",
-                    "label": "email@electrolux.com",
-                    "href": "mailto:email@electrolux.com"
+                    "icon": "check-circle",
+                    "label": "Horarios de atención: Lun~Vier: 7:30 a 18:00 | Sabados: 7:30 a 12:00"
                   }
                 ],
-                "title": "Country"
+                "title": "Paraguay"
               },
               {
                 "cardItems": [
                   {
-                    "icon": "headset-frigidaire",
-                    "label": "0000 000 0000"
+                    "icon": "chevron-frigidaire",
+                    "label": "Emprendix"
                   },
                   {
-                    "icon": "email-frigidaire",
-                    "label": "email@electrolux.com",
-                    "href": "mailto:email@electrolux.com"
-                  }
-                ],
-                "title": "Country"
-              },
-              {
-                "cardItems": [
-                  {
-                    "icon": "headset-frigidaire",
-                    "label": "0000 000 0000"
+                    "icon": "home_pin",
+                    "label": "Concepción Arenal 1722. Montevideo"
                   },
                   {
-                    "icon": "email-frigidaire",
-                    "label": "email@electrolux.com",
-                    "href": "mailto:email@electrolux.com"
-                  }
-                ],
-                "title": "Country"
-              },
-              {
-                "cardItems": [
-                  {
                     "icon": "headset-frigidaire",
-                    "label": "0000 000 0000"
+                    "label": "(+598) 2203-0734 / 2200-7731"
                   },
                   {
-                    "icon": "email-frigidaire",
-                    "label": "email@electrolux.com",
-                    "href": "mailto:email@electrolux.com"
+                    "icon": "check-circle",
+                    "label": "Horarios de atención: Lun~Vier: 09:00 a 17:30"
                   }
                 ],
-                "title": "Country"
+                "title": "Uruguay"
               }
             ]
           },

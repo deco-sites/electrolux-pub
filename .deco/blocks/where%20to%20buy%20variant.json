@@ -1,0 +1,31 @@
+{
+  "__resolveType": "elux-components-app/sections/Institutional/WhereToBuy.tsx",
+  "titleText": "¿Dónde comprar?",
+  "descriptionText": "Selecciona el país y consulta las tiendas donde puedes comprar productos Electrolux",
+  "emptyContent": "Selecciona el país",
+  "countries": {
+    "__resolveType": "WhereToBuy"
+  },
+  "spacing": {
+    "desktop": {
+      "top": {
+        "behavior": "split",
+        "size": "small"
+      },
+      "bottom": {
+        "behavior": "split",
+        "size": "none"
+      }
+    },
+    "mobile": {
+      "top": {
+        "behavior": "split",
+        "size": "medium"
+      },
+      "bottom": {
+        "behavior": "split",
+        "size": "none"
+      }
+    }
+  }
+}
