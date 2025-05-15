@@ -90,33 +90,42 @@
             "title": "Nuestros Productos",
             "cards": [
               {
-                "title": "Refrigeración",
+                "title": "Refrigeradores",
                 "icon": "refrigerator-frigidaire",
                 "url": "/cocina/refrigeracion"
               },
               {
+                "icon": "freezer-frigidaire",
+                "url": "/cocina/refrigeracion",
+                "title": "Congeladores"
+              },
+              {
                 "icon": "washer-frigidaire",
-                "url": "/area-de-lavado",
-                "title": "Área de Lavado"
+                "title": "Lavarropas",
+                "url": "/area-de-lavado"
               },
               {
                 "icon": "cocina-frigidaire",
-                "title": "Cocción",
-                "url": "/cocina"
-              },
-              {
-                "icon": "water-purifier",
-                "title": "Purificadores de Água"
+                "title": "Cocinas",
+                "url": "/cocina/cocinas/estufas-y-cocinas"
               },
               {
                 "icon": "air-fryer-frigidaire",
-                "title": "Pequeños Electrodomésticos",
+                "title": "Freidora de Aire",
                 "url": "/"
               },
               {
                 "icon": "vacuum-frigidaire",
                 "title": "Aspiradoras",
                 "url": "/"
+              },
+              {
+                "icon": "search",
+                "title": "Microondas"
+              },
+              {
+                "icon": "search",
+                "title": "Empotrables"
               }
             ]
           },
