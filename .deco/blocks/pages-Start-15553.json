@@ -68,12 +68,12 @@
                 "url": "/electrodomesticos"
               },
               {
-                "icon": "pan-frigidaire",
+                "icon": "empotrable-elux",
                 "title": "Pequeños Electrodomésticos",
                 "url": "/electrodomesticos"
               },
               {
-                "icon": "refrigerator-frigidaire",
+                "icon": "microwave-elux",
                 "title": "Refrigeración",
                 "url": "/electrodomesticos/refrigeracion"
               }
@@ -121,7 +121,8 @@
               },
               {
                 "icon": "microwave-elux",
-                "title": "Microondas"
+                "title": "Microondas",
+                "url": "/cocina/cocinas/estufas-y-cocinas"
               },
               {
                 "icon": "empotrable-elux",

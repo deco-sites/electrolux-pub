@@ -11,8 +11,8 @@
   "logo": {
     "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/elux-latam/9b397b29-3677-440b-92d9-6d96f1f131b6/Marca.png",
     "alt": "Deco Storefront",
-    "width": 140,
-    "height": 32
+    "width": 137,
+    "height": 30
   },
   "navItems": [
     {
@@ -207,22 +207,18 @@
         "color": "primary"
       },
       {
-        "icon": "water-purifier",
-        "collums": [
-          {
-            "categories": [
-              {
-                "navItems": [],
-                "title": "Purificadores de Agua",
-                "link": "/bienestar-del-hogar/aire-acondicionado",
-                "titleColor": "primary"
-              }
-            ]
-          }
-        ],
+        "icon": "vacuum-frigidaire",
+        "collums": [],
         "link": "/bienestar-del-hogar",
         "color": "primary",
-        "title": "Purificadores de Agua"
+        "title": "Bienestar del hogar"
+      },
+      {
+        "icon": "shopping_bag",
+        "color": "primary",
+        "collums": [],
+        "title": "¿Dónde comprar?",
+        "link": "/distribuidores-de-partes"
       }
     ],
     "extraLinks": [
@@ -254,10 +250,10 @@
           }
         ],
         "title": "Servicio al Cliente",
-        "iconColor": "white",
         "textColor": "white",
         "textSize": "text-sm",
-        "fontWeight": "font-medium"
+        "fontWeight": "font-medium",
+        "iconColor": "white"
       },
       {
         "links": [
@@ -271,10 +267,10 @@
           }
         ],
         "title": "Electrolux",
-        "iconColor": "white",
         "textColor": "white",
         "textSize": "text-sm",
-        "fontWeight": "font-medium"
+        "fontWeight": "font-medium",
+        "iconColor": "white"
       }
     ],
     "languages": {
@@ -300,7 +296,7 @@
     },
     "menuText": "Todas las categorias",
     "allCategoriesText": "Productos",
-    "hideSecondaryMenu": true
+    "hideSecondaryMenu": false
   },
   "backgroundColor": "primary"
 }
