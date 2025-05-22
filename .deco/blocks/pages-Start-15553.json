@@ -22,7 +22,7 @@
           "bannerType": "image",
           "alt": "Banner",
           "action": {
-            "href": "/piezas-y-accesorios"
+            "href": "/"
           }
         }
       ],
