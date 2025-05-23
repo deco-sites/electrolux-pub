@@ -126,7 +126,8 @@
               },
               {
                 "icon": "empotrable-elux",
-                "title": "Empotrables"
+                "title": "Empotrables",
+                "url": "/empotrables"
               }
             ]
           },
