@@ -8,7 +8,7 @@
           "listOption": {
             "normalFilters": [],
             "measurementsFilters": [],
-            "category": "electrodomesticos---Electrodomésticos---1"
+            "category": "refrigeracion---Refrigeración---2"
           },
           "sortBy": "name-asc",
           "skip": 0,
@@ -16,43 +16,67 @@
         },
         "__resolveType": "resolved"
       },
-      "title": "Electrodomesticos"
+      "title": "Heladeras"
     },
     {
       "loader": {
         "data": {
-          "__resolveType": "elux-components-app/loaders/testShelf.ts"
+          "__resolveType": "elux-components-app/loaders/product/list/productList.ts",
+          "listOption": {
+            "normalFilters": [],
+            "measurementsFilters": [],
+            "category": "lavado---Lavado---2"
+          },
+          "sortBy": "name-asc"
         },
         "__resolveType": "resolved"
       },
-      "title": "Estufas"
+      "title": "Lavadoras"
     },
     {
       "loader": {
         "data": {
-          "__resolveType": "elux-components-app/loaders/testShelf.ts"
+          "__resolveType": "elux-components-app/loaders/product/list/productList.ts",
+          "listOption": {
+            "normalFilters": [],
+            "measurementsFilters": [],
+            "category": "estufas-y-cocinas---Estufas / Cocinas---3"
+          },
+          "sortBy": "name-asc"
         },
         "__resolveType": "resolved"
       },
-      "title": "Hornos"
+      "title": "Cocinas"
     },
     {
       "loader": {
         "data": {
-          "__resolveType": "elux-components-app/loaders/testShelf.ts"
+          "__resolveType": "elux-components-app/loaders/product/list/productList.ts",
+          "listOption": {
+            "normalFilters": [],
+            "measurementsFilters": [],
+            "category": "pequenos-electrodomesticos---Pequeños Electrodomésticos---1"
+          },
+          "sortBy": "name-asc"
+        },
+        "__resolveType": "resolved"
+      },
+      "title": "Electrodomésticos"
+    },
+    {
+      "loader": {
+        "data": {
+          "__resolveType": "elux-components-app/loaders/product/list/productList.ts",
+          "listOption": {
+            "normalFilters": [],
+            "measurementsFilters": [],
+            "category": "microondas---Microondas---3"
+          },
+          "sortBy": "name-asc"
         },
         "__resolveType": "resolved"
       },
       "title": "Microondas"
-    },
-    {
-      "loader": {
-        "data": {
-          "__resolveType": "elux-components-app/loaders/testShelf.ts"
-        },
-        "__resolveType": "resolved"
-      },
-      "title": "Lavavajillas"
     }
   ],
   "spacingConfig": {
@@ -77,6 +101,6 @@
       }
     }
   },
-  "title": "La cocina de tus sueños está aquí",
+  "title": "La casa de tus sueños está aquí",
   "extraLink": {}
 }

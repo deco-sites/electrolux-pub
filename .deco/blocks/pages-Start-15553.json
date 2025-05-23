@@ -122,7 +122,7 @@
               {
                 "icon": "microwave-elux",
                 "title": "Microondas",
-                "url": "/cocina/cocinas/estufas-y-cocinas"
+                "url": "/cocina/cocinas/microondas"
               },
               {
                 "icon": "empotrable-elux",
@@ -140,12 +140,6 @@
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
         "__resolveType": "Shelf Dream Kitchen"
-      }
-    },
-    {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "Shelf Refrigerators"
       }
     },
     {

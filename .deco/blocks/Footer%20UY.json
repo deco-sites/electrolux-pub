@@ -16,18 +16,13 @@
           "link": "/",
           "items": [
             {
-              "link": "/electrodomesticos/cocina",
+              "link": "/cocina",
               "title": "Cocina",
               "fontWeight": "font-medium"
             },
             {
-              "link": "/",
+              "link": "/bienestar-del-hogar",
               "title": "Bienestar del hogar",
-              "fontWeight": "font-medium"
-            },
-            {
-              "link": "/",
-              "title": "Pequeños electrodomésticos",
               "fontWeight": "font-medium"
             }
           ],
