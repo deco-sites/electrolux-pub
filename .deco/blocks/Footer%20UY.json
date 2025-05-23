@@ -24,6 +24,11 @@
               "link": "/bienestar-del-hogar",
               "title": "Bienestar del hogar",
               "fontWeight": "font-medium"
+            },
+            {
+              "link": "/area-de-lavado",
+              "title": "Área de Lavado",
+              "fontWeight": "font-medium"
             }
           ],
           "textColor": "primary",
