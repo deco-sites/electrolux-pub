@@ -209,7 +209,23 @@
       },
       {
         "icon": "vacuum-frigidaire",
-        "collums": [],
+        "collums": [
+          {
+            "categories": [
+              {
+                "navItems": [
+                  {
+                    "link": "/bienestar-del-hogar/limpieza",
+                    "title": "Aspiradoras"
+                  }
+                ],
+                "titleColor": "base-100",
+                "title": "Aspiradoras",
+                "link": "/bienestar-del-hogar/limpieza"
+              }
+            ]
+          }
+        ],
         "link": "/bienestar-del-hogar",
         "color": "primary",
         "title": "Bienestar del hogar"
