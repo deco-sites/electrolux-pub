@@ -78,12 +78,12 @@
                   {
                     "icon": "search",
                     "title": "Una Puerta",
-                    "link": "/"
+                    "link": "/cocina/refrigeracion/refrigerador-una-puerta"
                   },
                   {
                     "icon": "search",
                     "title": "Dos Puertas",
-                    "link": "/"
+                    "link": "/cocina/refrigeracion/refrigerador-dos-puertas"
                   },
                   {
                     "icon": "search",
@@ -93,12 +93,12 @@
                   {
                     "icon": "search",
                     "title": "Side by Side",
-                    "link": "/"
+                    "link": "/cocina/refrigeracion/side-by-side"
                   },
                   {
                     "icon": "search",
                     "title": "Congeladores",
-                    "link": "/"
+                    "link": "/cocina/refrigeracion/congeladores"
                   }
                 ],
                 "title": "Refrigeración",
@@ -134,7 +134,7 @@
                   }
                 ],
                 "title": "Cocción",
-                "link": "/cocina/cocinas",
+                "link": "/cocina",
                 "titleColor": "primary"
               }
             ]
