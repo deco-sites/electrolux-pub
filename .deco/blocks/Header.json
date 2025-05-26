@@ -213,15 +213,11 @@
           {
             "categories": [
               {
-                "navItems": [
-                  {
-                    "link": "/bienestar-del-hogar/limpieza",
-                    "title": "Aspiradoras"
-                  }
-                ],
-                "titleColor": "base-100",
+                "navItems": [],
+                "titleColor": "primary",
                 "title": "Aspiradoras",
-                "link": "/bienestar-del-hogar/limpieza"
+                "link": "/bienestar-del-hogar/limpieza",
+                "icon": "vacuum"
               }
             ]
           }
