@@ -166,16 +166,16 @@
                   {
                     "icon": "search",
                     "title": "Lavadora Carga Superior",
-                    "link": "/"
+                    "link": "/area-de-lavado/lavado/lavadora-carga-superior"
                   },
                   {
                     "icon": "search",
-                    "title": "Lava Secadora",
-                    "link": "/"
+                    "title": "Lavadora Secadora",
+                    "link": "/area-de-lavado/lavado/lavasecadoras"
                   }
                 ],
                 "title": "Lavado",
-                "link": "/",
+                "link": "/area-de-lavado",
                 "titleColor": "primary"
               }
             ]
@@ -188,11 +188,12 @@
                   {
                     "icon": "search",
                     "title": "Secadora Carga Frontal",
-                    "link": "/"
+                    "link": "/area-de-lavado/secadoras/secadoras-carga-frontal"
                   },
                   {
                     "icon": "search",
-                    "title": "Secadoras Pared y Piso"
+                    "title": "Secadoras Pared y Piso",
+                    "link": "/pared-y-piso"
                   }
                 ],
                 "title": "Secadoras",
