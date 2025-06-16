@@ -38,66 +38,14 @@
             "title": "Nuestros Productos",
             "cards": [
               {
-                "title": "Máquinas de lavar",
-                "icon": "washer-frigidaire",
-                "url": "/electrodomesticos"
-              },
-              {
-                "icon": "cocina-frigidaire",
-                "title": "Cocina",
-                "url": "/electrodomesticos/cocina"
-              },
-              {
-                "icon": "water-purifier",
-                "title": "Purificadores",
-                "url": "/electrodomesticos"
-              },
-              {
-                "icon": "vacuum-frigidaire",
-                "title": "Aspiradoras",
-                "url": "/electrodomesticos"
-              },
-              {
-                "icon": "air-fryer-frigidaire",
-                "title": "Freidora de aire",
-                "url": "/electrodomesticos"
-              },
-              {
-                "icon": "wind-frigidaire",
-                "title": "Aire acondicionado",
-                "url": "/electrodomesticos"
-              },
-              {
-                "icon": "empotrable-elux",
-                "title": "Pequeños Electrodomésticos",
-                "url": "/electrodomesticos"
-              },
-              {
-                "icon": "microwave-elux",
-                "title": "Refrigeración",
-                "url": "/electrodomesticos/refrigeracion"
-              }
-            ]
-          },
-          "rule": {
-            "__resolveType": "website/matchers/host.ts",
-            "includes": "electrolux.com.bo"
-          }
-        },
-        {
-          "value": {
-            "__resolveType": "elux-components-app/sections/Content/CategoryCards.tsx",
-            "title": "Nuestros Productos",
-            "cards": [
-              {
                 "title": "Refrigeradores",
                 "icon": "refrigerator-frigidaire",
                 "url": "/cocina/refrigeracion"
               },
               {
                 "icon": "freezer-frigidaire",
-                "url": "/cocina/refrigeracion",
-                "title": "Congeladores"
+                "title": "Congeladores",
+                "url": "/cocina/refrigeracion"
               },
               {
                 "icon": "washer-frigidaire",
