@@ -271,6 +271,23 @@
                         {
                           "icon": "check-circle",
                           "label": "Horarios de atención: Lun~Vier: 7:30 a 18:00 | Sabados: 7:30 a 12:00"
+                        },
+                        {},
+                        {
+                          "icon": "chevron-frigidaire",
+                          "label": "Grupo Chacomer"
+                        },
+                        {
+                          "icon": "home_pin",
+                          "label": "Av. Madame Lynch 784 – Asunción – Paraguay"
+                        },
+                        {
+                          "icon": "headset-frigidaire",
+                          "label": "(59521) 518 09901"
+                        },
+                        {
+                          "icon": "check-circle",
+                          "label": "Horarios de atención: Lun~Vier: 7:30 a 18:00 | Sabados: 7:30 a 12:00"
                         }
                       ],
                       "title": "Paraguay"
