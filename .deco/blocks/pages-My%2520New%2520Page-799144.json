@@ -165,23 +165,6 @@
                       "cardItems": [
                         {
                           "icon": "chevron-frigidaire",
-                          "label": "Chacomer S.A.E"
-                        },
-                        {
-                          "icon": "home_pin",
-                          "label": "Avenida Eusebio Ayala N°3321 casi Avenida República Argentina"
-                        },
-                        {
-                          "icon": "headset-frigidaire",
-                          "label": "021 518 0000"
-                        },
-                        {
-                          "icon": "check-circle",
-                          "label": "Horarios de atención: Lun~Vier: 7:30 a 18:00 | Sabados: 7:30 a 12:00"
-                        },
-                        {},
-                        {
-                          "icon": "chevron-frigidaire",
                           "label": "Grupo Chacomer"
                         },
                         {
@@ -261,23 +244,6 @@
                   "cards": [
                     {
                       "cardItems": [
-                        {
-                          "icon": "chevron-frigidaire",
-                          "label": "Chacomer S.A.E"
-                        },
-                        {
-                          "icon": "home_pin",
-                          "label": "Avenida Eusebio Ayala N°3321 casi Avenida República Argentina"
-                        },
-                        {
-                          "icon": "headset-frigidaire",
-                          "label": "021 518 0000"
-                        },
-                        {
-                          "icon": "check-circle",
-                          "label": "Horarios de atención: Lun~Vier: 7:30 a 18:00 | Sabados: 7:30 a 12:00"
-                        },
-                        {},
                         {
                           "icon": "chevron-frigidaire",
                           "label": "Grupo Chacomer"
