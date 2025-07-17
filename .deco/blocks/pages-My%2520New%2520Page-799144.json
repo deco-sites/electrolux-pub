@@ -195,6 +195,11 @@
                         {
                           "icon": "check-circle",
                           "label": "Horarios de atención: Lun~Vier: 7:30 a 18:00 | Sabados: 7:30 a 12:00"
+                        },
+                        {
+                          "icon": "tool-frigidaire",
+                          "label": "Website",
+                          "href": "https://grupochacomer.com.py/postventas/"
                         }
                       ],
                       "title": "Paraguay"
@@ -288,6 +293,11 @@
                         {
                           "icon": "check-circle",
                           "label": "Horarios de atención: Lun~Vier: 7:30 a 18:00 | Sabados: 7:30 a 12:00"
+                        },
+                        {
+                          "icon": "tool-frigidaire",
+                          "label": "Website",
+                          "href": "https://grupochacomer.com.py/postventas/"
                         }
                       ],
                       "title": "Paraguay"
