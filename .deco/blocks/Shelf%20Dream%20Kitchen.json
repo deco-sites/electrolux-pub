@@ -5,14 +5,18 @@
       "loader": {
         "data": {
           "__resolveType": "elux-components-app/loaders/product/list/productList.ts",
-          "listOption": {
-            "normalFilters": [],
-            "measurementsFilters": [],
-            "category": "refrigeracion---Refrigeración---2"
-          },
           "sortBy": "name-asc",
           "skip": 0,
-          "take": 10
+          "take": 10,
+          "listOption": [
+            "IM8IS",
+            "RE32",
+            "ERSA44V5HVG",
+            "ERBA29K5HVG",
+            "IB44S",
+            "TF40S",
+            "IF43B"
+          ]
         },
         "__resolveType": "resolved"
       },
@@ -22,12 +26,18 @@
       "loader": {
         "data": {
           "__resolveType": "elux-components-app/loaders/product/list/productList.ts",
-          "listOption": {
-            "normalFilters": [],
-            "measurementsFilters": [],
-            "category": "lavado---Lavado---2"
-          },
-          "sortBy": "name-asc"
+          "sortBy": "name-asc",
+          "listOption": [
+            "EWIW95F5USVG",
+            "EWIW12F5USVG",
+            "LC10",
+            "LB14Q",
+            "LS14Q",
+            "LB17Y",
+            "EWIW12F5USVW",
+            "EWIW14F5USVG",
+            "EWIW95F5USVW"
+          ]
         },
         "__resolveType": "resolved"
       },
@@ -37,12 +47,12 @@
       "loader": {
         "data": {
           "__resolveType": "elux-components-app/loaders/product/list/productList.ts",
-          "listOption": {
-            "normalFilters": [],
-            "measurementsFilters": [],
-            "category": "estufas-y-cocinas---Estufas / Cocinas---3"
-          },
-          "sortBy": "name-asc"
+          "sortBy": "name-asc",
+          "listOption": [
+            "IE6LP",
+            "GT60X",
+            "GT75X"
+          ]
         },
         "__resolveType": "resolved"
       },
@@ -52,12 +62,12 @@
       "loader": {
         "data": {
           "__resolveType": "elux-components-app/loaders/product/list/productList.ts",
+          "sortBy": "name-asc",
           "listOption": {
             "normalFilters": [],
             "measurementsFilters": [],
-            "category": "pequenos-electrodomesticos---Pequeños Electrodomésticos---1"
-          },
-          "sortBy": "name-asc"
+            "category": "purificadores-de-agua---Purificadores de Aua---3"
+          }
         },
         "__resolveType": "resolved"
       },
@@ -67,12 +77,13 @@
       "loader": {
         "data": {
           "__resolveType": "elux-components-app/loaders/product/list/productList.ts",
-          "listOption": {
-            "normalFilters": [],
-            "measurementsFilters": [],
-            "category": "microondas---Microondas---3"
-          },
-          "sortBy": "name-asc"
+          "sortBy": "name-asc",
+          "listOption": [
+            "EMDY25S5MXW",
+            "EMTY31S2MXB",
+            "EMDY31S5MXM",
+            "EMDY25S5MXM"
+          ]
         },
         "__resolveType": "resolved"
       },
