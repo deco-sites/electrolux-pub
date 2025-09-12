@@ -1,9 +1,9 @@
 {
   "__resolveType": "elux-components-app/sections/Footer/Footer.tsx",
   "title": {
-    "fontColor": "primary",
+    "fontColor": "black",
     "fontSize": "text-xl",
-    "fontWeight": "font-thin",
+    "fontWeight": "font-bold",
     "text": "Electrolux"
   },
   "bgColor": "base-200",
@@ -31,7 +31,7 @@
               "fontWeight": "font-medium"
             }
           ],
-          "textColor": "primary",
+          "textColor": "black",
           "fontWeight": "font-thin"
         }
       ]
@@ -64,7 +64,7 @@
               "fontWeight": "font-medium"
             }
           ],
-          "textColor": "primary",
+          "textColor": "black",
           "fontWeight": "font-thin"
         }
       ]
@@ -87,7 +87,7 @@
               "link": "/politica-de-garantia"
             }
           ],
-          "textColor": "primary",
+          "textColor": "black",
           "fontWeight": "font-thin"
         }
       ]
@@ -105,7 +105,7 @@
               "fontWeight": "font-medium"
             }
           ],
-          "textColor": "primary",
+          "textColor": "black",
           "fontWeight": "font-thin"
         }
       ]
@@ -114,9 +114,9 @@
   "gap": "4",
   "extraMedia": {
     "title": {
-      "fontColor": "primary",
+      "fontColor": "black",
       "fontSize": "text-base",
-      "fontWeight": "font-thin",
+      "fontWeight": "font-bold",
       "text": "Síguenos en nuestras redes sociales"
     },
     "description": {
