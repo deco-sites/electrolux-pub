@@ -24,7 +24,7 @@
           ],
           "title": "Product Categories",
           "link": "/",
-          "textColor": "primary",
+          "textColor": "black",
           "fontWeight": "font-thin"
         }
       ]
@@ -56,7 +56,7 @@
             }
           ],
           "link": "/",
-          "textColor": "primary",
+          "textColor": "black",
           "fontWeight": "font-thin",
           "title": "Servicio al Cliente"
         }
@@ -80,7 +80,7 @@
           ],
           "title": "Políticas",
           "link": "/",
-          "textColor": "primary",
+          "textColor": "black",
           "fontWeight": "font-thin"
         }
       ]
@@ -98,7 +98,7 @@
               "fontWeight": "font-medium"
             }
           ],
-          "textColor": "primary",
+          "textColor": "black",
           "fontWeight": "font-thin"
         }
       ]
@@ -106,10 +106,10 @@
   ],
   "richText": "<p style=\"text-align: center\"><br><br><br>Las imágenes de los productos son de carácter ilustrativo. La venta de los productos esta sujeta a disponibilidad de stock. Los precios, promociones y formas de pago publicados son válidos exclusivamente para la compra a través del sitio. Las especificaciones técnicas y descripciones están sujetas a cambios sin previo aviso.</p>",
   "title": {
-    "fontColor": "primary",
+    "fontColor": "black",
     "fontSize": "text-xl",
     "text": "Electrolux",
-    "fontWeight": "font-thin"
+    "fontWeight": "font-bold"
   },
   "bgColor": "base-200",
   "spacing": {
@@ -138,10 +138,10 @@
   "hideHr": false,
   "extraMedia": {
     "title": {
-      "fontColor": "primary",
+      "fontColor": "black",
       "fontSize": "text-base",
       "text": "Síguenos en nuestras redes sociales",
-      "fontWeight": "font-thin"
+      "fontWeight": "font-bold"
     },
     "description": {
       "fontColor": "secondary",
