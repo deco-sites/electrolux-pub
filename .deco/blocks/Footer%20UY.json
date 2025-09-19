@@ -12,27 +12,27 @@
       "categories": [
         {
           "type": "text",
-          "title": "Product Categories",
           "link": "/",
           "items": [
             {
               "link": "/cocina",
               "title": "Cocina",
-              "fontWeight": "font-medium"
+              "fontWeight": "font-normal"
             },
             {
               "link": "/bienestar-del-hogar",
               "title": "Bienestar del hogar",
-              "fontWeight": "font-medium"
+              "fontWeight": "font-normal"
             },
             {
               "link": "/area-de-lavado",
               "title": "Área de Lavado",
-              "fontWeight": "font-medium"
+              "fontWeight": "font-normal"
             }
           ],
           "textColor": "black",
-          "fontWeight": "font-thin"
+          "fontWeight": "font-thin",
+          "title": "Categorías de productos"
         }
       ]
     },
@@ -46,22 +46,22 @@
             {
               "title": "¿Dónde comprar?",
               "link": "/distribuidores-de-partes",
-              "fontWeight": "font-medium"
+              "fontWeight": "font-normal"
             },
             {
               "title": "Guías y manuales",
               "link": "/guias-y-manuales",
-              "fontWeight": "font-medium"
+              "fontWeight": "font-normal"
             },
             {
               "title": "Soporte y Servicio Técnico",
               "link": "/centros-de-servicio",
-              "fontWeight": "font-medium"
+              "fontWeight": "font-normal"
             },
             {
               "title": "Contáctanos",
               "link": "/contactanos",
-              "fontWeight": "font-medium"
+              "fontWeight": "font-normal"
             }
           ],
           "textColor": "black",
@@ -79,10 +79,10 @@
             {
               "title": "Política de Privacidad",
               "link": "/politica-de-privacidad",
-              "fontWeight": "font-medium"
+              "fontWeight": "font-normal"
             },
             {
-              "fontWeight": "font-medium",
+              "fontWeight": "font-normal",
               "title": "Política de Garantía",
               "link": "/politica-de-garantia"
             }
@@ -102,7 +102,7 @@
             {
               "title": "Acerca de Electrolux",
               "link": "/sobre-nosotros",
-              "fontWeight": "font-medium"
+              "fontWeight": "font-normal"
             }
           ],
           "textColor": "black",
