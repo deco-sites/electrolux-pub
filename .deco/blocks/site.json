@@ -108,5 +108,7 @@
   "flavor": {
     "framework": "htmx"
   },
-  "platform": "custom"
+  "platform": "custom",
+  "whilelistURLs": [],
+  "whitelistPatterns": []
 }
